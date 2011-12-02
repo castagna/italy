@@ -21,6 +21,7 @@ package com.kasabi.labs.datasets;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
@@ -55,6 +56,18 @@ public class Utils {
 			qexec.close();
 		}
 		return results;
+	}
+	
+	public static void render ( File[] load, File query, Writer writer ) {
+		ResultSet results = select ( load, query ) ;
+		VelocityEngine ve = new VelocityEngine();
+		ve.setProperty("file.resource.loader.path", query.getParentFile().getAbsolutePath()) ;
+		ve.init();
+		Template t = ve.getTemplate(extension ( query.getName(), "template" ) );
+		VelocityContext context = new VelocityContext();
+		context.put("resultset", results);
+		t.merge(context, writer);
+		
 	}
 
 	public static Model construct ( File[] load, File query ) {
@@ -110,7 +123,7 @@ public class Utils {
 		try {
 			if ( query.getName().endsWith(".sparql") ) {
 				File template = new File (query.getParentFile(), "sparql.vm") ;
-				File output = new File (query.getParentFile(), query.getName().replaceFirst(".sparql", ".rq")) ;
+				File output = new File (query.getParentFile(), extension ( query.getName(), ".rq") ) ;
 				VelocityEngine ve = new VelocityEngine();
 				ve.setProperty("file.resource.loader.path", query.getParentFile().getAbsolutePath()) ;
 				ve.init();
@@ -128,6 +141,17 @@ public class Utils {
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
+	}
+	
+	public static String extension ( String filename, String extension ) {
+		String result = null ;
+
+		int index = filename.lastIndexOf(".") ;
+		if ( index > 0 ) {
+			result = filename.substring(0, index + 1) + extension ;
+		}
+
+		return result ;
 	}
 
 }

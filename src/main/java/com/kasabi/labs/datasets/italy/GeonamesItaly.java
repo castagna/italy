@@ -20,15 +20,14 @@ package com.kasabi.labs.datasets.italy;
 
 import static com.kasabi.labs.datasets.Constants.DATA_EUROSTAT_PATH;
 import static com.kasabi.labs.datasets.Constants.DATA_GEONAMES_PATH;
-import static com.kasabi.labs.datasets.Constants.DATA_ISO_3166_2_PATH;
 import static com.kasabi.labs.datasets.Constants.QUERIES_PATH;
 import static com.kasabi.labs.datasets.Constants.VOCABULARIES_PATH;
-
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.StringReader;
 
@@ -61,7 +60,6 @@ public class GeonamesItaly {
 		new File(filename_provinces),
 		new File(filename_municipalities),
 		new File(DATA_EUROSTAT_PATH + "eurostat-nuts2008-italy.ttl"),
-		new File(DATA_ISO_3166_2_PATH + "iso-3166-2.ttl"),
 	};
 	
 	// additional data to merge|add
@@ -76,6 +74,8 @@ public class GeonamesItaly {
 	
 	public static void main(String[] args) throws IOException {
 		// split() ;
+		// render() ;
+
 		generate_italy_vocabulary() ;
 	}
 
@@ -91,6 +91,14 @@ public class GeonamesItaly {
 		out.flush();
 		out.close();
 		log.info("Generated {} in {} ms", output.getAbsolutePath(), timer.endTimer());
+	}
+	
+	public static void render() throws IOException {
+		File query = new File(QUERIES_PATH + "geonames_italy_count.sparql") ;
+		FileWriter writer = new FileWriter("target/output.txt");
+		Utils.render(data, query, writer) ;
+		writer.flush() ;
+		writer.close() ;
 	}
 	
 	public static void count() {
