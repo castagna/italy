@@ -1,0 +1,10 @@
+
+CONSTRUCT {
+	?place_uri italy:iso3166-2 ?code . 
+} WHERE {
+    ?s skos:notation ?code .
+    ?s rdfs:label ?place .
+    FILTER strstarts ( ?code, "IT-" ) .
+    BIND ( java:replace( lcase( ?place ), " ", "" ) AS ?place_path )
+    BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?place_path ) ) AS ?place_uri )
+}

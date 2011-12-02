@@ -20,8 +20,10 @@ package com.kasabi.labs.datasets.italy;
 
 import static com.kasabi.labs.datasets.Constants.DATA_EUROSTAT_PATH;
 import static com.kasabi.labs.datasets.Constants.DATA_GEONAMES_PATH;
+import static com.kasabi.labs.datasets.Constants.DATA_ISO_3166_2_PATH;
 import static com.kasabi.labs.datasets.Constants.QUERIES_PATH;
 import static com.kasabi.labs.datasets.Constants.VOCABULARIES_PATH;
+
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -59,6 +61,7 @@ public class GeonamesItaly {
 		new File(filename_provinces),
 		new File(filename_municipalities),
 		new File(DATA_EUROSTAT_PATH + "eurostat-nuts2008-italy.ttl"),
+		new File(DATA_ISO_3166_2_PATH + "iso-3166-2.ttl"),
 	};
 	
 	// additional data to merge|add

@@ -56,7 +56,15 @@ public class Utils {
 		}
 		return results;
 	}
-	
+
+	public static Model construct ( File[] load, File query ) {
+		return construct ( load, new File[]{}, new File[]{}, query ) ;
+	}
+
+	public static Model construct ( File[] load, File[] merge, File query ) {
+		return construct ( load, merge, new File[]{}, query ) ;
+	}
+
 	// loads some files, run a construct query and merge more data with the result
 	public static Model construct ( File[] load, File[] merge, File[] remove, File query ) {
 		Model model = load ( load ) ;

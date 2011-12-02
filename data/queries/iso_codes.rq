@@ -13,3 +13,14 @@ PREFIX eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#
 PREFIX nuts:      <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/>
 PREFIX italy:     <http://kasabi.com/dataset/italy#>
 PREFIX java:      <java:com.kasabi.labs.arq.>
+
+
+CONSTRUCT {
+	?place_uri italy:iso3166-2 ?code . 
+} WHERE {
+    ?s skos:notation ?code .
+    ?s rdfs:label ?place .
+    FILTER strstarts ( ?code, "IT-" ) .
+    BIND ( java:replace( lcase( ?place ), " ", "" ) AS ?place_path )
+    BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?place_path ) ) AS ?place_uri )
+}

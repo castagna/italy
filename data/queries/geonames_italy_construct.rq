@@ -1,9 +1,11 @@
 PREFIX rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl:       <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:       <http://www.w3.org/2001/XMLSchema#>
 PREFIX foaf:      <http://xmlns.com/foaf/0.1/>
+PREFIX skos:      <http://www.w3.org/2004/02/skos/core#>
 PREFIX cc:        <http://creativecommons.org/ns#>
-PREFIX dcterms:    <http://purl.org/dc/terms/>
+PREFIX dcterms:   <http://purl.org/dc/terms/>
 PREFIX wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geonames:  <http://www.geonames.org/ontology#>
@@ -19,9 +21,9 @@ CONSTRUCT {
   ?region_uri rdfs:label ?region_label .
   ?region_uri rdfs:label ?region_label_en .
   ?region_uri italy:contains ?province_uri .
-  ?region_uri geo:lat ?region_lat .
-  ?region_uri geo:long ?region_long .
-  ?region_uri geonames:population ?region_population .
+  ?region_uri geo:lat ?region_lat_dt .
+  ?region_uri geo:long ?region_long_dt .
+  ?region_uri geonames:population ?region_population_dt .
   ?region_uri owl:sameAs ?region_see_also .
   ?region_uri owl:sameAs ?r .
   ?region_uri geonames:countryCode ?region_country_code .
@@ -31,15 +33,16 @@ CONSTRUCT {
   ?region_uri geonames:parentFeature ?region_parent_feature .
   ?region_uri foaf:page ?region_wikipedia_article .
   ?region_uri eurostat:regionCode ?region_nuts_code .
+  ?region_uri italy:iso3166-2 ?iso_region_code .
   
   ?province_uri rdf:type italy:Province .
   ?province_uri rdf:type ?province_type .
   ?province_uri rdfs:label ?province_label .
 #  ?province_uri italy:contains ?comune_uri .
   ?province_uri italy:isContained ?region_uri .
-  ?province_uri geo:lat ?province_lat .
-  ?province_uri geo:long ?province_long .
-  ?province_uri geonames:population ?province_population .
+  ?province_uri geo:lat ?province_lat_dt .
+  ?province_uri geo:long ?province_long_dt .
+  ?province_uri geonames:population ?province_population_dt .
   ?province_uri owl:sameAs ?province_see_also .
   ?province_uri owl:sameAs ?p .
   ?province_uri geonames:countryCode ?province_country_code .
@@ -75,10 +78,21 @@ CONSTRUCT {
   ?c wgs84_pos:lat ?comune_lat .
   ?c wgs84_pos:long ?comune_long .
   ?c rdf:type ?comune_type .
+
+  BIND ( strdt ( ?region_lat, xsd:float ) AS ?region_lat_dt ) 
+  BIND ( strdt ( ?region_long, xsd:float ) AS ?region_long_dt ) 
+  BIND ( strdt ( ?province_lat, xsd:float ) AS ?province_lat_dt ) 
+  BIND ( strdt ( ?province_long, xsd:float ) AS ?province_long_dt ) 
+  BIND ( strdt ( ?comune_lat, xsd:float ) AS ?comune_lat_dt ) 
+  BIND ( strdt ( ?comune_long, xsd:float ) AS ?comune_long_dt ) 
+
   
   ?r geonames:population ?region_population .
   ?p geonames:population ?province_population .
   ?c geonames:population ?comune_population .
+  BIND ( strdt ( ?region_population, xsd:integer ) AS ?region_population_dt ) 
+  BIND ( strdt ( ?province_population, xsd:integer ) AS ?province_population_dt ) 
+  BIND ( strdt ( ?comune_population, xsd:integer ) AS ?comune_population_dt ) 
 
   OPTIONAL {
     ?r rdfs:seeAlso ?region_see_also .
@@ -145,6 +159,12 @@ CONSTRUCT {
     ?eurostat_province rdfs:seeAlso ?province_uri .
     ?eurostat_province eurostat:regionCode ?province_nuts_code .
   }
+
+#  OPTIONAL {
+#    ?geonames_region_uri geonames:name ?iso_region_label .
+#    ?iso_region rdfs:label ?iso_region_label .
+#    ?iso_region skos:notation ?iso_region_code .
+#  }
   
 }
 ORDER BY ?region ?province ?comune

@@ -23,6 +23,7 @@ public class Constants {
 	public static final String DATA_PATH = "data/" ;
 	public static final String DATA_GEONAMES_PATH = "data/geonames/" ;
 	public static final String DATA_EUROSTAT_PATH = "data/eurostat/" ;
+	public static final String DATA_ISO_3166_2_PATH = "data/iso-3166-2/" ;
 	public static final String QUERIES_PATH = "data/queries/" ;
 	public static final String VOCABULARIES_PATH = "data/vocabularies/" ;
 	
