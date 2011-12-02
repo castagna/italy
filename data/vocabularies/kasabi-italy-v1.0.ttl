@@ -1,0 +1,1785 @@
+@prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wgs84_pos:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix nuts:    <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/> .
+@prefix geonames:  <http://www.geonames.org/ontology#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix gn:      <http://www.geonames.org/ontology#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix java:    <java:com.kasabi.labs.arq.> .
+@prefix italy:   <http://kasabi.com/dataset/italy#> .
+@prefix cc:      <http://creativecommons.org/ns#> .
+
+italy:ancona
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Ancona"@it ;
+      eurostat:regionCode "ITE32" ;
+      italy:isContained italy:marche ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "478319" ;
+      owl:sameAs <http://sws.geonames.org/3183087/> ;
+      wgs84_pos:lat "43.55" ;
+      wgs84_pos:long "13.16667" .
+
+italy:cuneo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Cuneo"@it ;
+      eurostat:regionCode "ITC16" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "589586" ;
+      owl:sameAs <http://sws.geonames.org/3177699/> ;
+      wgs84_pos:lat "44.51667" ;
+      wgs84_pos:long "7.56667" .
+
+italy:trapani
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Trapani"@it ;
+      eurostat:regionCode "ITG11" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "436283" ;
+      owl:sameAs <http://sws.geonames.org/2522875/> ;
+      wgs84_pos:lat "37.83333" ;
+      wgs84_pos:long "12.66667" .
+
+italy:teramo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Teramo"@it ;
+      eurostat:regionCode "ITF12" ;
+      italy:isContained italy:abruzzo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "311590" ;
+      owl:sameAs <http://sws.geonames.org/3165802/> ;
+      wgs84_pos:lat "42.65" ;
+      wgs84_pos:long "13.68333" .
+
+italy:treviso
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Treviso"@it ;
+      eurostat:regionCode "ITD34" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "883840" ;
+      owl:sameAs <http://sws.geonames.org/3165200/> ;
+      wgs84_pos:lat "45.83333" ;
+      wgs84_pos:long "12.21667" .
+
+italy:lucca
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Lucca"@it ;
+      eurostat:regionCode "ITE12" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "392182" ;
+      owl:sameAs <http://sws.geonames.org/3174529/> ;
+      wgs84_pos:lat "44.03333" ;
+      wgs84_pos:long "10.45" .
+
+italy:medio_campidano
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Medio Campidano"@it ;
+      eurostat:regionCode "ITG2B" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "102647" ;
+      owl:sameAs <http://sws.geonames.org/6457402/> ;
+      wgs84_pos:lat "39.56296" ;
+      wgs84_pos:long "8.65345" .
+
+italy:novara
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Novara"@it ;
+      eurostat:regionCode "ITC15" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "368864" ;
+      owl:sameAs <http://sws.geonames.org/3172188/> ;
+      wgs84_pos:lat "45.58533" ;
+      wgs84_pos:long "8.57781" .
+
+italy:piemonte
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Piemonte"@it , "Piedmont"@en ;
+      eurostat:regionCode "ITC1" ;
+      italy:contains italy:alessandria , italy:cuneo , italy:asti , italy:novara , italy:vercelli , italy:biella , italy:torino , italy:provincia_verbano-cusio-ossola ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4446230" ;
+      owl:sameAs <http://dbpedia.org/resource/Piedmont> , <http://sws.geonames.org/3170831/> ;
+      wgs84_pos:lat "45" ;
+      wgs84_pos:long "8" ;
+      foaf:page <http://en.wikipedia.org/wiki/Piedmont> .
+
+italy:caltanissetta
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Caltanissetta"@it ;
+      eurostat:regionCode "ITG15" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "272052" ;
+      owl:sameAs <http://sws.geonames.org/2525447/> ;
+      wgs84_pos:lat "37.37448" ;
+      wgs84_pos:long "14.06421" .
+
+italy:siracusa
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Siracusa"@it ;
+      eurostat:regionCode "ITG19" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "403356" ;
+      owl:sameAs <http://sws.geonames.org/2523082/> ;
+      wgs84_pos:lat "37.08805" ;
+      wgs84_pos:long "15.27924" .
+
+italy:benevento
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Benevento"@it ;
+      eurostat:regionCode "ITF32" ;
+      italy:isContained italy:campania ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "288283" ;
+      owl:sameAs <http://sws.geonames.org/3182178/> ;
+      wgs84_pos:lat "41.21792" ;
+      wgs84_pos:long "14.7464" .
+
+italy:udine
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Udine"@it ;
+      eurostat:regionCode "ITD42" ;
+      italy:isContained italy:friuli_venezia_giulia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "541036" ;
+      owl:sameAs <http://sws.geonames.org/3165071/> , <http://dbpedia.org/resource/Friuli> ;
+      wgs84_pos:lat "46.16667" ;
+      wgs84_pos:long "13" ;
+      foaf:page <http://en.wikipedia.org/wiki/Friuli> .
+
+italy:puglia
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Puglia"@it , "Apulia"@en ;
+      eurostat:regionCode "ITF4" ;
+      italy:contains italy:brindisi , italy:lecce , italy:barletta_-_andria_-_trani , italy:bari , italy:taranto , italy:foggia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4084035" ;
+      owl:sameAs <http://dbpedia.org/resource/Apulia> , <http://sws.geonames.org/3169778/> ;
+      wgs84_pos:lat "41.25" ;
+      wgs84_pos:long "16.25" ;
+      foaf:page <http://en.wikipedia.org/wiki/Apulia> .
+
+italy:matera
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Matera"@it ;
+      eurostat:regionCode "ITF52" ;
+      italy:isContained italy:basilicata ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population "203570" ;
+      owl:sameAs <http://sws.geonames.org/3173718/> ;
+      wgs84_pos:lat "40.5" ;
+      wgs84_pos:long "16.41667" .
+
+italy:macerata
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Macerata"@it ;
+      eurostat:regionCode "ITE33" ;
+      italy:isContained italy:marche ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "324369" ;
+      owl:sameAs <http://sws.geonames.org/3174379/> ;
+      wgs84_pos:lat "43.2" ;
+      wgs84_pos:long "13.16667" .
+
+italy:siena
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Siena"@it ;
+      eurostat:regionCode "ITE19" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "271365" ;
+      owl:sameAs <http://sws.geonames.org/3166546/> ;
+      wgs84_pos:lat "43.21667" ;
+      wgs84_pos:long "11.4" .
+
+italy:lodi
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Lodi"@it ;
+      eurostat:regionCode "ITC49" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "225825" ;
+      owl:sameAs <http://sws.geonames.org/6458617/> ;
+      wgs84_pos:lat "45.29638" ;
+      wgs84_pos:long "9.52858" .
+
+italy:crotone
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Crotone"@it ;
+      eurostat:regionCode "ITF62" ;
+      italy:isContained italy:calabria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "173812" ;
+      owl:sameAs <http://sws.geonames.org/6458615/> ;
+      wgs84_pos:lat "39.12007" ;
+      wgs84_pos:long "17.08134" .
+
+italy:ascoli_piceno
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Ascoli Piceno"@it ;
+      eurostat:regionCode "ITE34" ;
+      italy:isContained italy:marche ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "213586" ;
+      owl:sameAs <http://sws.geonames.org/3182748/> ;
+      wgs84_pos:lat "42.88443" ;
+      wgs84_pos:long "13.55306" .
+
+italy:lecco
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Lecco"@it ;
+      eurostat:regionCode "ITC43" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "337912" ;
+      owl:sameAs <http://sws.geonames.org/6458616/> ;
+      wgs84_pos:lat "45.85397" ;
+      wgs84_pos:long "9.39001" .
+
+italy:enna
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Enna"@it ;
+      eurostat:regionCode "ITG16" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "173009" ;
+      owl:sameAs <http://sws.geonames.org/2524818/> ;
+      wgs84_pos:lat "37.58333" ;
+      wgs84_pos:long "14.43333" .
+
+italy:la_spezia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "La Spezia"@it ;
+      eurostat:regionCode "ITC34" ;
+      italy:isContained italy:liguria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "223606" ;
+      owl:sameAs <http://sws.geonames.org/3175080/> ;
+      wgs84_pos:lat "44.25" ;
+      wgs84_pos:long "9.7" .
+
+italy:ragusa
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Ragusa"@it ;
+      eurostat:regionCode "ITG18" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "316113" ;
+      owl:sameAs <http://sws.geonames.org/2523649/> ;
+      wgs84_pos:lat "36.91667" ;
+      wgs84_pos:long "14.6" .
+
+italy:napoli
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Napoli"@it ;
+      eurostat:regionCode "ITF33" ;
+      italy:isContained italy:campania ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "3079685" ;
+      owl:sameAs <http://sws.geonames.org/3172391/> ;
+      wgs84_pos:lat "40.88333" ;
+      wgs84_pos:long "14.41667" .
+
+italy:imperia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Imperia"@it ;
+      eurostat:regionCode "ITC31" ;
+      italy:isContained italy:liguria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "221885" ;
+      owl:sameAs <http://sws.geonames.org/3175531/> ;
+      wgs84_pos:lat "43.96667" ;
+      wgs84_pos:long "7.78333" .
+
+italy:pordenone
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Pordenone"@it ;
+      eurostat:regionCode "ITD41" ;
+      italy:isContained italy:friuli_venezia_giulia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "313870" ;
+      owl:sameAs <http://sws.geonames.org/3170146/> ;
+      wgs84_pos:lat "45.95" ;
+      wgs84_pos:long "12.65" .
+
+italy:potenza
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Potenza"@it ;
+      eurostat:regionCode "ITF51" ;
+      italy:isContained italy:basilicata ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population "385309" ;
+      owl:sameAs <http://sws.geonames.org/3170025/> ;
+      wgs84_pos:lat "40.58333" ;
+      wgs84_pos:long "15.73333" .
+
+italy:calabria
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Calabria"@en , "Calabria"@it ;
+      eurostat:regionCode "ITF6" ;
+      italy:contains italy:catanzaro , italy:vibo-valentia , italy:reggio_di_calabria , italy:crotone , italy:cosenza ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "2009330" ;
+      owl:sameAs <http://dbpedia.org/resource/Calabria> , <http://sws.geonames.org/2525468/> ;
+      wgs84_pos:lat "39" ;
+      wgs84_pos:long "16.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Calabria> .
+
+italy:chieti
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Chieti"@it ;
+      eurostat:regionCode "ITF14" ;
+      italy:isContained italy:abruzzo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "396852" ;
+      owl:sameAs <http://sws.geonames.org/3178795/> ;
+      wgs84_pos:lat "42.11667" ;
+      wgs84_pos:long "14.35" .
+
+italy:pisa
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Pisa"@it ;
+      eurostat:regionCode "ITE17" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "414154" ;
+      owl:sameAs <http://sws.geonames.org/3170646/> ;
+      wgs84_pos:lat "43.41667" ;
+      wgs84_pos:long "10.71667" .
+
+italy:varese
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Varese"@it ;
+      eurostat:regionCode "ITC41" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "876705" ;
+      owl:sameAs <http://sws.geonames.org/3164697/> ;
+      wgs84_pos:lat "45.8" ;
+      wgs84_pos:long "8.8" .
+
+italy:brescia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Brescia"@it ;
+      eurostat:regionCode "ITC47" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "1242923" ;
+      owl:sameAs <http://sws.geonames.org/3181553/> ;
+      wgs84_pos:lat "45.63333" ;
+      wgs84_pos:long "10.3" .
+
+italy:livorno
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Livorno"@it ;
+      eurostat:regionCode "ITE16" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "341453" ;
+      owl:sameAs <http://sws.geonames.org/3174658/> ;
+      wgs84_pos:lat "43.23333" ;
+      wgs84_pos:long "10.58333" .
+
+italy:prato
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Prato"@it ;
+      eurostat:regionCode "ITE15" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "248174" ;
+      owl:sameAs <http://sws.geonames.org/6458618/> ;
+      wgs84_pos:lat "43.87698" ;
+      wgs84_pos:long "11.12503" .
+
+italy:catanzaro
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Catanzaro"@it ;
+      eurostat:regionCode "ITF63" ;
+      italy:isContained italy:calabria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "368219" ;
+      owl:sameAs <http://sws.geonames.org/2525058/> ;
+      wgs84_pos:lat "38.91667" ;
+      wgs84_pos:long "16.43333" .
+
+italy:pescara
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Pescara"@it ;
+      eurostat:regionCode "ITF13" ;
+      italy:isContained italy:abruzzo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "321192" ;
+      owl:sameAs <http://sws.geonames.org/3171163/> ;
+      wgs84_pos:lat "42.33333" ;
+      wgs84_pos:long "13.95" .
+
+italy:viterbo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Viterbo"@it ;
+      eurostat:regionCode "ITE41" ;
+      italy:isContained italy:lazio ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "318139" ;
+      owl:sameAs <http://sws.geonames.org/3164038/> ;
+      wgs84_pos:lat "42.41667" ;
+      wgs84_pos:long "12.08333" .
+
+italy:milan
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Milan"@it ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "3123205" ;
+      owl:sameAs <http://sws.geonames.org/3173434/> ;
+      wgs84_pos:lat "45.5" ;
+      wgs84_pos:long "9.5" .
+
+italy:savona
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Savona"@it ;
+      eurostat:regionCode "ITC32" ;
+      italy:isContained italy:liguria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "287315" ;
+      owl:sameAs <http://sws.geonames.org/3167021/> ;
+      wgs84_pos:lat "44.3" ;
+      wgs84_pos:long "8.26667" .
+
+italy:latina
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Latina"@it ;
+      eurostat:regionCode "ITE44" ;
+      italy:isContained italy:lazio ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "551217" ;
+      owl:sameAs <http://sws.geonames.org/3175057/> ;
+      wgs84_pos:lat "41.45" ;
+      wgs84_pos:long "13.1" .
+
+italy:bolzano
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Bolzano"@it ;
+      eurostat:regionCode "ITD10" ;
+      italy:isContained italy:trentino-alto_adige ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165244/> ;
+      gn:population "503434" ;
+      owl:sameAs <http://sws.geonames.org/3181912/> ;
+      wgs84_pos:lat "46.71667" ;
+      wgs84_pos:long "11.5" .
+
+italy:brindisi
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Brindisi"@it ;
+      eurostat:regionCode "ITF44" ;
+      italy:isContained italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "403096" ;
+      owl:sameAs <http://sws.geonames.org/3181526/> ;
+      wgs84_pos:lat "40.58333" ;
+      wgs84_pos:long "17.66667" .
+
+italy:terni
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Terni"@it ;
+      eurostat:regionCode "ITE22" ;
+      italy:isContained italy:umbria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165048/> ;
+      gn:population "233719" ;
+      owl:sameAs <http://sws.geonames.org/3165770/> ;
+      wgs84_pos:lat "42.68333" ;
+      wgs84_pos:long "12.31667" .
+
+<http://kasabi.com/dataset/italy#valle_d’aosta>
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Aosta Valley"@en , "Valle d’Aosta"@it ;
+      italy:contains italy:aosta ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "127866" ;
+      owl:sameAs <http://sws.geonames.org/3164857/> , <http://dbpedia.org/resource/Aosta_Valley> ;
+      wgs84_pos:lat "45.75" ;
+      wgs84_pos:long "7.25" ;
+      foaf:page <http://en.wikipedia.org/wiki/Aosta_Valley> .
+
+italy:agrigento
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Agrigento"@it ;
+      eurostat:regionCode "ITG14" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "454593" ;
+      owl:sameAs <http://sws.geonames.org/2525763/> ;
+      wgs84_pos:lat "37.45" ;
+      wgs84_pos:long "13.5" .
+
+italy:trentino-alto_adige
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Trentino-Alto Adige"@en , "Trentino-Alto Adige"@it ;
+      italy:contains italy:trento , italy:bolzano ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1028260" ;
+      owl:sameAs <http://sws.geonames.org/3165244/> , <http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol> ;
+      wgs84_pos:lat "46.5" ;
+      wgs84_pos:long "11.33333" ;
+      foaf:page <http://en.wikipedia.org/wiki/Trentino-Alto_Adige%2FS%C3%BCdtirol> .
+
+italy:como
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Como"@it ;
+      eurostat:regionCode "ITC42" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "590050" ;
+      owl:sameAs <http://sws.geonames.org/3178227/> ;
+      wgs84_pos:lat "45.98333" ;
+      wgs84_pos:long "9.21667" .
+
+italy:cremona
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Cremona"@it ;
+      eurostat:regionCode "ITC4A" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "362061" ;
+      owl:sameAs <http://sws.geonames.org/3177837/> ;
+      wgs84_pos:lat "45.23333" ;
+      wgs84_pos:long "9.93333" .
+
+italy:umbria
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Umbria"@en , "Umbria"@it ;
+      eurostat:regionCode "ITE2" ;
+      italy:contains italy:terni , italy:perugia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "900790" ;
+      owl:sameAs <http://dbpedia.org/resource/Umbria> , <http://sws.geonames.org/3165048/> ;
+      wgs84_pos:lat "43" ;
+      wgs84_pos:long "12.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Umbria> .
+
+italy:toscana
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Toscana"@it , "Tuscany"@en ;
+      eurostat:regionCode "ITE1" ;
+      italy:contains italy:prato , italy:arezzo , italy:lucca , italy:grosseto , italy:pisa , italy:massa-carrara , italy:siena , italy:firenze , italy:livorno , italy:pistoia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "3730130" ;
+      owl:sameAs <http://sws.geonames.org/3165361/> , <http://dbpedia.org/resource/Tuscany> ;
+      wgs84_pos:lat "43.41667" ;
+      wgs84_pos:long "11" ;
+      foaf:page <http://en.wikipedia.org/wiki/Tuscany> .
+
+italy:vercelli
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Vercelli"@it ;
+      eurostat:regionCode "ITC12" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "179798" ;
+      owl:sameAs <http://sws.geonames.org/3164564/> ;
+      wgs84_pos:lat "45.33188" ;
+      wgs84_pos:long "8.41415" .
+
+italy:firenze
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Firenze"@it ;
+      eurostat:regionCode "ITE14" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "991862" ;
+      owl:sameAs <http://sws.geonames.org/3176958/> ;
+      wgs84_pos:lat "43.83333" ;
+      wgs84_pos:long "11.33333" .
+
+italy:sassari
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Sassari"@it ;
+      eurostat:regionCode "ITG25" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "336632" ;
+      owl:sameAs <http://sws.geonames.org/3167094/> ;
+      wgs84_pos:lat "40.77014" ;
+      wgs84_pos:long "8.75885" .
+
+italy:foggia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Foggia"@it ;
+      eurostat:regionCode "ITF41" ;
+      italy:isContained italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "640891" ;
+      owl:sameAs <http://sws.geonames.org/3176884/> ;
+      wgs84_pos:lat "41.45" ;
+      wgs84_pos:long "15.53333" .
+
+italy:messina
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Messina"@it ;
+      eurostat:regionCode "ITG13" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "653810" ;
+      owl:sameAs <http://sws.geonames.org/2524169/> ;
+      wgs84_pos:lat "38.05" ;
+      wgs84_pos:long "14.86667" .
+
+italy:barletta_-_andria_-_trani
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Barletta - Andria - Trani"@it ;
+      italy:isContained italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "391506" ;
+      owl:sameAs <http://sws.geonames.org/6955699/> ;
+      wgs84_pos:lat "41.25097" ;
+      wgs84_pos:long "16.17599" .
+
+italy:salerno
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Salerno"@it ;
+      eurostat:regionCode "ITF35" ;
+      italy:isContained italy:campania ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "1107652" ;
+      owl:sameAs <http://sws.geonames.org/3168670/> ;
+      wgs84_pos:lat "40.45" ;
+      wgs84_pos:long "15.26667" .
+
+<http://kasabi.com/dataset/italy#l’aquila>
+      a       gn:Feature , italy:Province ;
+      rdfs:label "L’Aquila"@it ;
+      italy:isContained italy:abruzzo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "309264" ;
+      owl:sameAs <http://sws.geonames.org/3175120/> ;
+      wgs84_pos:lat "42.08333" ;
+      wgs84_pos:long "13.66667" .
+
+italy:pesaro_e_urbino
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Pesaro e Urbino"@it ;
+      eurostat:regionCode "ITE31" ;
+      italy:isContained italy:marche ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "365788" ;
+      owl:sameAs <http://sws.geonames.org/3171172/> ;
+      wgs84_pos:lat "43.66667" ;
+      wgs84_pos:long "12.63333" .
+
+italy:belluno
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Belluno"@it ;
+      eurostat:regionCode "ITD33" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "213876" ;
+      owl:sameAs <http://sws.geonames.org/3182209/> ;
+      wgs84_pos:lat "46.25" ;
+      wgs84_pos:long "12.13333" .
+
+italy:asti
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Asti"@it ;
+      eurostat:regionCode "ITC17" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "221151" ;
+      owl:sameAs <http://sws.geonames.org/3182712/> ;
+      wgs84_pos:lat "44.91667" ;
+      wgs84_pos:long "8.16667" .
+
+italy:trieste
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Trieste"@it ;
+      eurostat:regionCode "ITD44" ;
+      italy:isContained italy:friuli_venezia_giulia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "236546" ;
+      owl:sameAs <http://sws.geonames.org/3165184/> ;
+      wgs84_pos:lat "45.66426" ;
+      wgs84_pos:long "13.80655" .
+
+italy:reggio_di_calabria
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Reggio di Calabria"@it ;
+      italy:isContained italy:calabria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "565756" ;
+      owl:sameAs <http://sws.geonames.org/2523629/> ;
+      wgs84_pos:lat "38.31667" ;
+      wgs84_pos:long "16.08333" .
+
+italy:torino
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Torino"@it ;
+      eurostat:regionCode "ITC11" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "2297598" ;
+      owl:sameAs <http://sws.geonames.org/3165523/> ;
+      wgs84_pos:lat "45.13333" ;
+      wgs84_pos:long "7.36667" .
+
+italy:roma
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Roma"@it ;
+      eurostat:regionCode "ITE43" ;
+      italy:isContained italy:lazio ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "4154684" ;
+      owl:sameAs <http://sws.geonames.org/3169069/> ;
+      wgs84_pos:lat "41.96667" ;
+      wgs84_pos:long "12.66667" .
+
+italy:monza_e_della_brianza
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Monza e della Brianza"@it ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "840711" ;
+      owl:sameAs <http://sws.geonames.org/6955700/> ;
+      wgs84_pos:lat "45.59674" ;
+      wgs84_pos:long "9.21616" .
+
+italy:fermo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Fermo"@it ;
+      italy:isContained italy:marche ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "177480" ;
+      owl:sameAs <http://sws.geonames.org/6955471/> ;
+      wgs84_pos:lat "43.16537" ;
+      wgs84_pos:long "13.72424" .
+
+italy:massa-carrara
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Massa-Carrara"@it ;
+      eurostat:regionCode "ITE11" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "203642" ;
+      owl:sameAs <http://sws.geonames.org/3173767/> ;
+      wgs84_pos:lat "44.25" ;
+      wgs84_pos:long "10.05" .
+
+italy:bari
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Bari"@it ;
+      eurostat:regionCode "ITF42" ;
+      italy:isContained italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "1254461" ;
+      owl:sameAs <http://sws.geonames.org/3182350/> ;
+      wgs84_pos:lat "40.93333" ;
+      wgs84_pos:long "16.66667" .
+
+italy:lazio
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Lazio"@it , "Lazio"@en ;
+      eurostat:regionCode "ITE4" ;
+      italy:contains italy:frosinone , italy:rieti , italy:viterbo , italy:latina , italy:roma ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "5681868" ;
+      owl:sameAs <http://dbpedia.org/resource/Lazio> , <http://sws.geonames.org/3174976/> ;
+      wgs84_pos:lat "42" ;
+      wgs84_pos:long "12.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Lazio> .
+
+italy:caserta
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Caserta"@it ;
+      eurostat:regionCode "ITF31" ;
+      italy:isContained italy:campania ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "910006" ;
+      owl:sameAs <http://sws.geonames.org/3179865/> ;
+      wgs84_pos:lat "41.23333" ;
+      wgs84_pos:long "14.16667" .
+
+italy:campania
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Campania"@en , "Campania"@it ;
+      eurostat:regionCode "ITF3" ;
+      italy:contains italy:caserta , italy:benevento , italy:salerno , italy:avellino , italy:napoli ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "5824662" ;
+      owl:sameAs <http://sws.geonames.org/3181042/> , <http://dbpedia.org/resource/Campania> ;
+      wgs84_pos:lat "41" ;
+      wgs84_pos:long "14.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Campania> .
+
+italy:ogliastra
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Ogliastra"@it ;
+      eurostat:regionCode "ITG2A" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "58006" ;
+      owl:sameAs <http://sws.geonames.org/6457403/> ;
+      wgs84_pos:lat "39.80814" ;
+      wgs84_pos:long "9.44481" .
+
+italy:verona
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Verona"@it ;
+      eurostat:regionCode "ITD31" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "914382" ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Verona> , <http://sws.geonames.org/3164526/> ;
+      wgs84_pos:lat "45.41667" ;
+      wgs84_pos:long "11.03333" ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Verona> .
+
+italy:catania
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Catania"@it ;
+      eurostat:regionCode "ITG17" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "1087682" ;
+      owl:sameAs <http://sws.geonames.org/2525065/> ;
+      wgs84_pos:lat "37.38333" ;
+      wgs84_pos:long "14.66667" .
+
+italy:nuoro
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Nuoro"@it ;
+      eurostat:regionCode "ITG26" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "161020" ;
+      owl:sameAs <http://sws.geonames.org/3172153/> ;
+      wgs84_pos:lat "40.16667" ;
+      wgs84_pos:long "9.33333" .
+
+italy:carbonia-iglesias
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Carbonia-Iglesias"@it ;
+      eurostat:regionCode "ITG2C" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "130186" ;
+      owl:sameAs <http://sws.geonames.org/6457400/> ;
+      wgs84_pos:lat "39.3258" ;
+      wgs84_pos:long "8.58032" .
+
+italy:cosenza
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Cosenza"@it ;
+      eurostat:regionCode "ITF61" ;
+      italy:isContained italy:calabria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "734652" ;
+      owl:sameAs <http://sws.geonames.org/2524906/> ;
+      wgs84_pos:lat "39.46667" ;
+      wgs84_pos:long "16.41667" .
+
+italy:pavia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Pavia"@it ;
+      eurostat:regionCode "ITC48" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "544230" ;
+      owl:sameAs <http://sws.geonames.org/3171364/> ;
+      wgs84_pos:lat "45.11667" ;
+      wgs84_pos:long "9.13333" .
+
+italy:marche
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Marche"@it , "The Marches"@en ;
+      eurostat:regionCode "ITE3" ;
+      italy:contains italy:ascoli_piceno , italy:ancona , italy:fermo , italy:macerata , italy:pesaro_e_urbino ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1559542" ;
+      owl:sameAs <http://sws.geonames.org/3174004/> , <http://dbpedia.org/resource/Marche> ;
+      wgs84_pos:lat "43.5" ;
+      wgs84_pos:long "13.25" ;
+      foaf:page <http://en.wikipedia.org/wiki/Marche> .
+
+italy:padova
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Padova"@it ;
+      eurostat:regionCode "ITD36" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "927730" ;
+      owl:sameAs <http://sws.geonames.org/3171727/> ;
+      wgs84_pos:lat "45.35" ;
+      wgs84_pos:long "11.81667" .
+
+italy:frosinone
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Frosinone"@it ;
+      eurostat:regionCode "ITE45" ;
+      italy:isContained italy:lazio ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "497849" ;
+      owl:sameAs <http://sws.geonames.org/3176513/> ;
+      wgs84_pos:lat "41.61667" ;
+      wgs84_pos:long "13.45" .
+
+italy:perugia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Perugia"@it ;
+      eurostat:regionCode "ITE21" ;
+      italy:isContained italy:umbria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165048/> ;
+      gn:population "667071" ;
+      owl:sameAs <http://sws.geonames.org/3171179/> ;
+      wgs84_pos:lat "43.05" ;
+      wgs84_pos:long "12.55" .
+
+italy:liguria
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Liguria"@it , "Liguria"@en ;
+      eurostat:regionCode "ITC3" ;
+      italy:contains italy:savona , italy:genova , italy:la_spezia , italy:imperia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1615986" ;
+      owl:sameAs <http://dbpedia.org/resource/Liguria> , <http://sws.geonames.org/3174725/> ;
+      wgs84_pos:lat "44.5" ;
+      wgs84_pos:long "8.83333" ;
+      foaf:page <http://en.wikipedia.org/wiki/Liguria> .
+
+italy:abruzzo
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Abruzzo"@en , "Abruzzo"@it ;
+      eurostat:regionCode "ITF1" ;
+      italy:contains italy:pescara , italy:chieti , italy:teramo , <http://kasabi.com/dataset/italy#l’aquila> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1338898" ;
+      owl:sameAs <http://sws.geonames.org/3183560/> , <http://dbpedia.org/resource/Abruzzo> ;
+      wgs84_pos:lat "42.25" ;
+      wgs84_pos:long "13.75" ;
+      foaf:page <http://en.wikipedia.org/wiki/Abruzzo> .
+
+italy:lombardia
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Lombardia"@it , "Lombardy"@en ;
+      eurostat:regionCode "ITC4" ;
+      italy:contains italy:lecco , italy:monza_e_della_brianza , italy:milan , italy:bergamo , italy:sondrio , italy:como , italy:mantova , italy:varese , italy:cremona , italy:brescia , italy:lodi , italy:pavia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "9826141" ;
+      owl:sameAs <http://sws.geonames.org/3174618/> , <http://dbpedia.org/resource/Lombardy> ;
+      wgs84_pos:lat "45.66667" ;
+      wgs84_pos:long "9.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Lombardy> .
+
+italy:rovigo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Rovigo"@it ;
+      eurostat:regionCode "ITD37" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "247297" ;
+      owl:sameAs <http://sws.geonames.org/3168842/> ;
+      wgs84_pos:lat "45.03333" ;
+      wgs84_pos:long "11.83333" .
+
+italy:provincia_verbano-cusio-ossola
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Provincia Verbano-Cusio-Ossola"@it ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "163121" ;
+      owl:sameAs <http://sws.geonames.org/3164567/> , <http://dbpedia.org/resource/Verbania> ;
+      wgs84_pos:lat "45.93333" ;
+      wgs84_pos:long "8.55" ;
+      foaf:page <http://en.wikipedia.org/wiki/Verbania> .
+
+italy:veneto
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Veneto"@en , "Veneto"@it ;
+      eurostat:regionCode "ITD3" ;
+      italy:contains italy:belluno , italy:padova , italy:venezia , italy:treviso , italy:vicenza , italy:verona , italy:rovigo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4912438" ;
+      owl:sameAs <http://sws.geonames.org/3164604/> , <http://dbpedia.org/resource/Veneto> ;
+      wgs84_pos:lat "45.5" ;
+      wgs84_pos:long "11.75" ;
+      foaf:page <http://en.wikipedia.org/wiki/Veneto> .
+
+italy:rieti
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Rieti"@it ;
+      eurostat:regionCode "ITE42" ;
+      italy:isContained italy:lazio ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "159979" ;
+      owl:sameAs <http://sws.geonames.org/3169411/> ;
+      wgs84_pos:lat "42.3" ;
+      wgs84_pos:long "12.86667" .
+
+italy:oristano
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Oristano"@it ;
+      eurostat:regionCode "ITG28" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "166712" ;
+      owl:sameAs <http://sws.geonames.org/2523962/> ;
+      wgs84_pos:lat "39.9" ;
+      wgs84_pos:long "8.6" .
+
+italy:taranto
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Taranto"@it ;
+      eurostat:regionCode "ITF43" ;
+      italy:isContained italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "580525" ;
+      owl:sameAs <http://sws.geonames.org/3165924/> ;
+      wgs84_pos:lat "40.61667" ;
+      wgs84_pos:long "17.25" .
+
+italy:friuli_venezia_giulia
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Friuli Venezia Giulia"@en , "Friuli Venezia Giulia"@it ;
+      italy:contains italy:pordenone , italy:udine , italy:trieste , italy:gorizia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1234079" ;
+      owl:sameAs <http://dbpedia.org/resource/Friuli%E2%80%93Venezia_Giulia> , <http://sws.geonames.org/3176525/> ;
+      wgs84_pos:lat "46" ;
+      wgs84_pos:long "13" ;
+      foaf:page <http://en.wikipedia.org/wiki/Friuli%E2%80%93Venezia_Giulia> .
+
+italy:aosta
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Aosta"@it ;
+      eurostat:regionCode "ITF20" ;
+      italy:isContained <http://kasabi.com/dataset/italy#valle_d’aosta> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164857/> ;
+      gn:population "127866" ;
+      owl:sameAs <http://sws.geonames.org/3182996/> ;
+      wgs84_pos:lat "45.76667" ;
+      wgs84_pos:long "7.41667" .
+
+italy:basilicata
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Basilicata"@it , "Basilicate"@en ;
+      eurostat:regionCode "ITF5" ;
+      italy:contains italy:potenza , italy:matera ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "588879" ;
+      owl:sameAs <http://dbpedia.org/resource/Basilicata> , <http://sws.geonames.org/3182306/> ;
+      wgs84_pos:lat "40.5" ;
+      wgs84_pos:long "16.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Basilicata> .
+
+italy:avellino
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Avellino"@it ;
+      eurostat:regionCode "ITF34" ;
+      italy:isContained italy:campania ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "439036" ;
+      owl:sameAs <http://sws.geonames.org/3182649/> ;
+      wgs84_pos:lat "40.98333" ;
+      wgs84_pos:long "15.15" .
+
+italy:pistoia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Pistoia"@it ;
+      eurostat:regionCode "ITE13" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "292108" ;
+      owl:sameAs <http://sws.geonames.org/3170620/> ;
+      wgs84_pos:lat "43.96667" ;
+      wgs84_pos:long "10.83333" .
+
+italy:gorizia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Gorizia"@it ;
+      eurostat:regionCode "ITD43" ;
+      italy:isContained italy:friuli_venezia_giulia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "142627" ;
+      owl:sameAs <http://sws.geonames.org/3175985/> , <http://dbpedia.org/resource/Province_of_Gorizia> ;
+      wgs84_pos:lat "45.91667" ;
+      wgs84_pos:long "13.5" ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Gorizia> .
+
+italy:sicilia
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Sicilia"@it , "Sicily"@en ;
+      rdfs:seeAlso <urn:/wikipedia/it_title:Sicilia> , <http://www.w3.org/2006/03/wn/wn20/instances/wordsense-Sicily-noun-2.rdf> , <urn:/wikipedia/en_title:Sicily> ;
+      eurostat:regionCode "ITG1" ;
+      italy:contains italy:caltanissetta , italy:siracusa , italy:messina , italy:trapani , italy:agrigento , italy:enna , italy:catania , italy:ragusa , italy:palermo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "5042992" ;
+      owl:sameAs <http://yago-knowledge.org/resource/Sicily> , <http://www4.wiwiss.fu-berlin.de/eurostat/page/regions/Sicilia> , <http://dbpedia.org/resource/Sicily> , <http://sw.opencyc.org/concept/Mx4rvVifXpwpEbGdrcN5Y29ycA> , <http://dbpedia.org/resource/Sicilia> , <http://sws.geonames.org/2523119/> , nuts:ITG1 , <http://rdf.freebase.com/ns/en.sicily> , <http://rdf.freebase.com/ns/m/06w92> , <http://data.nytimes.com/66897629118838755101> , <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000036d22> ;
+      wgs84_pos:lat "37.75" ;
+      wgs84_pos:long "14.25" ;
+      foaf:isPrimaryTopicOf
+              <http://kasabi.com/dataset/italy/sicilia.html> ;
+      foaf:page <http://en.wikipedia.org/wiki/Sicily> .
+
+italy:alessandria
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Alessandria"@it ;
+      eurostat:regionCode "ITC18" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "439414" ;
+      owl:sameAs <http://sws.geonames.org/3183298/> ;
+      wgs84_pos:lat "44.81667" ;
+      wgs84_pos:long "8.7" .
+
+italy:trento
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Trento"@it ;
+      eurostat:regionCode "ITD2" , "ITD20" ;
+      italy:isContained italy:trentino-alto_adige ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165244/> ;
+      gn:population "524826" ;
+      owl:sameAs <http://sws.geonames.org/3165241/> ;
+      wgs84_pos:lat "46.06966" ;
+      wgs84_pos:long "11.12177" .
+
+italy:sardegna
+      a       gn:Feature , italy:Region ;
+      rdfs:label "Sardinia"@en , "della Sardegna"@it ;
+      eurostat:regionCode "ITG2" ;
+      italy:contains italy:ogliastra , italy:olbia-tempio , italy:oristano , italy:medio_campidano , italy:nuoro , italy:sassari , italy:cagliari , italy:carbonia-iglesias ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1672404" ;
+      owl:sameAs <http://sws.geonames.org/2523228/> , <http://dbpedia.org/resource/Sardinia> ;
+      wgs84_pos:lat "40" ;
+      wgs84_pos:long "9" ;
+      foaf:page <http://en.wikipedia.org/wiki/Sardinia> .
+
+italy:olbia-tempio
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Olbia-Tempio"@it ;
+      eurostat:regionCode "ITG29" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "156121" ;
+      owl:sameAs <http://sws.geonames.org/6457401/> ;
+      wgs84_pos:lat "40.92298" ;
+      wgs84_pos:long "9.49459" .
+
+italy:grosseto
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Grosseto"@it ;
+      eurostat:regionCode "ITE1A" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "227063" ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Grosseto> , <http://sws.geonames.org/3175784/> ;
+      wgs84_pos:lat "42.83333" ;
+      wgs84_pos:long "11.25" ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Grosseto> .
+
+italy:biella
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Biella"@it ;
+      eurostat:regionCode "ITC13" ;
+      italy:isContained italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "186698" ;
+      owl:sameAs <http://sws.geonames.org/6457397/> ;
+      wgs84_pos:lat "45.58713" ;
+      wgs84_pos:long "8.08594" .
+
+italy:cagliari
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Cagliari"@it ;
+      eurostat:regionCode "ITG27" ;
+      italy:isContained italy:sardegna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "561080" ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Cagliari> , <http://sws.geonames.org/2525471/> ;
+      wgs84_pos:lat "39.24502" ;
+      wgs84_pos:long "9.09119" ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Cagliari> .
+
+italy:genova
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Genova"@it ;
+      eurostat:regionCode "ITC33" ;
+      italy:isContained italy:liguria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "883180" ;
+      owl:sameAs <http://sws.geonames.org/3176217/> ;
+      wgs84_pos:lat "44.5" ;
+      wgs84_pos:long "9.06667" .
+
+italy:palermo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Palermo"@it ;
+      eurostat:regionCode "ITG12" ;
+      italy:isContained italy:sicilia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "1246094" ;
+      owl:sameAs <http://sws.geonames.org/2523918/> ;
+      wgs84_pos:lat "37.81667" ;
+      wgs84_pos:long "13.58333" .
+
+italy:vibo-valentia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Vibo-Valentia"@it ;
+      italy:isContained italy:calabria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "166891" ;
+      owl:sameAs <http://sws.geonames.org/6457405/> ;
+      wgs84_pos:lat "38.69958" ;
+      wgs84_pos:long "16.12741" .
+
+italy:arezzo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Arezzo"@it ;
+      eurostat:regionCode "ITE18" ;
+      italy:isContained italy:toscana ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "348127" ;
+      owl:sameAs <http://sws.geonames.org/3182882/> ;
+      wgs84_pos:lat "43.53333" ;
+      wgs84_pos:long "11.83333" .
+
+italy:bergamo
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Bergamo"@it ;
+      eurostat:regionCode "ITC46" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "1087204" ;
+      owl:sameAs <http://sws.geonames.org/3182163/> ;
+      wgs84_pos:lat "45.83333" ;
+      wgs84_pos:long "9.8" .
+
+italy:mantova
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Mantova"@it ;
+      eurostat:regionCode "ITC4B" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "412606" ;
+      owl:sameAs <http://sws.geonames.org/3174050/> ;
+      wgs84_pos:lat "45.16667" ;
+      wgs84_pos:long "10.78333" .
+
+italy:sondrio
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Sondrio"@it ;
+      eurostat:regionCode "ITC44" ;
+      italy:isContained italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "182709" ;
+      owl:sameAs <http://sws.geonames.org/3166396/> ;
+      wgs84_pos:lat "46.16667" ;
+      wgs84_pos:long "10.05" .
+
+italy:lecce
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Lecce"@it ;
+      eurostat:regionCode "ITF45" ;
+      italy:isContained italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "813556" ;
+      owl:sameAs <http://sws.geonames.org/3174952/> ;
+      wgs84_pos:lat "40.21667" ;
+      wgs84_pos:long "18.16667" .
+
+italy:venezia
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Venezia"@it ;
+      eurostat:regionCode "ITD35" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "858915" ;
+      owl:sameAs <http://sws.geonames.org/3164600/> ;
+      wgs84_pos:lat "45.44045" ;
+      wgs84_pos:long "12.32632" .
+
+italy:vicenza
+      a       gn:Feature , italy:Province ;
+      rdfs:label "Vicenza"@it ;
+      eurostat:regionCode "ITD32" ;
+      italy:isContained italy:veneto ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "866398" ;
+      owl:sameAs <http://sws.geonames.org/3164418/> ;
+      wgs84_pos:lat "45.66667" ;
+      wgs84_pos:long "11.45" .

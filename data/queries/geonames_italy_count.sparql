@@ -1,0 +1,7 @@
+
+SELECT (COUNT(?r) AS ?regioni) (COUNT(?p) AS ?provinces) (COUNT(?c) AS ?comuni) 
+{
+    { ?r geonames:featureCode geonames:A.ADM1 . } UNION
+    { ?p geonames:featureCode geonames:A.ADM2 . } UNION
+    { ?c geonames:featureCode geonames:A.ADM3 . } 
+}

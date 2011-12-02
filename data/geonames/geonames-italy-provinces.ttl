@@ -1,0 +1,1986 @@
+@prefix gn:      <http://www.geonames.org/ontology#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs84_pos:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cc:      <http://creativecommons.org/ns#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://sws.geonames.org/6955700/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6955700/about.rdf" ;
+      gn:alternateName "Provincia di Monza"@it , "Monza Brianza"@it ;
+      gn:childrenFeatures <http://sws.geonames.org/6955700/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6955700/provincia-di-monza-e-della-brianza.html> ;
+      gn:name "Provincia di Monza e della Brianza" ;
+      gn:officialName "Monza e Brianza"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "840711" ;
+      wgs84_pos:lat "45.59674" ;
+      wgs84_pos:long "9.21616" .
+
+<http://sws.geonames.org/3177837/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3177837/about.rdf" ;
+      gn:alternateName "Provincia di Cremona" , "Cremona" ;
+      gn:childrenFeatures <http://sws.geonames.org/3177837/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3177837/provincia-di-cremona.html> ;
+      gn:name "Provincia di Cremona" ;
+      gn:officialName "Cremona"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "362061" ;
+      wgs84_pos:lat "45.23333" ;
+      wgs84_pos:long "9.93333" .
+
+<http://sws.geonames.org/3170646/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3170646/about.rdf" ;
+      gn:alternateName "Provincia di Pisa" , "Pisa" ;
+      gn:childrenFeatures <http://sws.geonames.org/3170646/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3170646/provincia-di-pisa.html> ;
+      gn:name "Provincia di Pisa" ;
+      gn:officialName "Pise"@fr , "Pisa"@it , "Pisa"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "414154" ;
+      wgs84_pos:lat "43.41667" ;
+      wgs84_pos:long "10.71667" .
+
+<http://sws.geonames.org/3164600/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164600/about.rdf" ;
+      gn:alternateName "Province of Venice"@en , "Venetia" , "Provincia di Venezia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164600/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164600/provincia-di-venezia.html> ;
+      gn:name "Provincia di Venezia" ;
+      gn:officialName "Venise"@fr , "Venezia"@it , "Venecia"@es , "Veneza"@pt , "Venedig"@de , "Venice"@en ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "858915" ;
+      wgs84_pos:lat "45.44045" ;
+      wgs84_pos:long "12.32632" .
+
+<http://sws.geonames.org/3171727/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171727/about.rdf" ;
+      gn:alternateName "Padua" , "Padoue" , "Provincia di Padova" , "Padova" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171727/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171727/provincia-di-padova.html> ;
+      gn:name "Provincia di Padova" ;
+      gn:officialName "Padoue"@fr , "Padua"@de , "Padua"@en , "Padua"@es , "Padova"@it , "Pádua"@pt ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "927730" ;
+      wgs84_pos:lat "45.35" ;
+      wgs84_pos:long "11.81667" .
+
+<http://sws.geonames.org/3182996/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182996/about.rdf" ;
+      gn:alternateName "Aosta" , "Provincia di Aosta" , "Valle d’Aosta" , "Provincia di Valle d’Aosta" , "Valla d’Aosta" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182996/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182996/provincia-di-aosta.html> ;
+      gn:name "Provincia di Aosta" ;
+      gn:officialName "Aosta"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3164857/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164857/> ;
+      gn:population "127866" ;
+      wgs84_pos:lat "45.76667" ;
+      wgs84_pos:long "7.41667" .
+
+<http://sws.geonames.org/3182649/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182649/about.rdf" ;
+      gn:alternateName "Avellino" , "Provincia di Avellino" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182649/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182649/provincia-di-avellino.html> ;
+      gn:name "Provincia di Avellino" ;
+      gn:officialName "Avellino"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3181042/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "439036" ;
+      wgs84_pos:lat "40.98333" ;
+      wgs84_pos:long "15.15" .
+
+<http://sws.geonames.org/2525065/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2525065/about.rdf" ;
+      gn:alternateName "Catania" , "Catania"@en , "Provincia di Catania" ;
+      gn:childrenFeatures <http://sws.geonames.org/2525065/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2525065/provincia-di-catania.html> ;
+      gn:name "Provincia di Catania" ;
+      gn:officialName "Catane"@fr , "Catania"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "1087682" ;
+      wgs84_pos:lat "37.38333" ;
+      wgs84_pos:long "14.66667" .
+
+<http://sws.geonames.org/3182209/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182209/about.rdf" ;
+      gn:alternateName "Provincia di Belluno" , "Belluno" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182209/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182209/provincia-di-belluno.html> ;
+      gn:name "Provincia di Belluno" ;
+      gn:officialName "Belluno"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "213876" ;
+      wgs84_pos:lat "46.25" ;
+      wgs84_pos:long "12.13333" .
+
+<http://sws.geonames.org/2523962/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523962/about.rdf" ;
+      gn:alternateName "Provincia di Oristano" ;
+      gn:childrenFeatures <http://sws.geonames.org/2523962/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2523962/provincia-di-oristano.html> ;
+      gn:name "Provincia di Oristano" ;
+      gn:officialName "Oristano"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "166712" ;
+      wgs84_pos:lat "39.9" ;
+      wgs84_pos:long "8.6" .
+
+<http://sws.geonames.org/3172188/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3172188/about.rdf" ;
+      gn:alternateName "Provincia di Novara" , "Novara" ;
+      gn:childrenFeatures <http://sws.geonames.org/3172188/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3172188/provincia-di-novara.html> ;
+      gn:name "Provincia di Novara" ;
+      gn:officialName "Novare"@fr , "Novara"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "368864" ;
+      wgs84_pos:lat "45.58533" ;
+      wgs84_pos:long "8.57781" .
+
+<http://sws.geonames.org/3171172/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171172/about.rdf" ;
+      gn:alternateName "Provincia di Pesaro e Urbino" , "Pesaro" , "Pesaro e Urbino Provincia" , "Provincia di Pesaro" , "Pesaro e Urbino" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171172/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171172/provincia-di-pesaro-e-urbino.html> ;
+      gn:name "Provincia di Pesaro e Urbino" ;
+      gn:officialName "Pesaro et Urbino"@fr , "Pesaro and Urbino"@en , "Pesaro e Urbino"@it , "Pesaro-Urbino"@de , "Pesaro y Urbino"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3174004/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "365788" ;
+      wgs84_pos:lat "43.66667" ;
+      wgs84_pos:long "12.63333" .
+
+<http://sws.geonames.org/2525471/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2525471/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Province_of_Cagliari> ;
+      gn:childrenFeatures <http://sws.geonames.org/2525471/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2525471/provincia-di-cagliari.html> ;
+      gn:name "Provincia di Cagliari" ;
+      gn:officialName "Cagliari"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "561080" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Province_of_Cagliari> ;
+      wgs84_pos:lat "39.24502" ;
+      wgs84_pos:long "9.09119" .
+
+<http://sws.geonames.org/3164697/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164697/about.rdf" ;
+      gn:alternateName "Varese" , "Varese"@sh , "Provincia di Varese" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164697/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164697/provincia-di-varese.html> ;
+      gn:name "Provincia di Varese" ;
+      gn:officialName "Varese"@it , "Varèse"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "876705" ;
+      wgs84_pos:lat "45.8" ;
+      wgs84_pos:long "8.8" .
+
+<http://sws.geonames.org/6458615/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6458615/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6458615/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6458615/provincia-di-crotone.html> ;
+      gn:name "Provincia di Crotone" ;
+      gn:officialName "Crotone"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2525468/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "173812" ;
+      wgs84_pos:lat "39.12007" ;
+      wgs84_pos:long "17.08134" .
+
+<http://sws.geonames.org/6955699/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6955699/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6955699/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6955699/provincia-di-barletta-andria-trani.html> ;
+      gn:name "Provincia di Barletta - Andria - Trani" ;
+      gn:officialName "Barletta - Andria - Trani"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3169778/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "391506" ;
+      wgs84_pos:lat "41.25097" ;
+      wgs84_pos:long "16.17599" .
+
+<http://sws.geonames.org/2523649/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523649/about.rdf" ;
+      gn:alternateName "Provincia di Ragusa" , "Ragusa" ;
+      gn:childrenFeatures <http://sws.geonames.org/2523649/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2523649/provincia-di-ragusa.html> ;
+      gn:name "Provincia di Ragusa" ;
+      gn:officialName "Raguse"@fr , "Ragusa"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "316113" ;
+      wgs84_pos:lat "36.91667" ;
+      wgs84_pos:long "14.6" .
+
+<http://sws.geonames.org/3165523/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165523/about.rdf" ;
+      gn:alternateName "Torino"@it , "Torino" , "Provincia di Torino" , "Turin" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165523/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165523/provincia-di-torino.html> ;
+      gn:name "Provincia di Torino" ;
+      gn:officialName "Turín"@es , "Provincia di Torino"@it , "Turim"@pt , "Turin"@fr , "Turin"@de , "Turin"@en ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "2297598" ;
+      wgs84_pos:lat "45.13333" ;
+      wgs84_pos:long "7.36667" .
+
+<http://sws.geonames.org/3169411/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3169411/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/3169411/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3169411/provincia-di-rieti.html> ;
+      gn:name "Provincia di Rieti" ;
+      gn:officialName "Rieti"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174976/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "159979" ;
+      wgs84_pos:lat "42.3" ;
+      wgs84_pos:long "12.86667" .
+
+<http://sws.geonames.org/3174379/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174379/about.rdf" ;
+      gn:alternateName "Macerata" , "Provincia di Macerata" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174379/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3174379/provincia-di-macerata.html> ;
+      gn:name "Provincia di Macerata" ;
+      gn:officialName "Macerata"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174004/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "324369" ;
+      wgs84_pos:lat "43.2" ;
+      wgs84_pos:long "13.16667" .
+
+<http://sws.geonames.org/3180990/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3180990/about.rdf" ;
+      gn:alternateName "Campobasso" , "Provincia di Campobasso" ;
+      gn:childrenFeatures <http://sws.geonames.org/3180990/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3180990/provincia-di-campobasso.html> ;
+      gn:name "Provincia di Campobasso" ;
+      gn:officialName "Campobasso"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3173222/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3173222/> ;
+      gn:population "231440" ;
+      wgs84_pos:lat "41.63333" ;
+      wgs84_pos:long "14.58333" .
+
+<http://sws.geonames.org/2525447/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2525447/about.rdf" ;
+      gn:alternateName "Provincia di Caltanissetta" , "Caltanissetta" , "Caltanisetta" ;
+      gn:childrenFeatures <http://sws.geonames.org/2525447/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2525447/provincia-di-caltanissetta.html> ;
+      gn:name "Provincia di Caltanissetta" ;
+      gn:officialName "Caltanissetta"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "272052" ;
+      wgs84_pos:lat "37.37448" ;
+      wgs84_pos:long "14.06421" .
+
+<http://sws.geonames.org/3178795/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3178795/about.rdf" ;
+      gn:alternateName "Provincia di Chieti" , "Chieti" ;
+      gn:childrenFeatures <http://sws.geonames.org/3178795/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3178795/provincia-di-chieti.html> ;
+      gn:name "Provincia di Chieti" ;
+      gn:officialName "Chieti"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3183560/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "396852" ;
+      wgs84_pos:lat "42.11667" ;
+      wgs84_pos:long "14.35" .
+
+<http://sws.geonames.org/2524818/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2524818/about.rdf" ;
+      gn:alternateName "Provincia di Enna" , "Enna" ;
+      gn:childrenFeatures <http://sws.geonames.org/2524818/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2524818/provincia-di-enna.html> ;
+      gn:name "Provincia di Enna" ;
+      gn:officialName "Enna"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "173009" ;
+      wgs84_pos:lat "37.58333" ;
+      wgs84_pos:long "14.43333" .
+
+<http://sws.geonames.org/3173718/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3173718/about.rdf" ;
+      gn:alternateName "Provincia di Matera" , "Matera" ;
+      gn:childrenFeatures <http://sws.geonames.org/3173718/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3173718/provincia-di-matera.html> ;
+      gn:name "Provincia di Matera" ;
+      gn:officialName "Matera"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3182306/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population "203570" ;
+      wgs84_pos:lat "40.5" ;
+      wgs84_pos:long "16.41667" .
+
+<http://sws.geonames.org/3165924/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165924/about.rdf" ;
+      gn:alternateName "Provincia dello Iònio" , "Provincia di Taranto" , "Taranto" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165924/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165924/provincia-di-taranto.html> ;
+      gn:name "Provincia di Taranto" ;
+      gn:officialName "Tarente"@fr , "Tarento"@es , "Taranto"@it , "Tarent"@de ;
+      gn:parentADM1 <http://sws.geonames.org/3169778/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "580525" ;
+      wgs84_pos:lat "40.61667" ;
+      wgs84_pos:long "17.25" .
+
+<http://sws.geonames.org/3176884/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3176884/about.rdf" ;
+      gn:alternateName "Foggia" , "Provincia di Foggia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3176884/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3176884/provincia-di-foggia.html> ;
+      gn:name "Provincia di Foggia" ;
+      gn:officialName "Foggia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3169778/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "640891" ;
+      wgs84_pos:lat "41.45" ;
+      wgs84_pos:long "15.53333" .
+
+<http://sws.geonames.org/3165184/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165184/about.rdf" ;
+      gn:alternateName "Provincia di Trieste" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165184/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165184/provincia-di-trieste.html> ;
+      gn:name "Provincia di Trieste" ;
+      gn:officialName "Trieste"@it , "Triest"@de ;
+      gn:parentADM1 <http://sws.geonames.org/3176525/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "236546" ;
+      wgs84_pos:lat "45.66426" ;
+      wgs84_pos:long "13.80655" .
+
+<http://sws.geonames.org/3178227/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3178227/about.rdf" ;
+      gn:alternateName "Provincia di Como" , "Como" ;
+      gn:childrenFeatures <http://sws.geonames.org/3178227/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3178227/provincia-di-como.html> ;
+      gn:name "Provincia di Como" ;
+      gn:officialName "Côme"@fr , "Como"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "590050" ;
+      wgs84_pos:lat "45.98333" ;
+      wgs84_pos:long "9.21667" .
+
+<http://sws.geonames.org/2523629/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523629/about.rdf" ;
+      gn:alternateName "Provincia Reggio di Calabria" , "Reggio Calabria" , "Provincia di Reggio di Calabria" ;
+      gn:childrenFeatures <http://sws.geonames.org/2523629/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2523629/provincia-di-reggio-di-calabria.html> ;
+      gn:name "Provincia di Reggio di Calabria" ;
+      gn:officialName "Reggio Calabria"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2525468/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "565756" ;
+      wgs84_pos:lat "38.31667" ;
+      wgs84_pos:long "16.08333" .
+
+<http://sws.geonames.org/3165241/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165241/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165241/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165241/provincia-di-trento.html> ;
+      gn:name "Provincia di Trento" ;
+      gn:officialName "Trient"@de , "Trento"@es , "Trento"@en , "Trento"@it , "Trente"@fr , "Provincia di Trento"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165244/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165244/> ;
+      gn:population "524826" ;
+      wgs84_pos:lat "46.06966" ;
+      wgs84_pos:long "11.12177" .
+
+<http://sws.geonames.org/3181912/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3181912/about.rdf" ;
+      gn:alternateName "Alto Adige"@it , "Bozen" , "Bolzano" , "Province autonome de Bolzano"@fr , "Botzen" , "Bolzano-Bozen" , "Provincia di Bolzano" ;
+      gn:childrenFeatures <http://sws.geonames.org/3181912/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3181912/provincia-di-bolzano.html> ;
+      gn:name "Provincia di Bolzano" ;
+      gn:officialName "Bozen"@de , "Bolzano"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165244/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165244/> ;
+      gn:population "503434" ;
+      wgs84_pos:lat "46.71667" ;
+      wgs84_pos:long "11.5" .
+
+<http://sws.geonames.org/6955471/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6955471/about.rdf" ;
+      gn:alternateName "Fermo" , "Provincia di Fermo"@it ;
+      gn:childrenFeatures <http://sws.geonames.org/6955471/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6955471/province-of-fermo.html> ;
+      gn:name "Province of Fermo" ;
+      gn:officialName "Fermo"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174004/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "177480" ;
+      wgs84_pos:lat "43.16537" ;
+      wgs84_pos:long "13.72424" .
+
+<http://sws.geonames.org/3182712/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182712/about.rdf" ;
+      gn:alternateName "Provincia di Asti" , "Asti" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182712/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182712/provincia-di-asti.html> ;
+      gn:name "Provincia di Asti" ;
+      gn:officialName "Asti"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "221151" ;
+      wgs84_pos:lat "44.91667" ;
+      wgs84_pos:long "8.16667" .
+
+<http://sws.geonames.org/3182748/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182748/about.rdf" ;
+      gn:alternateName "Ascoli Piceno"@en , "Provincia di Ascoli Piceno" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182748/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182748/province-of-ascoli-piceno.html> ;
+      gn:name "Province of Ascoli Piceno" ;
+      gn:officialName "Ascoli Piceno"@it , "Province of Ascoli Piceno"@en ;
+      gn:parentADM1 <http://sws.geonames.org/3174004/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "213586" ;
+      wgs84_pos:lat "42.88443" ;
+      wgs84_pos:long "13.55306" .
+
+<http://sws.geonames.org/3165802/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165802/about.rdf" ;
+      gn:alternateName "Provincia di Teramo" , "Teramo" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165802/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165802/provincia-di-teramo.html> ;
+      gn:name "Provincia di Teramo" ;
+      gn:officialName "Teramo"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3183560/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "311590" ;
+      wgs84_pos:lat "42.65" ;
+      wgs84_pos:long "13.68333" .
+
+<http://sws.geonames.org/3175531/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175531/about.rdf" ;
+      gn:alternateName "Imperia" , "Provincia di Imperia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175531/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175531/provincia-di-imperia.html> ;
+      gn:name "Provincia di Imperia" ;
+      gn:officialName "Imperia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174725/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "221885" ;
+      wgs84_pos:lat "43.96667" ;
+      wgs84_pos:long "7.78333" .
+
+<http://sws.geonames.org/3181526/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3181526/about.rdf" ;
+      gn:alternateName "Provincia di Brindisi" , "Brindisi" ;
+      gn:childrenFeatures <http://sws.geonames.org/3181526/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3181526/provincia-di-brindisi.html> ;
+      gn:name "Provincia di Brindisi" ;
+      gn:officialName "Brindisi"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3169778/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "403096" ;
+      wgs84_pos:lat "40.58333" ;
+      wgs84_pos:long "17.66667" .
+
+<http://sws.geonames.org/3169069/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3169069/about.rdf" ;
+      gn:alternateName "Rome" , "Rom" , "Provincia di Roma" , "Roma" ;
+      gn:childrenFeatures <http://sws.geonames.org/3169069/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3169069/provincia-di-roma.html> ;
+      gn:name "Provincia di Roma" ;
+      gn:officialName "Rome"@en , "Rome"@fr , "Rom"@de , "Roma"@it , "Roma"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3174976/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "4154684" ;
+      wgs84_pos:lat "41.96667" ;
+      wgs84_pos:long "12.66667" .
+
+<http://sws.geonames.org/3164038/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164038/about.rdf" ;
+      gn:alternateName "Viterbo" , "Provincia di Viterbo" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164038/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164038/provincia-di-viterbo.html> ;
+      gn:name "Provincia di Viterbo" ;
+      gn:officialName "Viterbe"@fr , "Viterbo"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174976/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "318139" ;
+      wgs84_pos:lat "42.41667" ;
+      wgs84_pos:long "12.08333" .
+
+<http://sws.geonames.org/3174952/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174952/about.rdf" ;
+      gn:alternateName "Provincia de Lecce"@es , "Lecce" , "Provincia di Lecce" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174952/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3174952/provincia-di-lecce.html> ;
+      gn:name "Provincia di Lecce" ;
+      gn:officialName "Province of Lecce"@en , "Provincia di Lecce"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3169778/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "813556" ;
+      wgs84_pos:lat "40.21667" ;
+      wgs84_pos:long "18.16667" .
+
+<http://sws.geonames.org/3164564/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164564/about.rdf" ;
+      gn:alternateName "Provincia di Vercelli" , "Vercelli" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164564/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164564/provincia-di-vercelli.html> ;
+      gn:name "Provincia di Vercelli" ;
+      gn:officialName "Vercelli"@it , "Verceil"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "179798" ;
+      wgs84_pos:lat "45.33188" ;
+      wgs84_pos:long "8.41415" .
+
+<http://sws.geonames.org/3170620/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3170620/about.rdf" ;
+      gn:alternateName "Provincia di Pistoia" , "Pistoia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3170620/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3170620/provincia-di-pistoia.html> ;
+      gn:name "Provincia di Pistoia" ;
+      gn:officialName "Pistoia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "292108" ;
+      wgs84_pos:lat "43.96667" ;
+      wgs84_pos:long "10.83333" .
+
+<http://sws.geonames.org/3168670/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3168670/about.rdf" ;
+      gn:alternateName "Provincia di Salerno" , "Salerno" ;
+      gn:childrenFeatures <http://sws.geonames.org/3168670/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3168670/provincia-di-salerno.html> ;
+      gn:name "Provincia di Salerno" ;
+      gn:officialName "Salerne"@fr , "Salerno"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3181042/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "1107652" ;
+      wgs84_pos:lat "40.45" ;
+      wgs84_pos:long "15.26667" .
+
+<http://sws.geonames.org/3166546/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3166546/about.rdf" ;
+      gn:alternateName "Siena" , "Provincia di Siena"@it , "Provincia di Siena" , "Province of Siena"@en ;
+      gn:childrenFeatures <http://sws.geonames.org/3166546/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3166546/provincia-di-siena.html> ;
+      gn:name "Provincia di Siena" ;
+      gn:officialName "Siena"@it , "Sienne"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "271365" ;
+      wgs84_pos:lat "43.21667" ;
+      wgs84_pos:long "11.4" .
+
+<http://sws.geonames.org/3182350/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182350/about.rdf" ;
+      gn:alternateName "Provincia di Bari" , "Bari" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182350/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182350/provincia-di-bari.html> ;
+      gn:name "Provincia di Bari" ;
+      gn:officialName "Bari"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3169778/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population "1254461" ;
+      wgs84_pos:lat "40.93333" ;
+      wgs84_pos:long "16.66667" .
+
+<http://sws.geonames.org/3169560/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3169560/about.rdf" ;
+      gn:alternateName "Provincia di Ravenna" , "Ravenna" ;
+      gn:childrenFeatures <http://sws.geonames.org/3169560/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3169560/provincia-di-ravenna.html> ;
+      gn:name "Provincia di Ravenna" ;
+      gn:officialName "Rávena"@es , "Ravenne"@fr , "Ravenna"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "389509" ;
+      wgs84_pos:lat "44.41667" ;
+      wgs84_pos:long "11.98333" .
+
+<http://sws.geonames.org/3167021/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3167021/about.rdf" ;
+      gn:alternateName "Savona" , "Provincia di Savona" ;
+      gn:childrenFeatures <http://sws.geonames.org/3167021/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3167021/provincia-di-savona.html> ;
+      gn:name "Provincia di Savona" ;
+      gn:officialName "Savona"@it , "Savone"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3174725/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "287315" ;
+      wgs84_pos:lat "44.3" ;
+      wgs84_pos:long "8.26667" .
+
+<http://sws.geonames.org/2524906/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2524906/about.rdf" ;
+      gn:alternateName "Cosenza" , "Provincia di Cosenza" ;
+      gn:childrenFeatures <http://sws.geonames.org/2524906/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2524906/provincia-di-cosenza.html> ;
+      gn:name "Provincia di Cosenza" ;
+      gn:officialName "Cosenza"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2525468/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "734652" ;
+      wgs84_pos:lat "39.46667" ;
+      wgs84_pos:long "16.41667" .
+
+<http://sws.geonames.org/3164526/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164526/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Province_of_Verona> ;
+      gn:alternateName "Provincia di Verona" , "Verona" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164526/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164526/provincia-di-verona.html> ;
+      gn:name "Provincia di Verona" ;
+      gn:officialName "Vérone"@fr , "Verona"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "914382" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Province_of_Verona> ;
+      wgs84_pos:lat "45.41667" ;
+      wgs84_pos:long "11.03333" .
+
+<http://sws.geonames.org/3168842/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3168842/about.rdf" ;
+      gn:alternateName "Rovigo" , "Provincia di Rovigo" ;
+      gn:childrenFeatures <http://sws.geonames.org/3168842/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3168842/provincia-di-rovigo.html> ;
+      gn:name "Provincia di Rovigo" ;
+      gn:officialName "Rovigo"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "247297" ;
+      wgs84_pos:lat "45.03333" ;
+      wgs84_pos:long "11.83333" .
+
+<http://sws.geonames.org/3175444/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175444/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Province_of_Isernia> ;
+      gn:alternateName "Provincia di Isernia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175444/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175444/provincia-di-isernia.html> ;
+      gn:name "Provincia di Isernia" ;
+      gn:officialName "Isernia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3173222/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3173222/> ;
+      gn:population "88789" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Province_of_Isernia> ;
+      wgs84_pos:lat "41.66667" ;
+      wgs84_pos:long "14.25" .
+
+<http://sws.geonames.org/3169524/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3169524/about.rdf" ;
+      gn:alternateName "Provincia di Reggio Emilia" , "Reggio Emilia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3169524/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3169524/provincia-di-reggio-emilia.html> ;
+      gn:name "Provincia di Reggio Emilia" ;
+      gn:officialName "Reggio d'Émilie"@fr , "Reggio Emilia"@it , "Reggio Emilia"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "525267" ;
+      wgs84_pos:lat "44.61667" ;
+      wgs84_pos:long "10.61667" .
+
+<http://sws.geonames.org/3177699/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3177699/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/3177699/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3177699/provincia-di-cuneo.html> ;
+      gn:name "Provincia di Cuneo" ;
+      gn:officialName "Cuneo"@it , "Coni"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "589586" ;
+      wgs84_pos:lat "44.51667" ;
+      wgs84_pos:long "7.56667" .
+
+<http://sws.geonames.org/3173434/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3173434/about.rdf" ;
+      gn:alternateName "Milan" , "Milano" , "Mailand" , "Provincia di Milano" ;
+      gn:childrenFeatures <http://sws.geonames.org/3173434/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3173434/province-of-milan.html> ;
+      gn:name "Province of Milan" ;
+      gn:officialName "Milano"@it , "Milan"@en , "Milan"@fr , "Mailand"@de , "Milán"@es , "Province of Milan"@en , "Milão"@pt ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "3123205" ;
+      wgs84_pos:lat "45.5" ;
+      wgs84_pos:long "9.5" .
+
+<http://sws.geonames.org/3176513/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3176513/about.rdf" ;
+      gn:alternateName "Frosinone" , "Provincia di Frosinone" ;
+      gn:childrenFeatures <http://sws.geonames.org/3176513/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3176513/provincia-di-frosinone.html> ;
+      gn:name "Provincia di Frosinone" ;
+      gn:officialName "Frosinone"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174976/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "497849" ;
+      wgs84_pos:lat "41.61667" ;
+      wgs84_pos:long "13.45" .
+
+<http://sws.geonames.org/3171364/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171364/about.rdf" ;
+      gn:alternateName "Provincia di Pavia" , "Pavia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171364/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171364/provincia-di-pavia.html> ;
+      gn:name "Provincia di Pavia" ;
+      gn:officialName "Pavia"@it , "Pavía"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "544230" ;
+      wgs84_pos:lat "45.11667" ;
+      wgs84_pos:long "9.13333" .
+
+<http://sws.geonames.org/3167094/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3167094/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/3167094/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3167094/provincia-di-sassari.html> ;
+      gn:name "Provincia di Sassari" ;
+      gn:officialName "Sassari"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "336632" ;
+      wgs84_pos:lat "40.77014" ;
+      wgs84_pos:long "8.75885" .
+
+<http://sws.geonames.org/3175784/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175784/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Province_of_Grosseto> ;
+      gn:alternateName "Grosseto" , "Provincia di Grosseto" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175784/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175784/provincia-di-grosseto.html> ;
+      gn:name "Provincia di Grosseto" ;
+      gn:officialName "Grosseto"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "227063" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Province_of_Grosseto> ;
+      wgs84_pos:lat "42.83333" ;
+      wgs84_pos:long "11.25" .
+
+<http://sws.geonames.org/3174658/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174658/about.rdf" ;
+      gn:alternateName "Leghorn" , "Provincia di Livorno" , "Livorno" , "Livourne" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174658/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3174658/provincia-di-livorno.html> ;
+      gn:name "Provincia di Livorno" ;
+      gn:officialName "Livorno"@es , "Livorno"@it , "Livourne"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "341453" ;
+      wgs84_pos:lat "43.23333" ;
+      wgs84_pos:long "10.58333" .
+
+<http://sws.geonames.org/3183298/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3183298/about.rdf" ;
+      gn:alternateName "Provincia di Alessandria" , "Alessandria" ;
+      gn:childrenFeatures <http://sws.geonames.org/3183298/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3183298/provincia-di-alessandria.html> ;
+      gn:name "Provincia di Alessandria" ;
+      gn:officialName "Alexandria"@pt , "Alessandria"@es , "Alessandria"@it , "Alexandrie"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "439414" ;
+      wgs84_pos:lat "44.81667" ;
+      wgs84_pos:long "8.7" .
+
+<http://sws.geonames.org/3176217/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3176217/about.rdf" ;
+      gn:alternateName "Genès" , "Genova" , "Provincia di Genova" , "Genoa" , "Genua" ;
+      gn:childrenFeatures <http://sws.geonames.org/3176217/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3176217/provincia-di-genova.html> ;
+      gn:name "Provincia di Genova" ;
+      gn:officialName "Gênes"@fr , "Génova"@pt , "Génova"@es , "Genova"@it , "Genoa"@en , "Genua"@de ;
+      gn:parentADM1 <http://sws.geonames.org/3174725/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "883180" ;
+      wgs84_pos:lat "44.5" ;
+      wgs84_pos:long "9.06667" .
+
+<http://sws.geonames.org/2525058/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2525058/about.rdf" ;
+      gn:alternateName "Provincia di Catanzaro" , "Catanzaro" ;
+      gn:childrenFeatures <http://sws.geonames.org/2525058/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2525058/provincia-di-catanzaro.html> ;
+      gn:name "Provincia di Catanzaro" ;
+      gn:officialName "Catanzaro"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2525468/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "368219" ;
+      wgs84_pos:lat "38.91667" ;
+      wgs84_pos:long "16.43333" .
+
+<http://sws.geonames.org/3164418/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164418/about.rdf" ;
+      gn:alternateName "Vicenza" , "Provincia di Vicenza" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164418/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164418/provincia-di-vicenza.html> ;
+      gn:name "Provincia di Vicenza" ;
+      gn:officialName "Vicenza"@it , "Vicence"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "866398" ;
+      wgs84_pos:lat "45.66667" ;
+      wgs84_pos:long "11.45" .
+
+<http://sws.geonames.org/3165071/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165071/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Friuli> ;
+      gn:alternateName "Friuli" , "Udine" , "Provincia del Friuli" , "Friaul" , "Provincia di Udine" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165071/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165071/provincia-di-udine.html> ;
+      gn:name "Provincia di Udine" ;
+      gn:officialName "Udine"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3176525/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "541036" ;
+      gn:wikipediaArticle <http://io.wikipedia.org/wiki/Friuli> , <http://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AA%E3%82%A6%E3%83%BC%E3%83%AA> , <http://de.wikipedia.org/wiki/Friaul> , <http://no.wikipedia.org/wiki/Friuli> , <http://es.wikipedia.org/wiki/Friuli> , <http://nl.wikipedia.org/wiki/Friuli> , <http://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B8%D1%83%D0%BB%D0%B8> , <http://sl.wikipedia.org/wiki/Furlanija> , <http://la.wikipedia.org/wiki/Forum_Iulii> , <http://en.wikipedia.org/wiki/Friuli> , <http://vec.wikipedia.org/wiki/Friul> , <http://it.wikipedia.org/wiki/Friuli> , <http://pt.wikipedia.org/wiki/Friul> , <http://fr.wikipedia.org/wiki/Frioul> , <http://fur.wikipedia.org/wiki/Fri%C3%BBl> , <http://ca.wikipedia.org/wiki/Fri%C3%BCl> ;
+      wgs84_pos:lat "46.16667" ;
+      wgs84_pos:long "13" .
+
+<http://sws.geonames.org/3175985/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175985/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Province_of_Gorizia> ;
+      gn:alternateName "Gorizia" , "Provincia di Gorizia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175985/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175985/provincia-di-gorizia.html> ;
+      gn:name "Provincia di Gorizia" ;
+      gn:officialName "Gorizia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3176525/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "142627" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Province_of_Gorizia> ;
+      wgs84_pos:lat "45.91667" ;
+      wgs84_pos:long "13.5" .
+
+<http://sws.geonames.org/3181553/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3181553/about.rdf" ;
+      gn:alternateName "Brescia" , "Provincia di Brescia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3181553/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3181553/provincia-di-brescia.html> ;
+      gn:name "Provincia di Brescia" ;
+      gn:officialName "Brescia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "1242923" ;
+      wgs84_pos:lat "45.63333" ;
+      wgs84_pos:long "10.3" .
+
+<http://sws.geonames.org/2525763/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2525763/about.rdf" ;
+      gn:alternateName "Girgenti" , "Agrigento" , "Provincia di Agrigento" ;
+      gn:childrenFeatures <http://sws.geonames.org/2525763/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2525763/provincia-di-agrigento.html> ;
+      gn:name "Provincia di Agrigento" ;
+      gn:officialName "Agrigent"@de , "Agrigento"@es , "Agrigento"@it , "Agrigente"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "454593" ;
+      wgs84_pos:lat "37.45" ;
+      wgs84_pos:long "13.5" .
+
+<http://sws.geonames.org/3182178/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182178/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182178/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182178/provincia-di-benevento.html> ;
+      gn:name "Provincia di Benevento" ;
+      gn:officialName "Bénévent"@fr , "Benevent"@de , "Benevento"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3181042/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "288283" ;
+      wgs84_pos:lat "41.21792" ;
+      wgs84_pos:long "14.7464" .
+
+<http://sws.geonames.org/3175080/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175080/about.rdf" ;
+      gn:alternateName "Provincia di La Spezia" , "La Spezia" , "Provincia de La Spèzia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175080/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175080/provincia-di-la-spezia.html> ;
+      gn:name "Provincia di La Spezia" ;
+      gn:officialName "La Spezia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174725/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population "223606" ;
+      wgs84_pos:lat "44.25" ;
+      wgs84_pos:long "9.7" .
+
+<http://sws.geonames.org/3181927/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3181927/about.rdf" ;
+      gn:alternateName "Bologna" , "Provincia di Bologna" ;
+      gn:childrenFeatures <http://sws.geonames.org/3181927/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3181927/provincia-di-bologna.html> ;
+      gn:name "Provincia di Bologna" ;
+      gn:officialName "Bologna"@it , "Bolonha"@pt , "Bologne"@fr , "Bolonia"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "984342" ;
+      wgs84_pos:lat "44.46667" ;
+      wgs84_pos:long "11.43333" .
+
+<http://sws.geonames.org/3171179/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171179/about.rdf" ;
+      gn:alternateName "Perugia" , "Provincia di Perugia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171179/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171179/provincia-di-perugia.html> ;
+      gn:name "Provincia di Perugia" ;
+      gn:officialName "Perugia"@it , "Pérouse"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3165048/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165048/> ;
+      gn:population "667071" ;
+      wgs84_pos:lat "43.05" ;
+      wgs84_pos:long "12.55" .
+
+<http://sws.geonames.org/3174050/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174050/about.rdf" ;
+      gn:alternateName "Provincia di Mantova" , "Mantova" , "Mantoue" , "Mantua"@en , "Mantua" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174050/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3174050/provincia-di-mantova.html> ;
+      gn:name "Provincia di Mantova" ;
+      gn:officialName "Province of Mantua"@en , "Mântua"@pt , "Mantova"@it , "Mantoue"@fr , "Mantua"@de , "Mantua"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "412606" ;
+      wgs84_pos:lat "45.16667" ;
+      wgs84_pos:long "10.78333" .
+
+<http://sws.geonames.org/2524169/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2524169/about.rdf" ;
+      gn:alternateName "Provincia di Messina" , "Messina" ;
+      gn:childrenFeatures <http://sws.geonames.org/2524169/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2524169/provincia-di-messina.html> ;
+      gn:name "Provincia di Messina" ;
+      gn:officialName "Messine"@fr , "Messina"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "653810" ;
+      wgs84_pos:lat "38.05" ;
+      wgs84_pos:long "14.86667" .
+
+<http://sws.geonames.org/3173330/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3173330/about.rdf" ;
+      gn:alternateName "Provincia di Modena" , "Modena" , "Modène" ;
+      gn:childrenFeatures <http://sws.geonames.org/3173330/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3173330/provincia-di-modena.html> ;
+      gn:name "Provincia di Modena" ;
+      gn:officialName "Módena"@es , "Modène"@fr , "Modena"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "694579" ;
+      wgs84_pos:lat "44.5" ;
+      wgs84_pos:long "10.9" .
+
+<http://sws.geonames.org/2523918/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523918/about.rdf" ;
+      gn:alternateName "Palermo" , "Provincia di Palermo" ;
+      gn:childrenFeatures <http://sws.geonames.org/2523918/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2523918/provincia-di-palermo.html> ;
+      gn:name "Provincia di Palermo" ;
+      gn:officialName "Palerme"@fr , "Palermo"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "1246094" ;
+      wgs84_pos:lat "37.81667" ;
+      wgs84_pos:long "13.58333" .
+
+<http://sws.geonames.org/3164567/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164567/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Verbania> ;
+      gn:alternateName "Verbano Cusio Ossola"@es , "VCO"@it , "Verbania"@sv , "Verbania"@hu , "Verbania"@et , "Verbania"@la , "Verbania"@en , "Verbania"@de , "Verbania"@nap , "Verbania"@pl , "Verbania"@it , "Verbania"@fr , "Verbania"@eo , "Verbania"@pt , "Verbania"@nl , "ヴェルバーニア"@ja , "Verbano-Cusio-Ossola"@en , "Вербания"@ru ;
+      gn:childrenFeatures <http://sws.geonames.org/3164567/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3164567/provincia-verbano-cusio-ossola.html> ;
+      gn:name "Provincia Verbano-Cusio-Ossola" ;
+      gn:officialName "Verbano-Cusio-Ossola"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "163121" ;
+      gn:wikipediaArticle <http://hu.wikipedia.org/wiki/Verbania> , <http://id.wikipedia.org/wiki/Verbania> , <http://pt.wikipedia.org/wiki/Verbania> , <http://jv.wikipedia.org/wiki/Verbania> , <http://la.wikipedia.org/wiki/Verbania> , <http://sv.wikipedia.org/wiki/Verbania> , <http://eo.wikipedia.org/wiki/Verbania> , <http://ar.wikipedia.org/wiki/%D9%81%D8%B1%D8%A8%D8%A7%D9%86%D9%8A%D8%A7> , <http://scn.wikipedia.org/wiki/Virbania> , <http://nn.wikipedia.org/wiki/Verbania> , <http://en.wikipedia.org/wiki/Verbania> , <http://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%90%E3%83%BC%E3%83%8B%E3%82%A2> , <http://fr.wikipedia.org/wiki/Verbania> , <http://nl.wikipedia.org/wiki/Verbania> , <http://nap.wikipedia.org/wiki/Verbania> , <http://de.wikipedia.org/wiki/Verbania> , <http://ca.wikipedia.org/wiki/Verbania> , <http://pms.wikipedia.org/wiki/Verbania> , <http://et.wikipedia.org/wiki/Verbania> , <http://it.wikipedia.org/wiki/Verbania> , <http://vo.wikipedia.org/wiki/Verbania> , <http://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%B8%D1%8F> , <http://pl.wikipedia.org/wiki/Verbania> ;
+      wgs84_pos:lat "45.93333" ;
+      wgs84_pos:long "8.55" .
+
+<http://sws.geonames.org/3175120/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175120/about.rdf" ;
+      gn:alternateName "Provincia di Àquila degli Abruzzi" , "Aquila" , "Provincia di L’Aquila" , "L’Aquila" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175120/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175120/provincia-di-l-aquila.html> ;
+      gn:name "Provincia di L’Aquila" ;
+      gn:officialName "Aquila"@it , "Aquila"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3183560/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "309264" ;
+      wgs84_pos:lat "42.08333" ;
+      wgs84_pos:long "13.66667" .
+
+<http://sws.geonames.org/6457401/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457401/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457401/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457401/provincia-di-olbia-tempio.html> ;
+      gn:name "Provincia di Olbia-Tempio" ;
+      gn:officialName "Olbia-Tempio"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "156121" ;
+      wgs84_pos:lat "40.92298" ;
+      wgs84_pos:long "9.49459" .
+
+<http://sws.geonames.org/6457400/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457400/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457400/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457400/provincia-di-carbonia-iglesias.html> ;
+      gn:name "Provincia di Carbonia-Iglesias" ;
+      gn:officialName "Carbonia-Iglesias"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "130186" ;
+      wgs84_pos:lat "39.3258" ;
+      wgs84_pos:long "8.58032" .
+
+<http://sws.geonames.org/3165770/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165770/about.rdf" ;
+      gn:alternateName "Provincia di Terni" , "Terni" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165770/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165770/provincia-di-terni.html> ;
+      gn:name "Provincia di Terni" ;
+      gn:officialName "Terni"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165048/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165048/> ;
+      gn:population "233719" ;
+      wgs84_pos:lat "42.68333" ;
+      wgs84_pos:long "12.31667" .
+
+<http://sws.geonames.org/6457397/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457397/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457397/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457397/provincia-di-biella.html> ;
+      gn:name "Provincia di Biella" ;
+      gn:officialName "Biella"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3170831/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population "186698" ;
+      wgs84_pos:lat "45.58713" ;
+      wgs84_pos:long "8.08594" .
+
+<http://sws.geonames.org/3176958/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3176958/about.rdf" ;
+      gn:alternateName "Florencia"@es , "Florenz" , "Florence" , "Firenze" , "Provincia di Firenze" ;
+      gn:childrenFeatures <http://sws.geonames.org/3176958/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3176958/provincia-di-firenze.html> ;
+      gn:name "Provincia di Firenze" ;
+      gn:officialName "Province of Florence"@en , "Florenz"@de , "Florença"@pt , "Florence"@fr , "Florence"@en , "Firenze"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "991862" ;
+      wgs84_pos:lat "43.83333" ;
+      wgs84_pos:long "11.33333" .
+
+<http://sws.geonames.org/6457404/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457404/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457404/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457404/provincia-di-rimini.html> ;
+      gn:name "Provincia di Rimini" ;
+      gn:officialName "Rimini"@it , "Rímini"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "325219" ;
+      wgs84_pos:lat "44.02405" ;
+      wgs84_pos:long "12.51858" .
+
+<http://sws.geonames.org/3171163/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171163/about.rdf" ;
+      gn:alternateName "Provincia di Pescara" , "Pescara" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171163/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171163/provincia-di-pescara.html> ;
+      gn:name "Provincia di Pescara" ;
+      gn:officialName "Pescara"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3183560/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population "321192" ;
+      wgs84_pos:lat "42.33333" ;
+      wgs84_pos:long "13.95" ;
+      foaf:page <http://pleiades.stoa.org/places/413249> .
+
+<http://sws.geonames.org/6457405/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457405/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457405/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457405/provincia-di-vibo-valentia.html> ;
+      gn:name "Provincia di Vibo-Valentia" ;
+      gn:officialName "Vibo-Valentia"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2525468/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population "166891" ;
+      wgs84_pos:lat "38.69958" ;
+      wgs84_pos:long "16.12741" ;
+      foaf:page <http://pleiades.stoa.org/places/452337> .
+
+<http://sws.geonames.org/3172153/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3172153/about.rdf" ;
+      gn:alternateName "Provincia di Nuoro" , "Nuoro" ;
+      gn:childrenFeatures <http://sws.geonames.org/3172153/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3172153/provincia-di-nuoro.html> ;
+      gn:name "Provincia di Nuoro" ;
+      gn:officialName "Nuoro"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "161020" ;
+      wgs84_pos:lat "40.16667" ;
+      wgs84_pos:long "9.33333" .
+
+<http://sws.geonames.org/3182163/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182163/about.rdf" ;
+      gn:alternateName "Bergamo" , "Provincia di Bergamo" ;
+      gn:childrenFeatures <http://sws.geonames.org/3182163/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182163/provincia-di-bergamo.html> ;
+      gn:name "Provincia di Bergamo" ;
+      gn:officialName "Bergamo"@it , "Bérgamo"@pt , "Bérgamo"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "1087204" ;
+      wgs84_pos:lat "45.83333" ;
+      wgs84_pos:long "9.8" .
+
+<http://sws.geonames.org/6457402/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457402/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457402/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457402/provincia-di-medio-campidano.html> ;
+      gn:name "Provincia di Medio Campidano" ;
+      gn:officialName "Medio Campidano"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "102647" ;
+      wgs84_pos:lat "39.56296" ;
+      wgs84_pos:long "8.65345" .
+
+<http://sws.geonames.org/6458617/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6458617/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6458617/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6458617/provincia-di-lodi.html> ;
+      gn:name "Provincia di Lodi" ;
+      gn:officialName "Lodi"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "225825" ;
+      wgs84_pos:lat "45.29638" ;
+      wgs84_pos:long "9.52858" .
+
+<http://sws.geonames.org/3183087/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3183087/about.rdf" ;
+      gn:alternateName "Provincia di Ancona" , "Ancona" ;
+      gn:childrenFeatures <http://sws.geonames.org/3183087/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3183087/provincia-di-ancona.html> ;
+      gn:name "Provincia di Ancona" ;
+      gn:officialName "Ανκόνα"@el , "Ancona"@it , "Ancône"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3174004/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population "478319" ;
+      wgs84_pos:lat "43.55" ;
+      wgs84_pos:long "13.16667" .
+
+<http://sws.geonames.org/3171057/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171057/about.rdf" ;
+      gn:alternateName "Piacenza" , "Provincia di Piacenza" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171057/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171057/provincia-di-piacenza.html> ;
+      gn:name "Provincia di Piacenza" ;
+      gn:officialName "Piacenza"@it , "Plaisance"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "288003" ;
+      wgs84_pos:lat "44.88333" ;
+      wgs84_pos:long "9.58333" .
+
+<http://sws.geonames.org/6458616/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6458616/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6458616/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6458616/provincia-di-lecco.html> ;
+      gn:name "Provincia di Lecco" ;
+      gn:officialName "Lecco"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "337912" ;
+      wgs84_pos:lat "45.85397" ;
+      wgs84_pos:long "9.39001" .
+
+<http://sws.geonames.org/3179865/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3179865/about.rdf" ;
+      gn:alternateName "Provincia di Caserta" , "Caserta" ;
+      gn:childrenFeatures <http://sws.geonames.org/3179865/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3179865/provincia-di-caserta.html> ;
+      gn:name "Provincia di Caserta" ;
+      gn:officialName "Caserte"@fr , "Caserta"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3181042/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "910006" ;
+      wgs84_pos:lat "41.23333" ;
+      wgs84_pos:long "14.16667" .
+
+<http://sws.geonames.org/3171456/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3171456/about.rdf" ;
+      gn:alternateName "Parma" , "Provincia di Parma" ;
+      gn:childrenFeatures <http://sws.geonames.org/3171456/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3171456/provincia-di-parma.html> ;
+      gn:name "Provincia di Parma" ;
+      gn:officialName "Parma"@it , "Parme"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "437349" ;
+      wgs84_pos:lat "44.7" ;
+      wgs84_pos:long "10.08333" .
+
+<http://sws.geonames.org/6457403/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6457403/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6457403/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6457403/provincia-di-ogliastra.html> ;
+      gn:name "Provincia di Ogliastra" ;
+      gn:officialName "Ogliastra"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523228/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population "58006" ;
+      wgs84_pos:lat "39.80814" ;
+      wgs84_pos:long "9.44481" .
+
+<http://sws.geonames.org/3177088/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3177088/about.rdf" ;
+      gn:alternateName "Ferrara" , "Provincia di Ferrara" ;
+      gn:childrenFeatures <http://sws.geonames.org/3177088/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3177088/provincia-di-ferrara.html> ;
+      gn:name "Provincia di Ferrara" ;
+      gn:officialName "Ferrare"@fr , "Ferrara"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "358972" ;
+      wgs84_pos:lat "44.8" ;
+      wgs84_pos:long "11.83333" .
+
+<http://sws.geonames.org/3166396/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3166396/about.rdf" ;
+      gn:alternateName "Provincia di Sondrio" , "Sondrio" ;
+      gn:childrenFeatures <http://sws.geonames.org/3166396/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3166396/provincia-di-sondrio.html> ;
+      gn:name "Provincia di Sondrio" ;
+      gn:officialName "Sondrio"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174618/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population "182709" ;
+      wgs84_pos:lat "46.16667" ;
+      wgs84_pos:long "10.05" .
+
+<http://sws.geonames.org/3170146/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3170146/about.rdf" ;
+      gn:alternateName "Pordenone" , "Pordenon"@fur , "Provincia di Pordenone" ;
+      gn:childrenFeatures <http://sws.geonames.org/3170146/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3170146/provincia-di-pordenone.html> ;
+      gn:name "Provincia di Pordenone" ;
+      gn:officialName "Pordenone"@it , "Province of Pordenone"@en ;
+      gn:parentADM1 <http://sws.geonames.org/3176525/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population "313870" ;
+      wgs84_pos:lat "45.95" ;
+      wgs84_pos:long "12.65" .
+
+<http://sws.geonames.org/3165200/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165200/about.rdf" ;
+      gn:alternateName "Treviso" , "Provincia di Treviso" ;
+      gn:childrenFeatures <http://sws.geonames.org/3165200/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3165200/provincia-di-treviso.html> ;
+      gn:name "Provincia di Treviso" ;
+      gn:officialName "Treviso"@it , "Trévise"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3164604/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population "883840" ;
+      wgs84_pos:lat "45.83333" ;
+      wgs84_pos:long "12.21667" .
+
+<http://sws.geonames.org/3175057/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3175057/about.rdf" ;
+      gn:alternateName "Provincia di Latina" , "Provincia di Littòria" , "Littoria" , "Latina" ;
+      gn:childrenFeatures <http://sws.geonames.org/3175057/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3175057/provincia-di-latina.html> ;
+      gn:name "Provincia di Latina" ;
+      gn:officialName "Latina"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3174976/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population "551217" ;
+      wgs84_pos:lat "41.45" ;
+      wgs84_pos:long "13.1" .
+
+<http://sws.geonames.org/3170025/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3170025/about.rdf" ;
+      gn:alternateName "Potenza" , "Provincia di Potenza" ;
+      gn:childrenFeatures <http://sws.geonames.org/3170025/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3170025/provincia-di-potenza.html> ;
+      gn:name "Provincia di Potenza" ;
+      gn:officialName "Potenza"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3182306/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population "385309" ;
+      wgs84_pos:lat "40.58333" ;
+      wgs84_pos:long "15.73333" .
+
+<http://sws.geonames.org/6458618/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/6458618/about.rdf" ;
+      gn:childrenFeatures <http://sws.geonames.org/6458618/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/6458618/provincia-di-prato.html> ;
+      gn:name "Provincia di Prato" ;
+      gn:officialName "Prato"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "248174" ;
+      wgs84_pos:lat "43.87698" ;
+      wgs84_pos:long "11.12503" .
+
+<http://sws.geonames.org/2523082/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523082/about.rdf" ;
+      gn:alternateName "Provincia di Siracusa" ;
+      gn:childrenFeatures <http://sws.geonames.org/2523082/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2523082/provincia-di-siracusa.html> ;
+      gn:name "Provincia di Siracusa" ;
+      gn:officialName "Siracusa"@it , "Syrakus"@de , "Syracuse"@fr , "Syracuse"@en ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "403356" ;
+      wgs84_pos:lat "37.08805" ;
+      wgs84_pos:long "15.27924" .
+
+<http://sws.geonames.org/3173767/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3173767/about.rdf" ;
+      gn:alternateName "Apuania" , "Provincia di Massa" , "Massa e Carrara" , "Provincia di Massa-Carrara" , "Provincia di Massa e Carrara" ;
+      gn:childrenFeatures <http://sws.geonames.org/3173767/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3173767/provincia-di-massa-carrara.html> ;
+      gn:name "Provincia di Massa-Carrara" ;
+      gn:officialName "Massa-Carrara"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "203642" ;
+      wgs84_pos:lat "44.25" ;
+      wgs84_pos:long "10.05" .
+
+<http://sws.geonames.org/3176745/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3176745/about.rdf" ;
+      gn:alternateName "Provincia di Forlì" , "Forlì" , "Provincia di Forlì-Cesena"@it , "Provincia di Cesena"@it , "Forli Cesena"@es ;
+      gn:childrenFeatures <http://sws.geonames.org/3176745/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3176745/provincia-di-forli.html> ;
+      gn:name "Provincia di Forlì" ;
+      gn:officialName "Forlì-Cesena"@it , "Forlì-Césène"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3177401/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population "392329" ;
+      wgs84_pos:lat "44.08333" ;
+      wgs84_pos:long "12.03333" .
+
+<http://sws.geonames.org/3172391/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3172391/about.rdf" ;
+      gn:alternateName "Neapel" , "Naples" , "Naples"@en , "Provincia di Napoli" , "Napoli" ;
+      gn:childrenFeatures <http://sws.geonames.org/3172391/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3172391/provincia-di-napoli.html> ;
+      gn:name "Provincia di Napoli" ;
+      gn:officialName "Neapel"@de , "Naples"@fr , "Nápoles"@pt , "Napoles"@es , "Province of Naples"@en , "Napoli"@it ;
+      gn:parentADM1 <http://sws.geonames.org/3181042/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population "3079685" ;
+      wgs84_pos:lat "40.88333" ;
+      wgs84_pos:long "14.41667" .
+
+<http://sws.geonames.org/3174529/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174529/about.rdf" ;
+      gn:alternateName "Provincia di Lucca" , "Lucca" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174529/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3174529/provincia-di-lucca.html> ;
+      gn:name "Provincia di Lucca" ;
+      gn:officialName "Lucca"@es , "Lucca"@it , "Lucques"@fr ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "392182" ;
+      wgs84_pos:lat "44.03333" ;
+      wgs84_pos:long "10.45" .
+
+<http://sws.geonames.org/2522875/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2522875/about.rdf" ;
+      gn:alternateName "Trapani" , "Provincia di Trapani" ;
+      gn:childrenFeatures <http://sws.geonames.org/2522875/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/2522875/provincia-di-trapani.html> ;
+      gn:name "Provincia di Trapani" ;
+      gn:officialName "Trapani"@it ;
+      gn:parentADM1 <http://sws.geonames.org/2523119/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population "436283" ;
+      wgs84_pos:lat "37.83333" ;
+      wgs84_pos:long "12.66667" .
+
+<http://sws.geonames.org/3182882/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182882/about.rdf" ;
+      gn:alternateName "Provincia di Arezzo"@it , "Province of Arezzo"@en ;
+      gn:childrenFeatures <http://sws.geonames.org/3182882/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:locationMap <http://www.geonames.org/3182882/province-of-arezzo.html> ;
+      gn:name "Province of Arezzo" ;
+      gn:officialName "Arezzo"@it , "Arezzo"@es ;
+      gn:parentADM1 <http://sws.geonames.org/3165361/> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population "348127" ;
+      wgs84_pos:lat "43.53333" ;
+      wgs84_pos:long "11.83333" .

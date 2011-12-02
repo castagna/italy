@@ -1,0 +1,13 @@
+
+SELECT DISTINCT ?region ?province  {
+  ?r geonames:featureCode geonames:A.ADM1 .
+  ?p geonames:featureCode geonames:A.ADM2 .
+  ?c geonames:featureCode geonames:A.ADM3 .
+  ?p geonames:parentADM1 ?r .
+  ?c geonames:parentADM2 ?p .
+
+  ?r geonames:name ?region .
+  ?p geonames:name ?province .
+  ?c geonames:name ?comune .
+}
+ORDER BY ?region ?province

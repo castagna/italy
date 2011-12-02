@@ -1,0 +1,77 @@
+#
+# Downloaded from: http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#
+#
+
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#inScheme>
+      a       rdf:Property ;
+      rdfs:label "In scheme" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#NUTSRegion>
+      a       rdfs:Class ;
+      rdfs:label "NUTS Region" ;
+      rdfs:subClassOf <file:data/eurostat/eurostat-vocabulary.rdf#Region> .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#regionCode>
+      a       rdf:Property ;
+      rdfs:comment "NUTS or LAU code" ;
+      rdfs:domain <file:data/eurostat/eurostat-vocabulary.rdf#Region> ;
+      rdfs:label "Region code" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#edition>
+      a       rdf:Property ;
+      rdfs:label "Edition" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#name>
+      a       rdf:Property ;
+      rdfs:domain <file:data/eurostat/eurostat-vocabulary.rdf#Region> ;
+      rdfs:label "Name" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#hasSubRegion>
+      a       rdf:Property ;
+      rdfs:domain <file:data/eurostat/eurostat-vocabulary.rdf#Region> ;
+      rdfs:label "Has subregion" ;
+      rdfs:range <file:data/eurostat/eurostat-vocabulary.rdf#Region> .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#LAURegion>
+      a       rdfs:Class ;
+      rdfs:label "LAU Region" ;
+      rdfs:subClassOf <file:data/eurostat/eurostat-vocabulary.rdf#Region> .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#Region>
+      a       rdfs:Class ;
+      rdfs:label "Geographical region" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#hasParentRegion>
+      a       rdf:Property ;
+      rdfs:domain <file:data/eurostat/eurostat-vocabulary.rdf#Region> ;
+      rdfs:label "Has parent region" ;
+      rdfs:range <file:data/eurostat/eurostat-vocabulary.rdf#Region> ;
+      owl:inverseOf <file:data/eurostat/eurostat-vocabulary.rdf#hasSubRegion> .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#level>
+      a       rdf:Property ;
+      rdfs:domain <file:data/eurostat/eurostat-vocabulary.rdf#Region> ;
+      rdfs:label "Level" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#code>
+      a       rdf:Property ;
+      rdfs:domain <file:data/eurostat/eurostat-vocabulary.rdf#Country> ;
+      rdfs:label "Country code" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf>
+      a       owl:Ontology ;
+      rdfs:label "Geographic schema v. 0.6" .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#Country>
+      a       rdfs:Class ;
+      rdfs:comment "Member States of the European Union (EU) and other countries have been assigned a two-letter country code, always written in capital letters, and often used as an abbreviation in statistical analyses, tables, graphs or maps." ;
+      rdfs:label "Country code (Eurostat)" ;
+      rdfs:subClassOf <file:data/eurostat/eurostat-vocabulary.rdf#Region> .
+
+<file:data/eurostat/eurostat-vocabulary.rdf#protocolOrder>
+      a       rdf:Property ;
+      rdfs:label "Protocol order" .

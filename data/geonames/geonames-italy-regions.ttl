@@ -1,0 +1,390 @@
+@prefix gn:      <http://www.geonames.org/ontology#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs84_pos:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cc:      <http://creativecommons.org/ns#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+<http://sws.geonames.org/3183560/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3183560/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Abruzzo> ;
+      gn:alternateName "Abruzzi" , "Abruzzi"@it , "Abruzzo" , "Regione Abruzzo" ;
+      gn:childrenFeatures <http://sws.geonames.org/3183560/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3183560/regione-abruzzo.html> ;
+      gn:name "Regione Abruzzo" ;
+      gn:officialName "Abruzzes"@fr , "Abruzzo"@en , "Abruzzo"@it , "Abruzzen"@nl , "Abruzzen"@de , "els Abruços"@ca ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1338898" ;
+      gn:wikipediaArticle <http://la.wikipedia.org/wiki/Aprutium> , <http://pam.wikipedia.org/wiki/Abruzzo> , <http://bs.wikipedia.org/wiki/Abruzzo> , <http://bg.wikipedia.org/wiki/%D0%90%D0%B1%D1%80%D1%83%D1%86%D0%BE> , <http://es.wikipedia.org/wiki/Abruzos> , <http://ur.wikipedia.org/wiki/%D8%A2%D8%A8%D8%B1%D9%88%D8%B2%D9%88> , <http://jv.wikipedia.org/wiki/Abruzzo> , <http://gl.wikipedia.org/wiki/Abruzzo> , <http://cs.wikipedia.org/wiki/Abruzzo> , <http://sv.wikipedia.org/wiki/Abruzzo> , <http://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%96%E3%83%AB%E3%83%83%E3%83%84%E3%82%A9%E5%B7%9E> , <http://uk.wikipedia.org/wiki/%D0%90%D0%B1%D1%80%D1%83%D1%86%D1%86%D0%BE> , <http://eu.wikipedia.org/wiki/Abruzzo> , <http://hr.wikipedia.org/wiki/Abruzzo> , <http://ia.wikipedia.org/wiki/Abruzzo> , <http://hu.wikipedia.org/wiki/Abruzzo> , <http://zh.wikipedia.org/wiki/%E9%98%BF%E5%B8%83%E9%B2%81%E4%BD%90> , <http://tr.wikipedia.org/wiki/Abruzzo> , <http://pt.wikipedia.org/wiki/Abruzos> , <http://it.wikipedia.org/wiki/Abruzzo> , <http://ca.wikipedia.org/wiki/Abru%C3%A7os> , <http://ka.wikipedia.org/wiki/%E1%83%90%E1%83%91%E1%83%A0%E1%83%A3%E1%83%AA%E1%83%98> , <http://ga.wikipedia.org/wiki/Abruzzo> , <http://co.wikipedia.org/wiki/Abruzzu> , <http://ru.wikipedia.org/wiki/%D0%90%D0%B1%D1%80%D1%83%D1%86%D1%86%D0%BE> , <http://he.wikipedia.org/wiki/%D7%90%D7%91%D7%A8%D7%95%D7%A6%D7%95> , <http://an.wikipedia.org/wiki/Abruzos> , <http://sh.wikipedia.org/wiki/Abruzzo> , <http://nap.wikipedia.org/wiki/Abruzzo> , <http://lad.wikipedia.org/wiki/Abruzzo> , <http://nn.wikipedia.org/wiki/Abruzzo> , <http://frp.wikipedia.org/wiki/Abruzes> , <http://oc.wikipedia.org/wiki/Abru%C3%A7> , <http://lt.wikipedia.org/wiki/Abrucai> , <http://eo.wikipedia.org/wiki/Abruzo> , <http://lv.wikipedia.org/wiki/Abruco> , <http://scn.wikipedia.org/wiki/Abbruzzu> , <http://br.wikipedia.org/wiki/Abruz> , <http://vec.wikipedia.org/wiki/Abruzso> , <http://et.wikipedia.org/wiki/Abruzzo> , <http://ko.wikipedia.org/wiki/%EC%95%84%EB%B8%8C%EB%A3%A8%EC%B4%88_%EC%A3%BC> , <http://nl.wikipedia.org/wiki/Abruzzen> , <http://pl.wikipedia.org/wiki/Abruzja> , <http://is.wikipedia.org/wiki/Abr%C3%BAtsi> , <http://de.wikipedia.org/wiki/Abruzzen> , <http://no.wikipedia.org/wiki/Abruzzo> , <http://id.wikipedia.org/wiki/Abruzzo> , <http://kw.wikipedia.org/wiki/Abruzzo> , <http://pms.wikipedia.org/wiki/Abruss> , <http://fr.wikipedia.org/wiki/Abruzzes> , <http://en.wikipedia.org/wiki/Abruzzo> , <http://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D8%B1%D9%88%D8%AA%D8%B3%D9%88> , <http://fi.wikipedia.org/wiki/Abruzzo> , <http://sr.wikipedia.org/wiki/%D0%90%D0%B1%D1%80%D1%83%D1%86%D0%BE> , <http://da.wikipedia.org/wiki/Abruzzo> , <http://ro.wikipedia.org/wiki/Abruzzo> ;
+      wgs84_pos:lat "42.25" ;
+      wgs84_pos:long "13.75" .
+
+<http://sws.geonames.org/3165244/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165244/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol> ;
+      gn:alternateName "Etelä-Tiroli"@fi , "Sidtiroul"@bar , "Venetia Tridentina" , "Tirol del Sud"@ca , "Tirol Meridional"@pt , "Syd-Tirol"@no , "Sydtyrolen"@sv , "South Tyrol" , "Sydtyrolen (Trentino - Alto Adige)"@sv , "Autonomní provincie Bolzano"@cs , "Sudtirolo"@eo , "Autonome Region Trentino-Südtirol" , "Больцано"@ru , "Tirolo" , "Południowy Tyrol"@pl , "Južné Tirolsko"@sk , "Tirolul de Sud"@ro , "Južna Tirolska"@sl , "Su Tirol"@br , "Sudtirol"@it , "Bozen-Zuid-Tirol"@nl , "Venezia Tridentina" , "Trentin-Tyrol-du-Sud"@fr , "Südtirol"@de , "ボルツァーノ自治県"@ja , "Trentin"@it , "Tirolum Meridionale"@la , "Tirol del Sur"@es ;
+      gn:childrenFeatures <http://sws.geonames.org/3165244/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3165244/regione-autonoma-trentino-alto-adige.html> ;
+      gn:name "Regione Autonoma Trentino-Alto Adige" ;
+      gn:officialName "Trentino-Alto Adige"@en , "Trentino - Alto Adige"@it , "Trentin-Haut-Adige"@fr , "Trentino - Alto Adige / Südtirol"@it ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1028260" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Trentino-Alto_Adige%2FS%C3%BCdtirol> ;
+      wgs84_pos:lat "46.5" ;
+      wgs84_pos:long "11.33333" .
+
+<http://sws.geonames.org/3164857/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164857/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Aosta_Valley> ;
+      gn:alternateName "Regione Autonoma Val d'Aosta"@fr , "Région Autonome Vallée d'Aoste"@fr , "Valle di Aosta" , "Vallée d'Aoste"@it , "Regione Autonoma Valle d’Aosta"@it ;
+      gn:childrenFeatures <http://sws.geonames.org/3164857/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html> ;
+      gn:name "Regione Autonoma Valle d’Aosta" ;
+      gn:officialName "Vall d'Aosta"@ca , "Aosta Valley"@en , "Valle d’Aosta"@it , "Valle di Aosta" , "Vallée d'Aoste"@fr ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "127866" ;
+      gn:wikipediaArticle <http://sr.wikipedia.org/wiki/%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%90%D0%BE%D1%81%D1%82%D0%B5> , <http://ca.wikipedia.org/wiki/Vall_d%27Aosta> , <http://lad.wikipedia.org/wiki/Valle_d%27Aosta> , <http://fi.wikipedia.org/wiki/Aostan_laakso> , <http://la.wikipedia.org/wiki/Vallis_Augustana> , <http://hu.wikipedia.org/wiki/Valle_d%E2%80%99Aosta> , <http://et.wikipedia.org/wiki/Valle_d%27Aosta> , <http://io.wikipedia.org/wiki/Valo_di_Aosta> , <http://bg.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5_%D0%B4%27%D0%90%D0%BE%D1%81%D1%82%D0%B0> , <http://fr.wikipedia.org/wiki/Vall%C3%A9e_d%27Aoste> , <http://nap.wikipedia.org/wiki/Valle_%27e_Aosta> , <http://da.wikipedia.org/wiki/Valle_d%27Aosta> , <http://pam.wikipedia.org/wiki/Aosta_Saug> , <http://pms.wikipedia.org/wiki/Val_d%27Osta> , <http://an.wikipedia.org/wiki/Bal_d%27Aosta> , <http://ar.wikipedia.org/wiki/%D9%81%D8%A7%D9%84%D9%8A_%D8%AF%D8%A7_%D8%A3%D9%88%D8%B3%D8%AA%D8%A7> , <http://eu.wikipedia.org/wiki/Aosta_Ibarra> , <http://nl.wikipedia.org/wiki/Valle_d%27Aosta> , <http://nn.wikipedia.org/wiki/Valle_d%27Aosta> , <http://vec.wikipedia.org/wiki/Va%C5%82e_d%27Aosta> , <http://sh.wikipedia.org/wiki/Valle_d%27Aosta> , <http://pt.wikipedia.org/wiki/Vale_de_Aosta> , <http://cs.wikipedia.org/wiki/Valle_d%27Aosta> , <http://kw.wikipedia.org/wiki/Nans_Aosta> , <http://tr.wikipedia.org/wiki/Aosta_Vadisi> , <http://gl.wikipedia.org/wiki/Val_de_Aosta> , <http://lv.wikipedia.org/wiki/Valle_d%27Aosta> , <http://br.wikipedia.org/wiki/Trao%C3%B1ienn_Aosta> , <http://jv.wikipedia.org/wiki/Lembah_Aosta> , <http://uk.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%BB%D0%B5-%D0%B4%27%D0%90%D0%BE%D1%81%D1%82%D0%B0> , <http://pl.wikipedia.org/wiki/Valle_d%27Aosta> , <http://zh.wikipedia.org/wiki/%E7%93%A6%E8%8E%B1%E8%BE%BE%E5%A5%A5%E6%96%AF%E5%A1%94> , <http://ur.wikipedia.org/wiki/%D9%88%D8%A7%D8%AF%DB%8C_%D8%A2%D9%88%D8%B3%D8%AA%DB%81> , <http://ro.wikipedia.org/wiki/Valle_d%27Aosta> , <http://de.wikipedia.org/wiki/Aostatal> , <http://es.wikipedia.org/wiki/Valle_de_Aosta> , <http://lt.wikipedia.org/wiki/Aostos_sl%C4%97nis> , <http://hr.wikipedia.org/wiki/Valle_d%27Aosta> , <http://scn.wikipedia.org/wiki/Vaddi_d%27Aosta> , <http://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A1%E3%83%83%E3%83%AC%E3%83%BB%E3%83%80%E3%82%AA%E3%82%B9%E3%82%BF%E5%B7%9E> , <http://en.wikipedia.org/wiki/Aosta_Valley> , <http://ka.wikipedia.org/wiki/%E1%83%95%E1%83%90%E1%83%9A%E1%83%94-%E1%83%93-%E1%83%90%E1%83%9D%E1%83%A1%E1%83%A2%E1%83%90> , <http://is.wikipedia.org/wiki/%C3%81g%C3%BAstudalur> , <http://oc.wikipedia.org/wiki/Val_d%27Aosta> , <http://no.wikipedia.org/wiki/Aostadalen> , <http://bs.wikipedia.org/wiki/Valle_d%27Aosta> , <http://sv.wikipedia.org/wiki/Valle_d%27Aosta> , <http://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%BB%D0%B5-%D0%B4%E2%80%99%D0%90%D0%BE%D1%81%D1%82%D0%B0> , <http://frp.wikipedia.org/wiki/V%C3%A2l_d%E2%80%99Ao%C3%BBta> , <http://sl.wikipedia.org/wiki/Aosta> , <http://lij.wikipedia.org/wiki/Valle_d%27Aosta> , <http://it.wikipedia.org/wiki/Valle_d%27Aosta> , <http://id.wikipedia.org/wiki/Lembah_Aosta> , <http://fur.wikipedia.org/wiki/Val_d%27Aoste> , <http://eo.wikipedia.org/wiki/Aosta_Valo> , <http://co.wikipedia.org/wiki/Valle_d%27Aosta> , <http://he.wikipedia.org/wiki/%D7%95%D7%90%D7%9C%D7%94_%D7%93%27%D7%90%D7%90%D7%95%D7%A1%D7%98%D7%94> ;
+      wgs84_pos:lat "45.75" ;
+      wgs84_pos:long "7.25" .
+
+<http://sws.geonames.org/3173222/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3173222/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Molise> ;
+      gn:alternateName "Molise" , "Molise"@en , "Regione Molise" , "Regione Molise"@it ;
+      gn:childrenFeatures <http://sws.geonames.org/3173222/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3173222/regione-molise.html> ;
+      gn:name "Regione Molise" ;
+      gn:officialName "Molise"@it , "Molise" , "Molise"@fr , "Molise"@nl , "Molise"@ca ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "320229" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Molise> ;
+      wgs84_pos:lat "41.66667" ;
+      wgs84_pos:long "14.5" .
+
+<http://sws.geonames.org/3174976/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174976/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Lazio> ;
+      gn:alternateName "Latium" , "Latium"@la , "Regione Lazio" , "Lacio"@es ;
+      gn:childrenFeatures <http://sws.geonames.org/3174976/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3174976/regione-lazio.html> ;
+      gn:name "Regione Lazio" ;
+      gn:officialName "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "5681868" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Lazio> ;
+      wgs84_pos:lat "42" ;
+      wgs84_pos:long "12.5" .
+
+<http://sws.geonames.org/3170831/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3170831/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Piedmont> ;
+      gn:alternateName "Pedemons" , "Regione Piemonte"@it , "Pedemontium" , "Piemont"@it ;
+      gn:childrenFeatures <http://sws.geonames.org/3170831/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3170831/regione-piemonte.html> ;
+      gn:name "Regione Piemonte" ;
+      gn:officialName "Piëmont"@nl , "Piamonte"@es , "Piémont"@fr , "Piemonte" , "Piemonte"@it , "Piedmont"@en , "Piemont"@ca , "Piemont"@de ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4446230" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Piedmont> ;
+      wgs84_pos:lat "45" ;
+      wgs84_pos:long "8" .
+
+<http://sws.geonames.org/3174004/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174004/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Marche> ;
+      gn:alternateName "Regione Marche" , "Marche"@en , "Marche" , "The Marches" , "Le Marche" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174004/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3174004/regione-marche.html> ;
+      gn:name "Regione Marche" ;
+      gn:officialName "Marche"@it , "Marche"@nl , "The Marches"@en , "Marken"@de , "Marches"@fr , "les Marques"@ca ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1559542" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Marche> ;
+      wgs84_pos:lat "43.5" ;
+      wgs84_pos:long "13.25" .
+
+<http://sws.geonames.org/3169778/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3169778/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Apulia> ;
+      gn:alternateName "Le Puglie" , "Puglie" , "Puglia" , "Apulia" , "Apulië"@nl , "Regione Puglia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3169778/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3169778/regione-puglia.html> ;
+      gn:name "Regione Puglia" ;
+      gn:officialName "Apulien"@de , "Pouilles"@fr , "Pulla"@ca , "Puglia"@it , "Apulia"@en ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4084035" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Apulia> ;
+      wgs84_pos:lat "41.25" ;
+      wgs84_pos:long "16.25" .
+
+<http://sws.geonames.org/3174725/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174725/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Liguria> ;
+      gn:alternateName "Regione Liguria" , "Liguria" , "Ligurien"@de , "Ligurien"@sv , "Ligurië"@nl ;
+      gn:childrenFeatures <http://sws.geonames.org/3174725/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3174725/regione-liguria.html> ;
+      gn:name "Regione Liguria" ;
+      gn:officialName "Ligúria"@ca , "Liguria"@it , "Liguria"@en , "Liguria"@es , "Ligurie"@fr ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1615986" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Liguria> ;
+      wgs84_pos:lat "44.5" ;
+      wgs84_pos:long "8.83333" .
+
+<http://sws.geonames.org/3182306/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3182306/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Basilicata> ;
+      gn:alternateName "Bazilikata"@lv , "Bazilikata"@sq , "Bazilikata"@lt , "Bazilikata"@sl , "Lucanie"@fur , "Базиликата"@sr , "Базиликата"@bg , "Базиликата"@ru , "Basilicà"@pms , "Baselecata"@nap , "バジリカータ州"@ja , "Базіліката"@be , "باسیلیکاتا"@fa , "Basilikato"@eo , "Basilíkata"@is , "แคว้นบาซีลีกาตา"@th , "巴斯利卡塔"@zh , "바실리카타 주"@ko , "Базиліката"@uk , "بازیلیکاتا"@ur , "बाझिलिकाता"@mr , "பசிளிகாதா"@ta , "Regione Basilicata" , "بازيليكاتا"@ar , "ბაზილიკატა"@ka , "בזיליקטה"@he , "Basilicata" , "Базиликатæ"@os , "Lucania" , "Basilikata"@de , "Basilikata"@io , "Basilikata"@fy , "Basilikata"@lad ;
+      gn:childrenFeatures <http://sws.geonames.org/3182306/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3182306/regione-basilicata.html> ;
+      gn:name "Regione Basilicata" ;
+      gn:officialName "Basilicata"@ca , "Basilicata"@it , "Basilicata"@nl , "Basilicate"@en , "Basilicate"@fr ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "588879" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Basilicata> ;
+      wgs84_pos:lat "40.5" ;
+      wgs84_pos:long "16.5" .
+
+<http://sws.geonames.org/2525468/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2525468/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Calabria> ;
+      gn:alternateName "Калабрија"@sr , "Kalabría"@is , "Categoria:Calàbria"@oc , "Kalábria"@sk , "แคว้นกาลาเบรีย"@th , "Калабри"@os , "Calavria"@nap , "कालाब्रिया"@mr , "Regione Calabria" , "Kalábrie"@cs , "卡拉布里亚"@zh , "カラブリア州"@ja , "کلابریا"@ur , "Kalabrija"@sl , "Kalabrija"@lt , "Kalabrija"@sh , "Kalabrija"@bs , "Kalabrija"@lv , "Kalabrija"@hr , "Calabbria"@lij , "Calabbria"@scn , "קלבריה"@he , "Calàbria"@oc , "Calàbria"@ca , "کالابریا"@fa , "Kalabrien"@sv , "Kalabrien"@de , "Καλαβρία"@el , "Calabrië"@nl , "Calabrie"@frp , "Calabrie" , "Calabria"@no , "Calabria" , "Calabria"@id , "Calabria"@co , "Calabria"@fi , "Calabria"@an , "Calabria"@ro , "Calabria"@hu , "Calabria"@pms , "Calabria"@eu , "Calabria"@et , "Calabria"@tr , "Bruttium"@la , "Kalaabrje"@fy , "Kalabri"@kw , "Calábria"@pt , "Całabria"@vec , "Calabre"@fr , "კალაბრია"@ka , "قلورية"@ar , "칼라브리아 주"@ko , "Калабрия"@bg , "Калабрия"@ru , "Калабрия"@tg , "Kalabria"@io , "Kalabria"@sq , "Kalabriya"@tr , "Kalabria"@lad , "Kalabria"@pl , "Calabrien"@da , "Калабрія"@uk , "Калабрыя"@be , "Kalabrio"@eo ;
+      gn:childrenFeatures <http://sws.geonames.org/2525468/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/2525468/regione-calabria.html> ;
+      gn:name "Regione Calabria" ;
+      gn:officialName "Calabria"@es , "Calabria"@en , "Calabria"@it , "Calabria" ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "2009330" ;
+      gn:wikipediaArticle <http://it.wikipedia.org/wiki/Calabria> , <http://tg.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B0%D0%B1%D1%80%D0%B8%D1%8F> , <http://sv.wikipedia.org/wiki/Kalabrien> , <http://scn.wikipedia.org/wiki/Calabbria> , <http://et.wikipedia.org/wiki/Calabria> , <http://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%83%96%E3%83%AA%E3%82%A2%E5%B7%9E> , <http://zh.wikipedia.org/wiki/%E5%8D%A1%E6%8B%89%E5%B8%83%E9%87%8C%E4%BA%9A> , <http://fr.wikipedia.org/wiki/Calabre> , <http://la.wikipedia.org/wiki/Calabria> , <http://pt.wikipedia.org/wiki/Cal%C3%A1bria> , <http://eu.wikipedia.org/wiki/Calabria> , <http://lad.wikipedia.org/wiki/Kalabria> , <http://fi.wikipedia.org/wiki/Calabria> , <http://br.wikipedia.org/wiki/Kalabria> , <http://pl.wikipedia.org/wiki/Kalabria> , <http://lv.wikipedia.org/wiki/Kalabrija> , <http://cs.wikipedia.org/wiki/Kal%C3%A1brie> , <http://frp.wikipedia.org/wiki/Calabrie> , <http://de.wikipedia.org/wiki/Kalabrien> , <http://sk.wikipedia.org/wiki/Kal%C3%A1bria> , <http://hu.wikipedia.org/wiki/Calabria> , <http://en.wikipedia.org/wiki/Calabria> , <http://es.wikipedia.org/wiki/Calabria> , <http://io.wikipedia.org/wiki/Kalabria> , <http://nn.wikipedia.org/wiki/Calabria> , <http://sl.wikipedia.org/wiki/Kalabrija> , <http://nap.wikipedia.org/wiki/Calavria> , <http://ro.wikipedia.org/wiki/Calabria> , <http://kw.wikipedia.org/wiki/Kalabri> , <http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B0%D0%B1%D1%80%D0%B8%D1%8F> , <http://nl.wikipedia.org/wiki/Calabri%C3%AB> , <http://ia.wikipedia.org/wiki/Calabria> , <http://vec.wikipedia.org/wiki/Ca%C5%82abria> , <http://co.wikipedia.org/wiki/Calabria> , <http://oc.wikipedia.org/wiki/Cal%C3%A0bria> , <http://bs.wikipedia.org/wiki/Kalabrija> , <http://sq.wikipedia.org/wiki/Kalabria> , <http://he.wikipedia.org/wiki/%D7%A7%D7%9C%D7%91%D7%A8%D7%99%D7%94> , <http://da.wikipedia.org/wiki/Calabrien> , <http://ur.wikipedia.org/wiki/%DA%A9%D9%84%D8%A7%D8%A8%D8%B1%DB%8C%D8%A7> , <http://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B0%D0%B1%D1%80%D1%96%D1%8F> , <http://ko.wikipedia.org/wiki/%EC%B9%BC%EB%9D%BC%EB%B8%8C%EB%A6%AC%EC%95%84_%EC%A3%BC> , <http://is.wikipedia.org/wiki/Kalabr%C3%ADa> , <http://lij.wikipedia.org/wiki/Calabbria> , <http://hr.wikipedia.org/wiki/Kalabrija> , <http://no.wikipedia.org/wiki/Calabria> , <http://tr.wikipedia.org/wiki/Calabria> , <http://ar.wikipedia.org/wiki/%D9%83%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%D9%8A%D8%A7> , <http://sh.wikipedia.org/wiki/Kalabrija> , <http://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B0%D0%B1%D1%80%D0%B8%D1%98%D0%B0> , <http://ka.wikipedia.org/wiki/%E1%83%99%E1%83%90%E1%83%9A%E1%83%90%E1%83%91%E1%83%A0%E1%83%98%E1%83%90> , <http://pms.wikipedia.org/wiki/Calabria> , <http://id.wikipedia.org/wiki/Calabria> , <http://bg.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B0%D0%B1%D1%80%D0%B8%D1%8F> , <http://eo.wikipedia.org/wiki/Kalabrio> , <http://ca.wikipedia.org/wiki/Cal%C3%A0bria> , <http://an.wikipedia.org/wiki/Calabria> , <http://lt.wikipedia.org/wiki/Kalabrija> , <http://pam.wikipedia.org/wiki/Calabria> , <http://el.wikipedia.org/wiki/%CE%9A%CE%B1%CE%BB%CE%B1%CE%B2%CF%81%CE%AF%CE%B1> ;
+      wgs84_pos:lat "39" ;
+      wgs84_pos:long "16.5" .
+
+<http://sws.geonames.org/3177401/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3177401/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Emilia_%28region_of_Italy%29> , <http://dbpedia.org/resource/Romagna> ;
+      gn:alternateName "Emilia" , "Emilia-Romaña"@es , "Emilia-Romagna"@en , "Regione Emilia-Romagna" , "Romagna" ;
+      gn:childrenFeatures <http://sws.geonames.org/3177401/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3177401/regione-emilia-romagna.html> ;
+      gn:name "Regione Emilia-Romagna" ;
+      gn:officialName "Emília-Romanya"@ca , "Émilie-Romagne"@fr , "Emilia-Romagna"@it , "Emilia-Romagna"@nl , "Emilia-Romagna" ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4395569" ;
+      gn:wikipediaArticle <http://fr.wikipedia.org/wiki/%C3%89milie_%28Italie%29> , <http://pt.wikipedia.org/wiki/Emilia> , <http://en.wikipedia.org/wiki/Romagna> , <http://pt.wikipedia.org/wiki/Romanha> , <http://de.wikipedia.org/wiki/Romagna> , <http://fr.wikipedia.org/wiki/Romagne_%28Italie%29> , <http://nl.wikipedia.org/wiki/Romagna> , <http://eml.wikipedia.org/wiki/Rum%C3%A2gna> , <http://it.wikipedia.org/wiki/Emilia> , <http://nl.wikipedia.org/wiki/Emilia_%28Itali%C3%AB%29> , <http://ro.wikipedia.org/wiki/Romagna> , <http://vec.wikipedia.org/wiki/Romagna> , <http://vec.wikipedia.org/wiki/Emi%C5%82ia> , <http://no.wikipedia.org/wiki/Romagna> , <http://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9E%E3%83%BC%E3%83%8B%E3%83%A3> , <http://sv.wikipedia.org/wiki/Romagna> , <http://es.wikipedia.org/wiki/Roma%C3%B1a> , <http://pl.wikipedia.org/wiki/Romania> , <http://eo.wikipedia.org/wiki/Romagna> , <http://es.wikipedia.org/wiki/Emilia> , <http://en.wikipedia.org/wiki/Emilia_%28region_of_Italy%29> , <http://eml.wikipedia.org/wiki/Em%C3%A9gglia> , <http://it.wikipedia.org/wiki/Romagna> , <http://ar.wikipedia.org/wiki/%D8%B1%D9%88%D9%85%D8%A7%D9%86%D9%8A%D8%A7_%28%D9%85%D9%86%D8%B7%D9%82%D8%A9%29> , <http://de.wikipedia.org/wiki/Emilia_%28Region%29> ;
+      wgs84_pos:lat "44.75" ;
+      wgs84_pos:long "11" .
+
+<http://sws.geonames.org/3164604/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3164604/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Veneto> ;
+      gn:alternateName "Regione del Veneto" , "Veneto" , "Venetia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3164604/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3164604/regione-veneto.html> ;
+      gn:name "Regione Veneto" ;
+      gn:officialName "Vénétie"@fr , "Vèneto"@ca , "Veneto"@it , "Veneto" , "Veneto"@en , "Venetië"@nl , "Venetien"@de ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "4912438" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Veneto> ;
+      wgs84_pos:lat "45.5" ;
+      wgs84_pos:long "11.75" .
+
+<http://sws.geonames.org/2523228/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523228/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Sardinia> ;
+      gn:alternateName "Sardinien" , "Sardinia" , "Sardegne" , "Sardénya" , "Sardegna" , "Sardaigne" , "Regione Autonoma della Sardegna" ;
+      gn:childrenFeatures <http://sws.geonames.org/2523228/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/2523228/regione-autonoma-della-sardegna.html> ;
+      gn:name "Regione Autonoma della Sardegna" ;
+      gn:officialName "Sardinien"@de , "Sardinien"@sv , "Sardinia"@en , "Sardinia"@nb , "Sardinië"@nl , "Sardenya"@ca , "Sardegna"@it , "Cerdeña"@es , "Sardaigne"@fr ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1672404" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Sardinia> ;
+      wgs84_pos:lat "40" ;
+      wgs84_pos:long "9" .
+
+<http://sws.geonames.org/3181042/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3181042/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Campania> ;
+      gn:alternateName "Campania" , "Regione Campania" , "Kampanien"@sv ;
+      gn:childrenFeatures <http://sws.geonames.org/3181042/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3181042/regione-campania.html> ;
+      gn:name "Regione Campania" ;
+      gn:officialName "Campania"@it , "Campania"@en , "Kampanien"@de , "Campanië"@nl , "Campània"@ca , "Campanie"@fr ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "5824662" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Campania> ;
+      wgs84_pos:lat "41" ;
+      wgs84_pos:long "14.5" ;
+      foaf:page <http://pleiades.stoa.org/places/991350> .
+
+<http://sws.geonames.org/3174618/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3174618/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Lombardy> ;
+      gn:alternateName "Lombardiet"@sv , "Regione Lombardia" ;
+      gn:childrenFeatures <http://sws.geonames.org/3174618/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3174618/regione-lombardia.html> ;
+      gn:name "Regione Lombardia" ;
+      gn:officialName "Lombardie"@fr , "Lombardije"@nl , "Llombardia"@ca , "Lombardia"@it , "Lombardia" , "Lombardei"@de , "Lombardy"@en ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "9826141" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Lombardy> ;
+      wgs84_pos:lat "45.66667" ;
+      wgs84_pos:long "9.5" .
+
+<http://sws.geonames.org/2523119/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/2523119/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Sicily> ;
+      gn:alternateName "シチリア"@ja , "Σικελία"@el , "Sicilio"@eo , "Sisilia"@lad , "Sisilia"@fi , "Sisilia"@id , "Sicilya"@tr , "Sizilia"@eu , "Sycylia"@pl , "სიცილია"@ka , "Sitsiilia"@et , "صقلیہ"@ur , "Regione Siciliana" , "Сицилія"@uk , "Sicile" , "Sicile"@nrm , "Sícilia"@ang , "Sikiley"@is , "סיציליה"@he , "シチリア島"@ja , "Sicilien"@sv , "Sicilien"@da , "سیسیل"@fa , "Sicílie"@cs , "Sicily" , "Sicilija"@hr , "Sicilija"@sl , "Sicilija"@bs , "Sicilija"@lt , "Siciłia"@vec , "Сицилија"@sr , "Sicilië"@nl , "Sisili"@kw , "西西里岛"@zh , "An tSicil"@ga , "Сицилия"@ru , "Сицилия"@bg , "시칠리아"@ko , "Szicília"@hu , "صقلية"@ar , "Сыцылія"@be , "Sicília"@oc , "Sicília"@pt , "Sicília"@sk , "Regione Autonoma Siciliana" , "Sizilien" , "Sizilien"@lb , "Sicilia"@no , "Sicilia" , "Sicilia"@la , "Sicilia"@io , "Sicilia"@cy , "Sicilia"@ast , "Sicilia"@ro , "Sicilia"@nn , "Sicilia"@pms , "Sicilia"@scn , "Sicilia"@nap , "Sicilia"@es , "Sicilia"@gl , "Sicilia"@lij ;
+      gn:childrenFeatures <http://sws.geonames.org/2523119/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/2523119/regione-autonoma-siciliana.html> ;
+      gn:name "Regione Autonoma Siciliana" ;
+      gn:officialName "Sicile"@fr , "Sizilien"@de , "Sicilia"@it , "Sicily"@en , "Sicília"@ca ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "5042992" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Sicily> ;
+      wgs84_pos:lat "37.75" ;
+      wgs84_pos:long "14.25" ;
+      foaf:page <http://pleiades.stoa.org/places/991353> , <http://pleiades.stoa.org/places/981549> .
+
+<http://sws.geonames.org/3176525/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3176525/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Friuli%E2%80%93Venezia_Giulia> ;
+      gn:alternateName "FVG"@it , "Friuli-Julisch Venetië"@nl ;
+      gn:childrenFeatures <http://sws.geonames.org/3176525/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3176525/regione-autonoma-friuli-venezia-giulia.html> ;
+      gn:name "Regione Autonoma Friuli Venezia Giulia" ;
+      gn:officialName "Friuli Venezia Giulia"@en , "Friuli Venezia Giulia"@it , "Friaul-Venetien"@de , "Frioul-Vénétie julienne"@fr , "Friül - Venècia Júlia"@ca ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "1234079" ;
+      gn:wikipediaArticle <http://en.wikipedia.org/wiki/Friuli%E2%80%93Venezia_Giulia> ;
+      wgs84_pos:lat "46" ;
+      wgs84_pos:long "13" .
+
+<http://sws.geonames.org/3165048/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165048/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Umbria> ;
+      gn:alternateName "Umbria" , "Regione Umbria" , "Umbrien"@sv , "Umbrië"@nl ;
+      gn:childrenFeatures <http://sws.geonames.org/3165048/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3165048/regione-umbria.html> ;
+      gn:name "Regione Umbria" ;
+      gn:officialName "Umbria"@en , "Umbria"@it , "Ombrie"@fr , "Úmbria"@ca , "Umbrien"@de ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "900790" ;
+      gn:wikipediaArticle <http://de.wikipedia.org/wiki/Umbrien> , <http://ar.wikipedia.org/wiki/%D8%A3%D9%88%D9%85%D8%A8%D8%B1%D9%8A%D8%A7> , <http://jv.wikipedia.org/wiki/Umbria> , <http://ca.wikipedia.org/wiki/%C3%9Ambria> , <http://eu.wikipedia.org/wiki/Umbria> , <http://fi.wikipedia.org/wiki/Umbria> , <http://ro.wikipedia.org/wiki/Umbria> , <http://br.wikipedia.org/wiki/Umbria> , <http://he.wikipedia.org/wiki/%D7%90%D7%95%D7%9E%D7%91%D7%A8%D7%99%D7%94> , <http://lad.wikipedia.org/wiki/Umbria> , <http://et.wikipedia.org/wiki/Umbria> , <http://zh.wikipedia.org/wiki/%E7%BF%81%E5%B8%83%E9%87%8C%E4%BA%9A> , <http://an.wikipedia.org/wiki/Umbr%C3%ADa> , <http://id.wikipedia.org/wiki/Umbria> , <http://lt.wikipedia.org/wiki/Umbrija> , <http://sk.wikipedia.org/wiki/Umbria> , <http://cs.wikipedia.org/wiki/Umbrie> , <http://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%B3%E3%83%96%E3%83%AA%E3%82%A2%E5%B7%9E> , <http://pt.wikipedia.org/wiki/%C3%9Ambria> , <http://tr.wikipedia.org/wiki/Umbria> , <http://oc.wikipedia.org/wiki/%C3%93mbria> , <http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%B1%D1%80%D0%B8%D1%8F> , <http://pl.wikipedia.org/wiki/Umbria> , <http://lv.wikipedia.org/wiki/Umbrija> , <http://io.wikipedia.org/wiki/Umbria> , <http://lij.wikipedia.org/wiki/Umb%C3%AFa> , <http://fur.wikipedia.org/wiki/Umbrie> , <http://es.wikipedia.org/wiki/Umbr%C3%ADa> , <http://la.wikipedia.org/wiki/Umbria> , <http://hu.wikipedia.org/wiki/Umbria> , <http://eo.wikipedia.org/wiki/Umbrio> , <http://pam.wikipedia.org/wiki/Umbria> , <http://da.wikipedia.org/wiki/Umbria> , <http://it.wikipedia.org/wiki/Umbria> , <http://scn.wikipedia.org/wiki/Umbria> , <http://pms.wikipedia.org/wiki/Umbria> , <http://nap.wikipedia.org/wiki/Umbria> , <http://frp.wikipedia.org/wiki/Ombrie> , <http://is.wikipedia.org/wiki/%C3%9Ambr%C3%ADa> , <http://co.wikipedia.org/wiki/Umbria> , <http://en.wikipedia.org/wiki/Umbria> , <http://sr.wikipedia.org/wiki/%D0%A3%D0%BC%D0%B1%D1%80%D0%B8%D1%98%D0%B0> , <http://ur.wikipedia.org/wiki/%D8%A7%D9%85%D8%A8%D8%B1%DB%8C%D8%A7> , <http://kw.wikipedia.org/wiki/Umbri> , <http://no.wikipedia.org/wiki/Umbria> , <http://tl.wikipedia.org/wiki/Umbria> , <http://nn.wikipedia.org/wiki/Umbria> , <http://gl.wikipedia.org/wiki/Umbr%C3%ADa_-_Umbria> , <http://ka.wikipedia.org/wiki/%E1%83%A3%E1%83%9B%E1%83%91%E1%83%A0%E1%83%98%E1%83%90> , <http://lb.wikipedia.org/wiki/Umbrien> , <http://vec.wikipedia.org/wiki/Onbria> , <http://bs.wikipedia.org/wiki/Umbrija> , <http://sv.wikipedia.org/wiki/Umbrien> , <http://hr.wikipedia.org/wiki/Umbrija> , <http://uk.wikipedia.org/wiki/%D0%A3%D0%BC%D0%B1%D1%80%D1%96%D1%8F> , <http://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B9%89%E0%B8%99%E0%B8%AD%E0%B8%B8%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%A3%E0%B8%B5%E0%B8%A2> , <http://nl.wikipedia.org/wiki/Umbri%C3%AB> , <http://fr.wikipedia.org/wiki/Ombrie> , <http://sh.wikipedia.org/wiki/Umbrija> , <http://bg.wikipedia.org/wiki/%D0%A3%D0%BC%D0%B1%D1%80%D0%B8%D1%8F> ;
+      wgs84_pos:lat "43" ;
+      wgs84_pos:long "12.5" .
+
+<http://sws.geonames.org/3165361/>
+      a       gn:Feature ;
+      rdfs:isDefinedBy "http://sws.geonames.org/3165361/about.rdf" ;
+      rdfs:seeAlso <http://dbpedia.org/resource/Tuscany> ;
+      gn:alternateName "Toskana"@hr , "Toskana"@is , "Toskana"@lt , "Toskana"@sh , "Toskana"@tr , "Toskana"@bs , "Toskana"@lad , "Toskana"@sl , "Toscan-a"@pms , "Toskánsko"@cs , "Toskánsko"@sk , "Toskania"@pl , "Toskania"@io , "Toscana"@ia , "Toscana"@da , "Toscana"@ca , "Toscana"@eu , "Toscana"@no , "Toscana"@frp , "Toscana"@fi , "Toscana"@pt , "Toscana"@ro , "Toscana"@co , "Toscana"@et , "Toscana"@oc , "Toscana"@es , "Toscana"@gl , "Toscana"@id , "Toscana"@sv , "Toscana"@sw , "Toscana"@kw , "Toszkána"@hu , "Tuscia"@la , "Toscane"@nl , "Tuschèna"@eml , "Toskanio"@eo , "Toscann-a"@lij ;
+      gn:childrenFeatures <http://sws.geonames.org/3165361/contains.rdf> ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:locationMap <http://www.geonames.org/3165361/regione-toscana.html> ;
+      gn:name "Regione Toscana" ;
+      gn:officialName "Toscana"@it , "ტოსკანა"@ka , "Toskana"@de , "Toskāna"@lv , "טוסקנה"@he , "トスカーナ州"@ja , "托斯卡纳"@zh , "Toscane"@fr , "Tuscany"@en , "تسکانہ"@ur , "Таскана"@be , "토스카나 주"@ko , "Тоскана"@uk , "Тоскана"@ru , "Тоскана"@sr , "Тоскана"@bg ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population "3730130" ;
+      gn:wikipediaArticle <http://nn.wikipedia.org/wiki/Toscana> , <http://vec.wikipedia.org/wiki/Toscana> , <http://kw.wikipedia.org/wiki/Toscana> , <http://ia.wikipedia.org/wiki/Toscana> , <http://ur.wikipedia.org/wiki/%D8%AA%D8%B3%DA%A9%D8%A7%D9%86%DB%81> , <http://hu.wikipedia.org/wiki/Toszk%C3%A1na> , <http://lt.wikipedia.org/wiki/Toskana> , <http://el.wikipedia.org/wiki/%CE%A4%CE%BF%CF%83%CE%BA%CE%AC%CE%BD%CE%B7> , <http://oc.wikipedia.org/wiki/Toscana> , <http://cs.wikipedia.org/wiki/Tosk%C3%A1nsko> , <http://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%9D%E1%83%A1%E1%83%99%E1%83%90%E1%83%9C%E1%83%90> , <http://scn.wikipedia.org/wiki/Tuscana> , <http://ro.wikipedia.org/wiki/Toscana> , <http://bs.wikipedia.org/wiki/Toskana> , <http://lij.wikipedia.org/wiki/Toscann-a> , <http://pl.wikipedia.org/wiki/Toskania> , <http://jv.wikipedia.org/wiki/Toscana> , <http://is.wikipedia.org/wiki/Toskana> , <http://sr.wikipedia.org/wiki/%D0%A2%D0%BE%D1%81%D0%BA%D0%B0%D0%BD%D0%B0> , <http://ja.wikipedia.org/wiki/%E3%83%88%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%8A%E5%B7%9E> , <http://sw.wikipedia.org/wiki/Toscana> , <http://sv.wikipedia.org/wiki/Toscana> , <http://pms.wikipedia.org/wiki/Toscan-a> , <http://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%81%D0%BA%D0%B0%D0%BD%D0%B0> , <http://lad.wikipedia.org/wiki/Toskana> , <http://sh.wikipedia.org/wiki/Toskana> , <http://frp.wikipedia.org/wiki/Toscana> , <http://eo.wikipedia.org/wiki/Toskanio> , <http://io.wikipedia.org/wiki/Toskania> , <http://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%AA%E0%B9%80%E0%B8%84%E0%B8%99%E0%B8%B5> , <http://et.wikipedia.org/wiki/Toscana> , <http://ca.wikipedia.org/wiki/Toscana> , <http://es.wikipedia.org/wiki/Toscana> , <http://fr.wikipedia.org/wiki/Toscane> , <http://no.wikipedia.org/wiki/Toscana> , <http://lv.wikipedia.org/wiki/Tosk%C4%81na> , <http://he.wikipedia.org/wiki/%D7%98%D7%95%D7%A1%D7%A7%D7%A0%D7%94> , <http://co.wikipedia.org/wiki/Toscana> , <http://fur.wikipedia.org/wiki/Toscane> , <http://de.wikipedia.org/wiki/Toskana> , <http://nl.wikipedia.org/wiki/Toscane> , <http://ko.wikipedia.org/wiki/%ED%86%A0%EC%8A%A4%EC%B9%B4%EB%82%98_%EC%A3%BC> , <http://eml.wikipedia.org/wiki/Tusch%C3%A8na> , <http://da.wikipedia.org/wiki/Toscana> , <http://ga.wikipedia.org/wiki/An_Tusc%C3%A1in> , <http://bg.wikipedia.org/wiki/%D0%A2%D0%BE%D1%81%D0%BA%D0%B0%D0%BD%D0%B0> , <http://en.wikipedia.org/wiki/Tuscany> , <http://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%B3%D9%83%D8%A7%D9%86%D8%A7> , <http://la.wikipedia.org/wiki/Tuscia> , <http://sk.wikipedia.org/wiki/Tosk%C3%A1nsko> , <http://pt.wikipedia.org/wiki/Toscana> , <http://eu.wikipedia.org/wiki/Toskana> , <http://tr.wikipedia.org/wiki/Toskana> , <http://br.wikipedia.org/wiki/Toskana> , <http://uk.wikipedia.org/wiki/%D0%A2%D0%BE%D1%81%D0%BA%D0%B0%D0%BD%D0%B0> , <http://zh.wikipedia.org/wiki/%E6%89%98%E6%96%AF%E5%8D%A1%E7%BA%B3> , <http://fi.wikipedia.org/wiki/Toscana> , <http://it.wikipedia.org/wiki/Toscana> , <http://gl.wikipedia.org/wiki/Toscana> , <http://an.wikipedia.org/wiki/Toscana> , <http://lb.wikipedia.org/wiki/Toskana> , <http://cy.wikipedia.org/wiki/Toscana> , <http://pam.wikipedia.org/wiki/Tuscany> , <http://sl.wikipedia.org/wiki/Toskana> , <http://hr.wikipedia.org/wiki/Toskana> , <http://id.wikipedia.org/wiki/Toscana> ;
+      wgs84_pos:lat "43.41667" ;
+      wgs84_pos:long "11" .

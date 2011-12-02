@@ -1,0 +1,136 @@
+
+CONSTRUCT {
+  ?region_uri rdf:type italy:Region .
+  ?region_uri rdf:type ?region_type .
+  ?region_uri rdfs:label ?region_label .
+  ?region_uri rdfs:label ?region_label_en .
+  ?region_uri italy:contains ?province_uri .
+  ?region_uri geo:lat ?region_lat .
+  ?region_uri geo:long ?region_long .
+  ?region_uri geonames:population ?region_population .
+  ?region_uri owl:sameAs ?region_see_also .
+  ?region_uri owl:sameAs ?r .
+  ?region_uri geonames:countryCode ?region_country_code .
+  ?region_uri geonames:featureClass ?region_feature_class .
+  ?region_uri geonames:featureCode ?region_feature_code .
+  ?region_uri geonames:parentCountry ?region_parent_country .
+  ?region_uri geonames:parentFeature ?region_parent_feature .
+  ?region_uri foaf:page ?region_wikipedia_article .
+  ?region_uri eurostat:regionCode ?region_nuts_code .
+  
+  ?province_uri rdf:type italy:Province .
+  ?province_uri rdf:type ?province_type .
+  ?province_uri rdfs:label ?province_label .
+#  ?province_uri italy:contains ?comune_uri .
+  ?province_uri italy:isContained ?region_uri .
+  ?province_uri geo:lat ?province_lat .
+  ?province_uri geo:long ?province_long .
+  ?province_uri geonames:population ?province_population .
+  ?province_uri owl:sameAs ?province_see_also .
+  ?province_uri owl:sameAs ?p .
+  ?province_uri geonames:countryCode ?province_country_code .
+  ?province_uri geonames:featureClass ?province_feature_class .
+  ?province_uri geonames:featureCode ?province_feature_code .  
+  ?province_uri geonames:parentCountry ?province_parent_country .
+  ?province_uri geonames:parentFeature ?province_parent_feature .
+  ?province_uri foaf:page ?province_wikipedia_article .
+  ?province_uri eurostat:regionCode ?province_nuts_code .
+
+#  ?comune_uri rdf:type italy:Comune .
+#  ?comune_uri rdfs:label ?comune .
+#  ?comune_uri italy:isContained ?province_uri .
+} WHERE {
+  ?r geonames:featureCode geonames:A.ADM1 .
+  ?p geonames:featureCode geonames:A.ADM2 .
+  ?c geonames:featureCode geonames:A.ADM3 .
+  ?p geonames:parentADM1 ?r .
+  ?c geonames:parentADM2 ?p .
+
+  ?r geonames:name ?region .
+  ?p geonames:name ?province .
+  ?c geonames:name ?comune .
+
+  ?r wgs84_pos:lat ?region_lat .
+  ?r wgs84_pos:long ?region_long .
+  ?r rdf:type ?region_type .
+
+  ?p wgs84_pos:lat ?province_lat .
+  ?p wgs84_pos:long ?province_long .
+  ?p rdf:type ?province_type .
+
+  ?c wgs84_pos:lat ?comune_lat .
+  ?c wgs84_pos:long ?comune_long .
+  ?c rdf:type ?comune_type .
+  
+  ?r geonames:population ?region_population .
+  ?p geonames:population ?province_population .
+  ?c geonames:population ?comune_population .
+
+  OPTIONAL {
+    ?r rdfs:seeAlso ?region_see_also .
+  }
+  OPTIONAL {
+    ?p rdfs:seeAlso ?province_see_also .
+  }
+  OPTIONAl {
+    ?c rdfs:seeAlso ?comune_see_also .
+  }
+
+  ?r geonames:countryCode ?region_country_code .
+  ?r geonames:featureClass ?region_feature_class .
+  ?r geonames:featureCode ?region_feature_code .
+  ?r geonames:parentCountry ?region_parent_country .
+  ?r geonames:parentFeature ?region_parent_feature .
+  OPTIONAL {
+    ?r geonames:wikipediaArticle ?region_wikipedia_article .
+    FILTER strstarts ( str ( ?region_wikipedia_article ), "http://en." ) .
+  }
+  ?p geonames:countryCode ?province_country_code .
+  ?p geonames:featureClass ?province_feature_class .
+  ?p geonames:featureCode ?province_feature_code .
+  ?p geonames:parentCountry ?province_parent_country .
+  ?p geonames:parentFeature ?province_parent_feature .
+  OPTIONAL {
+    ?p geonames:wikipediaArticle ?province_wikipedia_article .
+    FILTER strstarts ( str ( ?province_wikipedia_article ), "http://en." ) .
+  }
+  ?c geonames:countryCode ?comune_country_code .
+  ?c geonames:featureClass ?comune_feature_class .
+  ?c geonames:featureCode ?comune_feature_code .
+  ?c geonames:parentCountry ?comune_parent_country .
+  ?c geonames:parentFeature ?comune_parent_feature .
+  OPTIONAL {
+    ?c geonames:wikipediaArticle ?comune_wikipedia_article .
+    FILTER strstarts ( str ( ?comune_wikipedia_article ), "http://en." ) .
+  }
+
+
+  ?r geonames:officialName ?region_official_name .
+  FILTER langmatches( lang(?region_official_name), "en") .
+  BIND ( ?region_official_name AS ?region_label_en ) 
+
+  BIND ( strlang( java:replace( ?province, "Provincia di |Province of ", "" ), "it" ) AS ?province_label )
+  BIND ( strlang( java:replace( java:replace( ?region, "Region autonoma della |Regione Autonoma |Regione ", "" ), "Siciliana", "Sicilia" ), "it" ) AS ?region_label )
+  
+  BIND ( java:replace( java:replace( java:replace ( lcase( ?region ), "regione autonoma della |regione autonoma |regione ", "" ), " ", "_" ), "siciliana", "sicilia" ) AS ?region_path )
+  BIND ( java:replace( java:replace ( lcase( ?province ), "province of |provincia di ", "" ), " ", "_" ) AS ?province_path )
+  BIND ( java:replace( lcase( ?comune ), " ", "_" ) AS ?comune_path )
+  
+  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path ) ) AS ?region_uri )
+  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?province_path ) ) AS ?province_uri )
+  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?comune_path ) ) AS ?comune_uri )
+#  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path, '/', ?province_path ) ) AS ?province_uri )
+#  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path, '/', ?province_path, '/', ?comune_path ) ) AS ?comune_uri )
+  
+  OPTIONAL {
+    ?eurostat_region rdfs:seeAlso ?region_uri .
+    ?eurostat_region eurostat:regionCode ?region_nuts_code .
+  }
+  
+  OPTIONAL {
+    ?eurostat_province rdfs:seeAlso ?province_uri .
+    ?eurostat_province eurostat:regionCode ?province_nuts_code .
+  }
+  
+}
+ORDER BY ?region ?province ?comune

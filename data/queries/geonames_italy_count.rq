@@ -1,0 +1,17 @@
+PREFIX rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:       <http://www.w3.org/2002/07/owl#>
+PREFIX foaf:      <http://xmlns.com/foaf/0.1/>
+PREFIX cc:        <http://creativecommons.org/ns#>
+PREFIX dcterms:    <http://purl.org/dc/terms/>
+
+PREFIX geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames:  <http://www.geonames.org/ontology#>
+
+
+SELECT (COUNT(?r) AS ?regioni) (COUNT(?p) AS ?provinces) (COUNT(?c) AS ?comuni) 
+{
+    { ?r geonames:featureCode geonames:A.ADM1 . } UNION
+    { ?p geonames:featureCode geonames:A.ADM2 . } UNION
+    { ?c geonames:featureCode geonames:A.ADM3 . } 
+}
