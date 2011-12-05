@@ -29,7 +29,10 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.StringReader;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -74,9 +77,10 @@ public class GeonamesItaly {
 	
 	public static void main(String[] args) throws IOException {
 		// split() ;
+		split_by_countries(countries) ;
 		// render() ;
 
-		generate_italy_vocabulary() ;
+		// generate_italy_vocabulary() ;
 	}
 
 	public static void generate_italy_vocabulary() throws IOException {
@@ -131,6 +135,40 @@ public class GeonamesItaly {
 		result = result.replaceAll("regione ", "") ;
 		result = result.replaceAll(" - ", "-") ;
 		return result.replaceAll(" ", "_") ;
+	}
+	
+	static Map<String,String> countries = new HashMap<String,String> ();
+	{
+		countries.put("http://sws.geonames.org/2635167/", "united-kingdom");		
+		countries.put("http://sws.geonames.org/3017382/", "france");		
+		countries.put("http://sws.geonames.org/2921044/", "germany");
+		countries.put("http://sws.geonames.org/3175395/", "italy");
+	}
+
+	public static void split_by_countries (Map<String, String> countries) throws IOException {
+		Map<String, PrintWriter> out = new HashMap<String, PrintWriter>();
+		for (String key : countries.keySet()) {
+			String country = countries.get(key);
+			PrintWriter output = new PrintWriter(DATA_GEONAMES_PATH + "geonames-" + country + ".rdf.txt");
+			out.put(country, output);
+		}
+		
+		BufferedReader in = new BufferedReader(new FileReader("/home/castagna/Desktop/geonames/all-geonames-rdf.txt"));
+		String str;
+		while ((str = in.readLine()) != null) {
+			for (String key : countries.keySet()) {
+				if ( str.contains(key) ) {
+					PrintWriter output = out.get(countries.get(key));
+					System.out.println(str);
+					// output.println(str);
+				}
+			}
+		}
+		
+		for (String key : countries.keySet()) {
+			out.get(key).close();
+		}
+
 	}
 	
 	public static void split() throws IOException {
