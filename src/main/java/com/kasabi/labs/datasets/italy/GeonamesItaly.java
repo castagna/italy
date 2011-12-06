@@ -77,6 +77,13 @@ public class GeonamesItaly {
 	
 	public static void main(String[] args) throws IOException {
 		// split() ;
+		
+		Map<String,String> countries = new HashMap<String,String> ();
+		countries.put("http://sws.geonames.org/2635167/", "united-kingdom");		
+		countries.put("http://sws.geonames.org/3017382/", "france");		
+		countries.put("http://sws.geonames.org/2921044/", "germany");
+		countries.put("http://sws.geonames.org/3175395/", "italy");
+		
 		split_by_countries(countries) ;
 		// render() ;
 
@@ -137,14 +144,6 @@ public class GeonamesItaly {
 		return result.replaceAll(" ", "_") ;
 	}
 	
-	static Map<String,String> countries = new HashMap<String,String> ();
-	{
-		countries.put("http://sws.geonames.org/2635167/", "united-kingdom");		
-		countries.put("http://sws.geonames.org/3017382/", "france");		
-		countries.put("http://sws.geonames.org/2921044/", "germany");
-		countries.put("http://sws.geonames.org/3175395/", "italy");
-	}
-
 	public static void split_by_countries (Map<String, String> countries) throws IOException {
 		Map<String, PrintWriter> out = new HashMap<String, PrintWriter>();
 		for (String key : countries.keySet()) {
@@ -153,22 +152,22 @@ public class GeonamesItaly {
 			out.put(country, output);
 		}
 		
-		BufferedReader in = new BufferedReader(new FileReader("/home/castagna/Desktop/geonames/all-geonames-rdf.txt"));
+		BufferedReader in = new BufferedReader(new FileReader("/opt/datasets/geonames/all-geonames-rdf.txt"));
 		String str;
 		while ((str = in.readLine()) != null) {
-			for (String key : countries.keySet()) {
-				if ( str.contains(key) ) {
-					PrintWriter output = out.get(countries.get(key));
-					System.out.println(str);
-					// output.println(str);
+			if ( str.startsWith("<") ) {
+				for (String key : countries.keySet()) {
+					if ( str.contains(key) ) {
+						PrintWriter output = out.get(countries.get(key));
+						output.println(str);
+					}
 				}
-			}
+			}			
 		}
 		
 		for (String key : countries.keySet()) {
-			out.get(key).close();
+			out.get(countries.get(key)).close();
 		}
-
 	}
 	
 	public static void split() throws IOException {

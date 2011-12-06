@@ -18,7 +18,7 @@
 # see also: http://semanticweb.org/wiki/VoiD#Examples_in_the_Wild
 # see also: http://www.w3.org/TR/void/#discovery
 
-italy:dataset         
+italy:dataset
 
     a void:Dataset ;
     a void:Linkset ;

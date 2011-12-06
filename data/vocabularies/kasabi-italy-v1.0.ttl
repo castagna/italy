@@ -14,7 +14,7 @@
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix java:    <java:com.kasabi.labs.arq.> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
-@prefix italy:   <http://kasabi.com/dataset/italy#> .
+@prefix italy:   <http://data.kasabi.com/dataset/italy/> .
 @prefix cc:      <http://creativecommons.org/ns#> .
 
 italy:ancona
@@ -662,7 +662,7 @@ italy:savona
       geo:lat "44.3"^^xsd:float ;
       geo:long "8.26667"^^xsd:float .
 
-<http://kasabi.com/dataset/italy#valled'aosta>
+<http://data.kasabi.com/dataset/italy/valled'aosta>
       italy:iso3166-2 "IT-23" .
 
 italy:latina
@@ -738,7 +738,7 @@ italy:terni
       geo:lat "42.68333"^^xsd:float ;
       geo:long "12.31667"^^xsd:float .
 
-<http://kasabi.com/dataset/italy#valle_d’aosta>
+<http://data.kasabi.com/dataset/italy/valle_d’aosta>
       a       gn:Feature , italy:Region ;
       rdfs:label "Aosta Valley"@en , "Valle d’Aosta"@it ;
       italy:contains italy:aosta ;
@@ -965,7 +965,7 @@ italy:salerno
       geo:lat "40.45"^^xsd:float ;
       geo:long "15.26667"^^xsd:float .
 
-<http://kasabi.com/dataset/italy#l’aquila>
+<http://data.kasabi.com/dataset/italy/l’aquila>
       a       gn:Feature , italy:Province ;
       rdfs:label "L’Aquila"@it ;
       italy:isContained italy:abruzzo ;
@@ -1355,7 +1355,7 @@ italy:pavia
       geo:lat "45.11667"^^xsd:float ;
       geo:long "9.13333"^^xsd:float .
 
-<http://kasabi.com/dataset/italy#l'aquila>
+<http://data.kasabi.com/dataset/italy/l'aquila>
       italy:iso3166-2 "IT-AQ" .
 
 italy:padova
@@ -1427,7 +1427,7 @@ italy:abruzzo
       a       gn:Feature , italy:Region ;
       rdfs:label "Abruzzo"@en , "Abruzzo"@it ;
       eurostat:regionCode "ITF1" ;
-      italy:contains italy:pescara , italy:chieti , italy:teramo , <http://kasabi.com/dataset/italy#l’aquila> ;
+      italy:contains italy:pescara , italy:chieti , italy:teramo , <http://data.kasabi.com/dataset/italy/l’aquila> ;
       italy:iso3166-2 "IT-65" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -1572,7 +1572,7 @@ italy:aosta
       a       gn:Feature , italy:Province ;
       rdfs:label "Aosta"@it ;
       eurostat:regionCode "ITF20" ;
-      italy:isContained <http://kasabi.com/dataset/italy#valle_d’aosta> ;
+      italy:isContained <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
       italy:iso3166-2 "IT-AO" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -1670,7 +1670,7 @@ italy:sicilia
       geo:lat "37.75"^^xsd:float ;
       geo:long "14.25"^^xsd:float ;
       foaf:isPrimaryTopicOf
-              <http://kasabi.com/dataset/italy/sicilia.html> ;
+              <http://data.kasabi.com/dataset/italy/sicilia.html> ;
       foaf:page <http://en.wikipedia.org/wiki/Sicily> .
 
 italy:alessandria
