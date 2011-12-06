@@ -6,5 +6,5 @@ CONSTRUCT {
     ?s rdfs:label ?place .
     FILTER strstarts ( ?code, "IT-" ) .
     BIND ( java:replace( lcase( ?place ), " ", "" ) AS ?place_path )
-    BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?place_path ) ) AS ?place_uri )
+    BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?place_path ) ) AS ?place_uri )
 }

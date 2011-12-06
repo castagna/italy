@@ -1,7 +1,7 @@
 @prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix nuts:    <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/> .
-@prefix italy:   <http://kasabi.com/dataset/italy#> .
+@prefix italy:   <http://data.kasabi.com/dataset/italy/> .
 
 nuts:ITC1
       a       eurostat:NUTSRegion ;
@@ -68,6 +68,7 @@ nuts:ITF34
 nuts:ITZZZ
       a       eurostat:NUTSRegion ;
       rdfs:label "ITZZZ - Extra-Regio" ;
+      rdfs:seeAlso italy:extra-regio ;
       eurostat:hasParentRegion
               nuts:ITZZ ;
       eurostat:level 3 ;
@@ -129,6 +130,7 @@ nuts:ITE1A
 nuts:ITG
       a       eurostat:NUTSRegion ;
       rdfs:label "ITG - ISOLE" ;
+      rdfs:seeAlso italy:isole ;
       eurostat:hasParentRegion
               nuts:IT ;
       eurostat:hasSubRegion
@@ -140,7 +142,7 @@ nuts:ITG
 nuts:ITC20
       a       eurostat:NUTSRegion ;
       rdfs:label "ITC20 - Valle d'Aosta/Vallée d'Aoste" ;
-      ## rdfs:seeAlso italy:valle_d’aosta ; ## TODO
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
       eurostat:hasParentRegion
               nuts:ITC2 ;
       eurostat:level 3 ;
@@ -222,7 +224,7 @@ nuts:ITE31
 nuts:ITD53
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD53 - Reggio nell'Emilia" ;
-      rdfs:seeAlso italy:reggio_emilia ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/reggio_nell'emilia> ;
       eurostat:hasParentRegion
               nuts:ITD5 ;
       eurostat:level 3 ;
@@ -262,7 +264,7 @@ nuts:ITF43
 nuts:ITC2
       a       eurostat:NUTSRegion ;
       rdfs:label "ITC2 - Valle d'Aosta/Vallée d'Aoste" ;
-      ## rdfs:seeAlso italy:valle_d'aosta ; ## TODO
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
       eurostat:hasParentRegion
               nuts:ITC ;
       eurostat:hasSubRegion
@@ -472,7 +474,7 @@ nuts:ITE17
 nuts:ITD10
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD10 - Bolzano-Bozen" ;
-      rdfs:seeAlso italy:bolzano ;
+      rdfs:seeAlso italy:bolzano-bozen ;
       eurostat:hasParentRegion
               nuts:ITD1 ;
       eurostat:level 3 ;
@@ -602,6 +604,7 @@ nuts:ITC17
 nuts:ITZ
       a       eurostat:NUTSRegion ;
       rdfs:label "ITZ - EXTRA-REGIO" ;
+      rdfs:seeAlso italy:extra-regio ;
       eurostat:hasParentRegion
               nuts:IT ;
       eurostat:hasSubRegion
@@ -847,7 +850,7 @@ nuts:ITE45
 nuts:ITD1
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD1 - Provincia Autonoma Bolzano/Bozen" ;
-      rdfs:seeAlso <http://kasabi.com/dataset/italy#autonoma_bolzano/bozen> ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/autonoma_bolzano/bozen> ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion
@@ -1001,7 +1004,7 @@ nuts:ITG17
 nuts:ITD2
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD2 - Provincia Autonoma Trento" ;
-      rdfs:seeAlso italy:trento ;
+      rdfs:seeAlso italy:autonoma_trento ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion
@@ -1075,6 +1078,7 @@ nuts:ITF6
 nuts:ITZZ
       a       eurostat:NUTSRegion ;
       rdfs:label "ITZZ - Extra-Regio" ;
+      rdfs:seeAlso italy:extra-regio ;
       eurostat:hasParentRegion
               nuts:ITZ ;
       eurostat:hasSubRegion
@@ -1204,7 +1208,7 @@ nuts:ITF12
 nuts:ITE
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE - CENTRO (I)" ;
-      rdfs:seeAlso <http://kasabi.com/dataset/italy#centro_(i)> ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/centro_(i)> ;
       eurostat:hasParentRegion
               nuts:IT ;
       eurostat:hasSubRegion
@@ -1364,7 +1368,7 @@ nuts:ITG1
 nuts:ITF65
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF65 - Reggio di Calabria" ;
-      rdfs:seeAlso italy:reggio_calabria ;
+      rdfs:seeAlso italy:reggio_di_calabria ;
       eurostat:hasParentRegion
               nuts:ITF6 ;
       eurostat:level 3 ;
@@ -1396,7 +1400,7 @@ nuts:ITE13
 nuts:ITF11
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF11 - L'Aquila" ;
-      rdfs:seeAlso <http://kasabi.com/dataset/italy#l'aquila> ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/l'aquila> ;
       eurostat:hasParentRegion
               nuts:ITF1 ;
       eurostat:level 3 ;

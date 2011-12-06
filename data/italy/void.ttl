@@ -1,31 +1,30 @@
-@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix foaf:      <http://xmlns.com/foaf/0.1/> .
-@prefix geonames:  <http://www.geonames.org/ontology#> .
 @prefix dcterms:   <http://purl.org/dc/terms/> .
-@prefix gn:        <http://www.geonames.org/ontology#> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix java:      <java:com.kasabi.labs.arq.> .
-@prefix italy:     <http://kasabi.com/dataset/italy#> .
+@prefix italy:     <http://data.kasabi.com/dataset/italy/> .
+@prefix kasabi:    <http://data.kasabi.com/dataset/> .
 @prefix cc:        <http://creativecommons.org/ns#> .
 @prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
 @prefix void:      <http://rdfs.org/ns/void#> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
 
 
 # Using the VoID vocabulary, see: http://www.w3.org/TR/void/
 # see also: http://semanticweb.org/wiki/VoiD#Examples_in_the_Wild
 # see also: http://www.w3.org/TR/void/#discovery
 
-italy:dataset
+kasabi:italy
 
     a void:Dataset ;
     a void:Linkset ;
 
-    foaf:homepage <https://github.com/castagna/italy> ; # this is temporary, it will move elsewhere...
+    foaf:homepage <http://kasabi.com/dataset/italy> ;
+    foaf:page <http://data.kasabi.com/dataset/italy> ;
+    foaf:page <https://github.com/castagna/italy> ;
     foaf:page <http://kasabi.github.com/italy/> ;
-    foaf:page <http://kasabi.com/dataset/italy/> ;
 
     dcterms:title "Italy - regions, provinces and municipalities."@en ;
     dcterms:title "Italia - regioni, province e comuni."@it ;
@@ -57,12 +56,13 @@ italy:dataset
     void:feature <http://www.w3.org/ns/formats/Turtle> ;
     void:feature italy:etags ;
 
-    void:sparqlEndpoint <http://kasabi.com/datasets/italy/sparql> ;
-    
+    # void:sparqlEndpoint <http://kasabi.com/datasets/italy/sparql> ;
+
     void:dataDump <https://raw.github.com/castagna/italy/master/data/vocabularies/kasabi-italy-v1.0.ttl> ;
 
     void:rootResource italy:abruzzo ;
-    void:rootResource italy:valle_d’aosta ;
+    # void:rootResource italy:valle_d’aosta ;
+    void:rootResource <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
     void:rootResource italy:basilicata ;
     void:rootResource italy:calabria ;
     void:rootResource italy:campania ;
@@ -85,26 +85,26 @@ italy:dataset
     void:exampleResource italy:sicilia ;
     void:exampleResource italy:milano ;
     void:exampleResource italy:roma ;
-    
+
     # see: http://www.w3.org/TR/void/#lookup
     # void:uriLookupEndpoint <http://kasabi.com/dataset/italy/?q=> ;
-    
+
     # see: http://www.w3.org/TR/void/#opensearch
     # void:openSearchDescription <http://kasabi.com/dataset/italy/opensearch.xml> ;
-    
-    void:uriSpace "http://kasabi.com/dataset/italy/" ;
-    
+
+    void:uriSpace "http://data.kasabi.com/dataset/italy/" ;
+
     void:vocabulary <http://xmlns.com/foaf/0.1/> ;
     void:vocabulary <http://www.w3.org/2003/01/geo/wgs84_pos#> ;
     void:vocabulary <http://www.geonames.org/ontology#> ;
-    void:vocabulary dcterms:  <http://purl.org/dc/terms/> ;
+    void:vocabulary <http://purl.org/dc/terms/> ;
     void:vocabulary <http://www.w3.org/2000/01/rdf-schema#> ;
     void:vocabulary <http://www.w3.org/2002/07/owl#> ;
     void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
     void:vocabulary <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> ;
     void:vocabulary <http://rdfs.org/ns/void#> ;
-    
-    // see also: http://code.google.com/p/void-impl/wiki/SPARQLQueriesForStatistics
+
+    # see also: http://code.google.com/p/void-impl/wiki/SPARQLQueriesForStatistics
     void:triples "1911"^^xsd:integer ;
     void:entities "130"^^xsd:integer ;
     void:classes "10"^^xsd:integer ;
@@ -143,44 +143,24 @@ italy:links2dbpedia
     void:triples 130 ;
     .
 
-italy:abruzzo void:inDataset italy:dataset .
-italy:valle_d’aosta void:inDataset italy:dataset .
-italy:basilicata void:inDataset italy:dataset .
-italy:calabria void:inDataset italy:dataset .
-italy:campania void:inDataset italy:dataset .
-italy:emilia-romagna void:inDataset italy:dataset .
-italy:friuli-venezia_giulia void:inDataset italy:dataset .
-italy:lazio void:inDataset italy:dataset .
-italy:liguria void:inDataset italy:dataset .
-italy:lombardia void:inDataset italy:dataset .
-italy:marche void:inDataset italy:dataset .
-italy:molise void:inDataset italy:dataset .
-italy:piemonte void:inDataset italy:dataset .
-italy:puglia void:inDataset italy:dataset .
-italy:sardegna void:inDataset italy:dataset .
-italy:sicilia void:inDataset italy:dataset .
-italy:trentino-alto_adige void:inDataset italy:dataset .
-italy:toscana void:inDataset italy:dataset .
-italy:umbria void:inDataset italy:dataset .
-italy:veneto void:inDataset italy:dataset .
-
-italy:aosta eurostat:regionCode "ITF20" .
-italy:lazio rdfs:label "Lazio"@en .
-
-italy:sicilia
-    owl:sameAs <http://dbpedia.org/resource/Sicilia> ;
-    owl:sameAs <http://sws.geonames.org/2523119/> ;
-    owl:sameAs <http://sw.opencyc.org/concept/Mx4rvVifXpwpEbGdrcN5Y29ycA> ;
-    owl:sameAs <http://rdf.freebase.com/ns/m/06w92> ;
-    owl:sameAs <http://rdf.freebase.com/ns/en.sicily> ;
-    owl:sameAs <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000036d22> ;
-    owl:sameAs <http://www4.wiwiss.fu-berlin.de/eurostat/page/regions/Sicilia> ;
-    owl:sameAs <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/ITG1> ;
-    owl:sameAs <http://data.nytimes.com/66897629118838755101> ;
-    owl:sameAs <http://yago-knowledge.org/resource/Sicily> ;
-    foaf:page <http://en.wikipedia.org/wiki/Sicily> ;
-    foaf:isPrimaryTopicOf <http://kasabi.com/dataset/italy/sicilia.html> ; ## ???
-    rdfs:seeAlso <urn:/wikipedia/en_title:Sicily> ;
-    rdfs:seeAlso <urn:/wikipedia/it_title:Sicilia> ;
-    rdfs:seeAlso <http://www.w3.org/2006/03/wn/wn20/instances/wordsense-Sicily-noun-2.rdf> ;
-    .
+italy:abruzzo void:inDataset kasabi:italy .
+<http://data.kasabi.com/dataset/italy/valle_d’aosta> void:inDataset kasabi:italy .
+# italy:valle_d’aosta void:inDataset kasabi:italy .
+italy:basilicata void:inDataset kasabi:italy .
+italy:calabria void:inDataset kasabi:italy .
+italy:campania void:inDataset kasabi:italy .
+italy:emilia-romagna void:inDataset kasabi:italy .
+italy:friuli-venezia_giulia void:inDataset kasabi:italy .
+italy:lazio void:inDataset kasabi:italy .
+italy:liguria void:inDataset kasabi:italy .
+italy:lombardia void:inDataset kasabi:italy .
+italy:marche void:inDataset kasabi:italy .
+italy:molise void:inDataset kasabi:italy .
+italy:piemonte void:inDataset kasabi:italy .
+italy:puglia void:inDataset kasabi:italy .
+italy:sardegna void:inDataset kasabi:italy .
+italy:sicilia void:inDataset kasabi:italy .
+italy:trentino-alto_adige void:inDataset kasabi:italy .
+italy:toscana void:inDataset kasabi:italy .
+italy:umbria void:inDataset kasabi:italy .
+italy:veneto void:inDataset kasabi:italy .

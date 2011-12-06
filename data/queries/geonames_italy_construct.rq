@@ -11,7 +11,7 @@ PREFIX geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geonames:  <http://www.geonames.org/ontology#>
 PREFIX eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#>
 PREFIX nuts:      <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/>
-PREFIX italy:     <http://kasabi.com/dataset/italy#>
+PREFIX italy:     <http://data.kasabi.com/dataset/italy/>
 PREFIX java:      <java:com.kasabi.labs.arq.>
 
 
@@ -144,11 +144,11 @@ CONSTRUCT {
   BIND ( java:replace( java:replace ( lcase( ?province ), "province of |provincia di ", "" ), " ", "_" ) AS ?province_path )
   BIND ( java:replace( lcase( ?comune ), " ", "_" ) AS ?comune_path )
   
-  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path ) ) AS ?region_uri )
-  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?province_path ) ) AS ?province_uri )
-  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?comune_path ) ) AS ?comune_uri )
-#  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path, '/', ?province_path ) ) AS ?province_uri )
-#  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path, '/', ?province_path, '/', ?comune_path ) ) AS ?comune_uri )
+  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path ) ) AS ?region_uri )
+  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?province_path ) ) AS ?province_uri )
+  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?comune_path ) ) AS ?comune_uri )
+#  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path, '/', ?province_path ) ) AS ?province_uri )
+#  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path, '/', ?province_path, '/', ?comune_path ) ) AS ?comune_uri )
   
   OPTIONAL {
     ?eurostat_region rdfs:seeAlso ?region_uri .
@@ -160,6 +160,9 @@ CONSTRUCT {
     ?eurostat_province eurostat:regionCode ?province_nuts_code .
   }
 
+#
+#  This goes terribly slow...
+#
 #  OPTIONAL {
 #    ?geonames_region_uri geonames:name ?iso_region_label .
 #    ?iso_region rdfs:label ?iso_region_label .

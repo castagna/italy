@@ -128,11 +128,11 @@ CONSTRUCT {
   BIND ( java:replace( java:replace ( lcase( ?province ), "province of |provincia di ", "" ), " ", "_" ) AS ?province_path )
   BIND ( java:replace( lcase( ?comune ), " ", "_" ) AS ?comune_path )
   
-  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path ) ) AS ?region_uri )
-  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?province_path ) ) AS ?province_uri )
-  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?comune_path ) ) AS ?comune_uri )
-#  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path, '/', ?province_path ) ) AS ?province_uri )
-#  BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?region_path, '/', ?province_path, '/', ?comune_path ) ) AS ?comune_uri )
+  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path ) ) AS ?region_uri )
+  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?province_path ) ) AS ?province_uri )
+  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?comune_path ) ) AS ?comune_uri )
+#  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path, '/', ?province_path ) ) AS ?province_uri )
+#  BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path, '/', ?province_path, '/', ?comune_path ) ) AS ?comune_uri )
   
   OPTIONAL {
     ?eurostat_region rdfs:seeAlso ?region_uri .

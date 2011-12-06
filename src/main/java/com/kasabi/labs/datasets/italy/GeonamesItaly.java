@@ -18,6 +18,7 @@
 
 package com.kasabi.labs.datasets.italy;
 
+import static com.kasabi.labs.datasets.Constants.DATA_ITALY_PATH;
 import static com.kasabi.labs.datasets.Constants.DATA_EUROSTAT_PATH;
 import static com.kasabi.labs.datasets.Constants.DATA_GEONAMES_PATH;
 import static com.kasabi.labs.datasets.Constants.QUERIES_PATH;
@@ -67,27 +68,21 @@ public class GeonamesItaly {
 	
 	// additional data to merge|add
 	public static final File[] merge = {
-		new File(DATA_GEONAMES_PATH + "geonames-italy-merge.ttl"),
+		new File(DATA_ITALY_PATH, "void.ttl"),
+		new File(DATA_ITALY_PATH, "italy-merge.ttl"),
+		new File(DATA_EUROSTAT_PATH, "eurostat-nuts2008-italy.ttl"),
 	};
 
 	// stuff to be removed from the generated dataset
 	public static final File[] remove = {
-		new File(DATA_GEONAMES_PATH + "geonames-italy-remove.ttl"),
+		new File(DATA_ITALY_PATH, "italy-remove.ttl"),
 	};
 	
 	public static void main(String[] args) throws IOException {
 		// split() ;
-		
-		Map<String,String> countries = new HashMap<String,String> ();
-		countries.put("http://sws.geonames.org/2635167/", "united-kingdom");		
-		countries.put("http://sws.geonames.org/3017382/", "france");		
-		countries.put("http://sws.geonames.org/2921044/", "germany");
-		countries.put("http://sws.geonames.org/3175395/", "italy");
-		
-		split_by_countries(countries) ;
+		// split_by_countries() ;
 		// render() ;
-
-		// generate_italy_vocabulary() ;
+		generate_italy_vocabulary() ;
 	}
 
 	public static void generate_italy_vocabulary() throws IOException {
@@ -96,7 +91,7 @@ public class GeonamesItaly {
 
 		Timer timer = new Timer();
 		timer.startTimer();
-		File output = new File(VOCABULARIES_PATH, "kasabi-italy-v1.0.ttl"); 
+		File output = new File(VOCABULARIES_PATH, "kasabi-italy-1.1.ttl"); 
 		FileOutputStream out = new FileOutputStream (output);
 		result.write(out, "TURTLE") ;
 		out.flush();
@@ -134,7 +129,9 @@ public class GeonamesItaly {
 	}
 	
 	public static String normalise(String name) {
-		String result = name.toLowerCase() ;
+		String result = name ;
+		result = result.replaceAll("Valle d'Aosta/Vallée d'Aoste", "Valle d’Aosta") ;
+		result = result.toLowerCase() ;
 		result = result.replaceAll("provincia autonoma della ", "") ;
 		result = result.replaceAll("provincia di ", "") ;
 		result = result.replaceAll("provincia ", "") ;
@@ -144,7 +141,12 @@ public class GeonamesItaly {
 		return result.replaceAll(" ", "_") ;
 	}
 	
-	public static void split_by_countries (Map<String, String> countries) throws IOException {
+	public static void split_by_countries () throws IOException {
+		Map<String,String> countries = new HashMap<String,String> ();
+		countries.put("http://sws.geonames.org/2635167/", "united-kingdom");		
+		countries.put("http://sws.geonames.org/3017382/", "france");		
+		countries.put("http://sws.geonames.org/2921044/", "germany");
+		countries.put("http://sws.geonames.org/3175395/", "italy");
 		Map<String, PrintWriter> out = new HashMap<String, PrintWriter>();
 		for (String key : countries.keySet()) {
 			String country = countries.get(key);

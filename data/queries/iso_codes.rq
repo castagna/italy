@@ -11,7 +11,7 @@ PREFIX geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX geonames:  <http://www.geonames.org/ontology#>
 PREFIX eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#>
 PREFIX nuts:      <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/>
-PREFIX italy:     <http://kasabi.com/dataset/italy#>
+PREFIX italy:     <http://data.kasabi.com/dataset/italy/>
 PREFIX java:      <java:com.kasabi.labs.arq.>
 
 
@@ -22,5 +22,5 @@ CONSTRUCT {
     ?s rdfs:label ?place .
     FILTER strstarts ( ?code, "IT-" ) .
     BIND ( java:replace( lcase( ?place ), " ", "" ) AS ?place_path )
-    BIND ( iri( concat( "http://kasabi.com/dataset/italy#", ?place_path ) ) AS ?place_uri )
+    BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?place_path ) ) AS ?place_uri )
 }

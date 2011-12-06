@@ -1,0 +1,27 @@
+@prefix foaf:      <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix italy:     <http://data.kasabi.com/dataset/italy/> .
+@prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+
+italy:aosta eurostat:regionCode "ITF20" .
+italy:lazio rdfs:label "Lazio"@en .
+
+italy:sicilia
+    owl:sameAs <http://dbpedia.org/resource/Sicilia> ;
+    owl:sameAs <http://sws.geonames.org/2523119/> ;
+    owl:sameAs <http://sw.opencyc.org/concept/Mx4rvVifXpwpEbGdrcN5Y29ycA> ;
+    owl:sameAs <http://rdf.freebase.com/ns/m/06w92> ;
+    owl:sameAs <http://rdf.freebase.com/ns/en.sicily> ;
+    owl:sameAs <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000036d22> ;
+    owl:sameAs <http://www4.wiwiss.fu-berlin.de/eurostat/page/regions/Sicilia> ;
+    owl:sameAs <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/ITG1> ;
+    owl:sameAs <http://data.nytimes.com/66897629118838755101> ;
+    owl:sameAs <http://yago-knowledge.org/resource/Sicily> ;
+    foaf:page <http://en.wikipedia.org/wiki/Sicily> ;
+    foaf:isPrimaryTopicOf <http://kasabi.com/dataset/italy/sicilia.html> ; ## ???
+    rdfs:seeAlso <urn:/wikipedia/en_title:Sicily> ;
+    rdfs:seeAlso <urn:/wikipedia/it_title:Sicilia> ;
+    rdfs:seeAlso <http://www.w3.org/2006/03/wn/wn20/instances/wordsense-Sicily-noun-2.rdf> ;
+    .

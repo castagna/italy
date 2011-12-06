@@ -25,16 +25,16 @@ public class IsoItaly {
 	};
 	
 	public static final File[] merge = {
-		new File(VOCABULARIES_PATH + "kasabi-italy-v1.0.ttl"),
+		new File(VOCABULARIES_PATH + "kasabi-italy-1.1.ttl"),
 	};
 	
 	public static void main(String[] args) throws IOException {
-		File query = new File(QUERIES_PATH + "iso_codes.sparql") ;
+		File query = new File(QUERIES_PATH, "iso_codes.sparql") ;
 		Model result = Utils.construct(data, merge, query) ;
 
 		Timer timer = new Timer();
 		timer.startTimer();
-		File output = new File(VOCABULARIES_PATH, "kasabi-italy-v1.0.ttl"); 
+		File output = new File(VOCABULARIES_PATH, "kasabi-italy-1.1.ttl"); 
 		FileOutputStream out = new FileOutputStream (output);
 		result.write(out, "TURTLE") ;
 		out.flush();
