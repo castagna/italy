@@ -26,6 +26,9 @@ kasabi:italy
     foaf:page <https://github.com/castagna/italy> ;
     foaf:page <http://kasabi.github.com/italy/> ;
 
+    rdfs:label "Italy"@en ;
+    rdfs:label "Italia"@it ;
+
     dcterms:title "Italy - regions, provinces and municipalities."@en ;
     dcterms:title "Italia - regioni, province e comuni."@it ;
     dcterms:description "Italy dataset provides information on Italy and it's 20 regions, 110 provinces and ~8,000 municipalities."@en ;
