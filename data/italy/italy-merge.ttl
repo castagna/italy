@@ -5,8 +5,74 @@
 @prefix italy:     <http://data.kasabi.com/dataset/italy/> .
 @prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
 
+#
+# Vocabulary: Region, Province, Comune
+#
+
+italy:Region
+    rdf:type rdfs:Class ;
+    rdf:type owl:Class ;
+    rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
+    rdfs:label "Region"@en ;
+    rdfs:label "Regione"@it ;
+    rdfs:comment "A geographical region (i.e. the first-level administrative divisions of a state). For example, Italy is divided in 20 regions."@en ;
+    rdfs:comment "Una regione costituisce il primo livello di suddivisione di uno stato. L'Italia, per esempio, e' suddivisa in 20 regioni."@it ;
+    owl:sameAs <http://dbpedia.org/resource/Region_of_Italy> ;
+    owl:sameAs <http://rdf.freebase.com/ns/m/0fg5q> ;
+    owl:sameAs <http://dbpedia.org/resource/Italian_NUTS_level_1_regions> ;
+    owl:sameAs <http://dbpedia.org/class/yago/RegionsOfItaly> ;
+    foaf:page <http://en.wikipedia.org/wiki/Region_of_Italy> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/index.html?curid=55633> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/Region> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/Region_of_Italy> ;
+    .
+
+italy:Province
+    rdf:type rdfs:Class ;
+    rdf:type owl:Class ;
+    rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
+    rdfs:label "Province"@en ;
+    rdfs:label "Provincia"@it ;
+    rdfs:comment "In Italy is an administrative division of intermediate level between a municipality (comune) and a region (regione)."@en ;
+    rdfs:comment "Ente locale territoriale il cui territorio è per estensione inferiore a quello della regione (della quale, a sua volta, fa parte) e comprende il territorio di più comuni."@it ;
+    owl:sameAs <http://dbpedia.org/resource/Provinces_of_Italy> ;
+    owl:sameAs <http://rdf.freebase.com/ns/m/0fkxj> ;
+    owl:sameAs <http://dbpedia.org/class/yago/ProvincesOfItaly> ;
+    foaf:page <http://en.wikipedia.org/wiki/Provinces_of_Italy> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/index.html?curid=15489197> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/Province> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/Provinces_of_Italy> ;
+    .
+
+italy:Comune
+    rdf:type rdfs:Class ;
+    rdf:type owl:Class ;
+    rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
+    rdfs:label "Municipality"@en ;
+    rdfs:label "Comune"@it ;
+    rdfs:comment "In Italy, the 'comune' is the basic administrative division, and may be approximated in casual speech by the English word township or municipality."@en ;
+    rdfs:comment "In Italia il comune è un ente locale autonomo ed indipendente. Può essere suddiviso in frazioni ed appartiene a una provincia."@it ;
+    owl:sameAs <http://dbpedia.org/resource/Comune> ;
+    owl:sameAs <http://rdf.freebase.com/ns/m/02bsc3> ;
+    owl:sameAs <http://dbpedia.org/class/yago/MunicipalitiesOfItaly> ;
+    foaf:page <http://en.wikipedia.org/wiki/Comune> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/index.html?curid=457055> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/Comune> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/List_of_comuni_of_Italy> ;
+    .
+
+#
+# Small additions 
+#
+
 italy:aosta eurostat:regionCode "ITF20" .
 italy:lazio rdfs:label "Lazio"@en .
+italy:molise rdfs:label "Molise"@en .
+italy:emilia-romagna rdfs:label "Emilia-Romagna"@en .
+
+#
+# Links
+#
 
 italy:sicilia
     owl:sameAs <http://dbpedia.org/resource/Sicilia> ;

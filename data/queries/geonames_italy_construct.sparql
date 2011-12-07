@@ -116,10 +116,11 @@ CONSTRUCT {
     FILTER strstarts ( str ( ?comune_wikipedia_article ), "http://en." ) .
   }
 
-
-  ?r geonames:officialName ?region_official_name .
-  FILTER langmatches( lang(?region_official_name), "en") .
-  BIND ( ?region_official_name AS ?region_label_en ) 
+  OPTIONAL {
+    ?r geonames:officialName ?region_official_name .
+    FILTER langmatches( lang(?region_official_name), "en") .
+    BIND ( ?region_official_name AS ?region_label_en )
+  } 
 
   BIND ( strlang( java:replace( ?province, "Provincia di |Province of ", "" ), "it" ) AS ?province_label )
   BIND ( strlang( java:replace( java:replace( ?region, "Region autonoma della |Regione Autonoma |Regione ", "" ), "Siciliana", "Sicilia" ), "it" ) AS ?region_label )
