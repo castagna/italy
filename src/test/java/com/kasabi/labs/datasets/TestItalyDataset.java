@@ -42,13 +42,13 @@ public class TestItalyDataset {
 
 	@Test
 	public void countRegions() {
-		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_NAMESPACE + "Region"));
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_SCHEMA_NAMESPACE + "Region"));
 		assertEquals ("There are 20 regions in Italy.", 20L, Iter.count(iter));
 	}
 
 	@Test
 	public void countProvinces() {
-		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_NAMESPACE + "Province"));
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_SCHEMA_NAMESPACE + "Province"));
 		assertEquals ("There are 110 provinces in Italy.", 110L, Iter.count(iter));
 	}
 

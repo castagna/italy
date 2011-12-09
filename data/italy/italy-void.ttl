@@ -1,14 +1,14 @@
-@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl:       <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf:      <http://xmlns.com/foaf/0.1/> .
-@prefix dcterms:   <http://purl.org/dc/terms/> .
-@prefix cc:        <http://creativecommons.org/ns#> .
-@prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
-@prefix italy:     <http://data.kasabi.com/dataset/italy/> .
-@prefix kasabi:    <http://data.kasabi.com/dataset/> .
-@prefix void:      <http://rdfs.org/ns/void#> .
+@prefix rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:             <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:              <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:              <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:             <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:          <http://purl.org/dc/terms/> .
+@prefix cc:               <http://creativecommons.org/ns#> .
+@prefix eurostat:         <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix italy:            <http://data.kasabi.com/dataset/italy/schema/> .
+@prefix kasabi:           <http://data.kasabi.com/dataset/> .
+@prefix void:             <http://rdfs.org/ns/void#> .
 
 
 # Using the VoID vocabulary, see: http://www.w3.org/TR/void/
@@ -60,7 +60,7 @@ kasabi:italy
 
     # void:sparqlEndpoint <http://kasabi.com/datasets/italy/sparql> ;
 
-    void:dataDump <https://raw.github.com/castagna/italy/master/data/vocabularies/kasabi-italy-v1.0.ttl> ;
+    void:dataDump <https://raw.github.com/castagna/italy/master/data/vocabularies/kasabi-italy-v1.2.ttl> ;
 
     void:rootResource italy:abruzzo ;
     # void:rootResource italy:valle_d’aosta ;

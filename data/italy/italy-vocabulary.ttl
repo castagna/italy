@@ -1,11 +1,11 @@
-@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl:       <http://www.w3.org/2002/07/owl#> .
-@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf:      <http://xmlns.com/foaf/0.1/> .
-@prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
-@prefix dc:        <http://purl.org/dc/elements/1.1/> .
-@prefix italy:     <http://data.kasabi.com/dataset/italy/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix eurostat:      <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix dc:            <http://purl.org/dc/elements/1.1/> .
+@prefix italy-schema:  <http://data.kasabi.com/dataset/italy/schema/> .
 
 
 #
@@ -13,24 +13,24 @@
 #
 
 
-italy:
+italy-schema:
     rdf:type owl:Ontology ;
     dc:created "2011-12-09"^^xsd:date ;
     dc:description "A small RDF vocabulary to represent the 20 Italian regions and 110 provinces."@en ;
     dc:title "Italy"@en ;
     dc:title "Italia"@en ;
     owl:versionInfo "1.2" ;
-    foaf:maker italy:PaoloCastagna ;
+    foaf:maker italy-schema:PaoloCastagna ;
     .
 
 
-italy:PaoloCastagna
+italy-schema:PaoloCastagna
     a foaf:Person ;
     .
 
 
-italy:Region
-    rdfs:isDefinedBy italy: ;
+italy-schema:Region
+    rdfs:isDefinedBy italy-schema: ;
     rdf:type rdfs:Class ;
     rdf:type owl:Class ;
     rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
@@ -49,8 +49,8 @@ italy:Region
     .
 
 
-italy:Province
-    rdfs:isDefinedBy italy: ;
+italy-schema:Province
+    rdfs:isDefinedBy italy-schema: ;
     rdf:type rdfs:Class ;
     rdf:type owl:Class ;
     rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
@@ -68,8 +68,8 @@ italy:Province
     .
 
 
-italy:Comune
-    rdfs:isDefinedBy italy: ;
+italy-schema:Comune
+    rdfs:isDefinedBy italy-schema: ;
     rdf:type rdfs:Class ;
     rdf:type owl:Class ;
     rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
@@ -87,8 +87,8 @@ italy:Comune
     .
 
 
-italy:contains
-    rdfs:isDefinedBy italy: ;
+italy-schema:contains
+    rdfs:isDefinedBy italy-schema: ;
     rdf:type rdf:Property ;
     rdfs:label "contains"@en ;
     rdfs:label "contiene"@it ;
@@ -98,8 +98,8 @@ italy:contains
     .
     
     
-italy:iso3166-2
-    rdfs:isDefinedBy italy: ;
+italy-schema:iso3166-2
+    rdfs:isDefinedBy italy-schema: ;
     rdf:type rdf:Property ;
     rdfs:label "ISO 3166-2 code"@en ;
     rdfs:label "Codice ISO 3166-2"@it ;

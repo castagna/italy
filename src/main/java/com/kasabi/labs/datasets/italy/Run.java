@@ -22,8 +22,9 @@ import java.io.IOException;
 
 public class Run {
 
-	public static final String ITALY_NAMESPACE = "http://data.kasabi.com/dataset/italy/" ;
-	public static final String VERSION = "1.2" ;
+	public static final String ITALY_DATA_NAMESPACE = "http://data.kasabi.com/dataset/italy/" ;
+	public static final String ITALY_SCHEMA_NAMESPACE = "http://data.kasabi.com/dataset/italy/schema/" ;
+	public static final String VERSION = "1.3" ;
 	public static final String FILENAME_PREFIX = "kasabi-italy" ;
 	public static final String FILENAME = FILENAME_PREFIX + "-" + VERSION + ".ttl" ;
 	

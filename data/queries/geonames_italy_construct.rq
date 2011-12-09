@@ -1,26 +1,27 @@
-PREFIX rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl:       <http://www.w3.org/2002/07/owl#>
-PREFIX xsd:       <http://www.w3.org/2001/XMLSchema#>
-PREFIX foaf:      <http://xmlns.com/foaf/0.1/>
-PREFIX skos:      <http://www.w3.org/2004/02/skos/core#>
-PREFIX cc:        <http://creativecommons.org/ns#>
-PREFIX dcterms:   <http://purl.org/dc/terms/>
-PREFIX wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-PREFIX geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#>
-PREFIX geonames:  <http://www.geonames.org/ontology#>
-PREFIX eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#>
-PREFIX nuts:      <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/>
-PREFIX italy:     <http://data.kasabi.com/dataset/italy/>
-PREFIX java:      <java:com.kasabi.labs.arq.>
+PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf:             <http://xmlns.com/foaf/0.1/>
+PREFIX skos:             <http://www.w3.org/2004/02/skos/core#>
+PREFIX cc:               <http://creativecommons.org/ns#>
+PREFIX dcterms:          <http://purl.org/dc/terms/>
+PREFIX wgs84_pos:        <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo:              <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames:         <http://www.geonames.org/ontology#>
+PREFIX eurostat:         <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#>
+PREFIX nuts:             <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/>
+PREFIX italy:            <http://data.kasabi.com/dataset/italy/>
+PREFIX java:             <java:com.kasabi.labs.arq.>
+PREFIX italy-schema:     <http://data.kasabi.com/dataset/italy/schema/>
 
 
 CONSTRUCT {
-  ?region_uri rdf:type italy:Region .
+  ?region_uri rdf:type italy-schema:Region .
   ?region_uri rdf:type ?region_type .
   ?region_uri rdfs:label ?region_label .
   ?region_uri rdfs:label ?region_label_en .
-  ?region_uri italy:contains ?province_uri .
+  ?region_uri italy-schema:contains ?province_uri .
   ?region_uri geo:lat ?region_lat_dt .
   ?region_uri geo:long ?region_long_dt .
   ?region_uri geonames:population ?region_population_dt .
@@ -33,13 +34,13 @@ CONSTRUCT {
   ?region_uri geonames:parentFeature ?region_parent_feature .
   ?region_uri foaf:page ?region_wikipedia_article .
   ?region_uri eurostat:regionCode ?region_nuts_code .
-  ?region_uri italy:iso3166-2 ?iso_region_code .
+  ?region_uri italy-schema:iso3166-2 ?iso_region_code .
   
-  ?province_uri rdf:type italy:Province .
+  ?province_uri rdf:type italy-schema:Province .
   ?province_uri rdf:type ?province_type .
   ?province_uri rdfs:label ?province_label .
-#  ?province_uri italy:contains ?comune_uri .
-  ?province_uri italy:isContained ?region_uri .
+#  ?province_uri italy-schema:contains ?comune_uri .
+  ?province_uri italy-schema:isContained ?region_uri .
   ?province_uri geo:lat ?province_lat_dt .
   ?province_uri geo:long ?province_long_dt .
   ?province_uri geonames:population ?province_population_dt .
@@ -53,9 +54,9 @@ CONSTRUCT {
   ?province_uri foaf:page ?province_wikipedia_article .
   ?province_uri eurostat:regionCode ?province_nuts_code .
 
-#  ?comune_uri rdf:type italy:Comune .
+#  ?comune_uri rdf:type italy-schema:Comune .
 #  ?comune_uri rdfs:label ?comune .
-#  ?comune_uri italy:isContained ?province_uri .
+#  ?comune_uri italy-schema:isContained ?province_uri .
 } WHERE {
   ?r geonames:featureCode geonames:A.ADM1 .
   ?p geonames:featureCode geonames:A.ADM2 .
