@@ -25,7 +25,7 @@ public class IsoItaly {
 	};
 	
 	public static final File[] merge = {
-		new File(VOCABULARIES_PATH + "kasabi-italy-1.1.ttl"),
+		new File(VOCABULARIES_PATH, Run.FILENAME),
 	};
 	
 	public static void main(String[] args) throws IOException {
@@ -34,7 +34,7 @@ public class IsoItaly {
 
 		Timer timer = new Timer();
 		timer.startTimer();
-		File output = new File(VOCABULARIES_PATH, "kasabi-italy-1.1.ttl"); 
+		File output = new File(VOCABULARIES_PATH, Run.FILENAME); 
 		FileOutputStream out = new FileOutputStream (output);
 		result.write(out, "TURTLE") ;
 		out.flush();

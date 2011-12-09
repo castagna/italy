@@ -1,4 +1,8 @@
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix italy:   <http://data.kasabi.com/dataset/italy/> .
 
+#
+# Small mistakes to be removed 
+#
+
 italy:lazio rdfs:label "Latium"@en .

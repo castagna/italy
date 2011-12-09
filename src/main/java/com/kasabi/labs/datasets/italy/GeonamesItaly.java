@@ -68,14 +68,15 @@ public class GeonamesItaly {
 	
 	// additional data to merge|add
 	public static final File[] merge = {
-		new File(DATA_ITALY_PATH, "void.ttl"),
-		new File(DATA_ITALY_PATH, "italy-merge.ttl"),
+		new File(DATA_ITALY_PATH, "italy-void.ttl"),
+		new File(DATA_ITALY_PATH, "italy-vocabulary.ttl"),
+		new File(DATA_ITALY_PATH, "italy-instancedata-add.ttl"),
 		new File(DATA_EUROSTAT_PATH, "eurostat-nuts2008-italy.ttl"),
 	};
 
 	// stuff to be removed from the generated dataset
 	public static final File[] remove = {
-		new File(DATA_ITALY_PATH, "italy-remove.ttl"),
+		new File(DATA_ITALY_PATH, "italy-instancedata-remove.ttl"),
 	};
 	
 	public static void main(String[] args) throws IOException {
@@ -91,7 +92,7 @@ public class GeonamesItaly {
 
 		Timer timer = new Timer();
 		timer.startTimer();
-		File output = new File(VOCABULARIES_PATH, "kasabi-italy-1.1.ttl"); 
+		File output = new File(VOCABULARIES_PATH, Run.FILENAME); 
 		FileOutputStream out = new FileOutputStream (output);
 		result.write(out, "TURTLE") ;
 		out.flush();

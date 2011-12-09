@@ -11,6 +11,7 @@ import com.hp.hpl.jena.rdf.model.ResIterator;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDF;
+import com.kasabi.labs.datasets.italy.Run;
 
 public class TestItalyDataset {
 
@@ -18,18 +19,18 @@ public class TestItalyDataset {
 
 	@BeforeClass
 	public static void load() {
-		model = FileManager.get().loadModel(Constants.VOCABULARIES_PATH + "kasabi-italy-1.1.ttl");
+		model = FileManager.get().loadModel(Constants.VOCABULARIES_PATH + Run.FILENAME);
 	}
 
 	@Test
 	public void countRegions() {
-		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource("http://data.kasabi.com/dataset/italy/Region"));
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_NAMESPACE + "Region"));
 		assertEquals ("There are 20 regions in Italy.", 20L, Iter.count(iter));
 	}
 
 	@Test
 	public void countProvinces() {
-		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource("http://data.kasabi.com/dataset/italy/Province"));
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_NAMESPACE + "Province"));
 		assertEquals ("There are 110 provinces in Italy.", 110L, Iter.count(iter));
 	}
 

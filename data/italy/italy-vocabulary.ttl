@@ -1,15 +1,36 @@
-@prefix foaf:      <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix italy:     <http://data.kasabi.com/dataset/italy/> .
+@prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:      <http://xmlns.com/foaf/0.1/> .
 @prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix dc:        <http://purl.org/dc/elements/1.1/> .
+@prefix italy:     <http://data.kasabi.com/dataset/italy/> .
+
 
 #
 # Vocabulary: Region, Province, Comune
 #
 
+
+italy:
+    rdf:type owl:Ontology ;
+    dc:created "2011-12-09"^^xsd:date ;
+    dc:description "A small RDF vocabulary to represent the 20 Italian regions and 110 provinces."@en ;
+    dc:title "Italy"@en ;
+    dc:title "Italia"@en ;
+    owl:versionInfo "1.2" ;
+    foaf:maker italy:PaoloCastagna ;
+    .
+
+
+italy:PaoloCastagna
+    a foaf:Person ;
+    .
+
+
 italy:Region
+    rdfs:isDefinedBy italy: ;
     rdf:type rdfs:Class ;
     rdf:type owl:Class ;
     rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
@@ -27,7 +48,9 @@ italy:Region
     rdfs:seeAlso <http://en.wikipedia.org/wiki/Region_of_Italy> ;
     .
 
+
 italy:Province
+    rdfs:isDefinedBy italy: ;
     rdf:type rdfs:Class ;
     rdf:type owl:Class ;
     rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
@@ -44,7 +67,9 @@ italy:Province
     rdfs:seeAlso <http://en.wikipedia.org/wiki/Provinces_of_Italy> ;
     .
 
+
 italy:Comune
+    rdfs:isDefinedBy italy: ;
     rdf:type rdfs:Class ;
     rdf:type owl:Class ;
     rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
@@ -61,33 +86,27 @@ italy:Comune
     rdfs:seeAlso <http://en.wikipedia.org/wiki/List_of_comuni_of_Italy> ;
     .
 
-#
-# Small additions 
-#
 
-italy:aosta eurostat:regionCode "ITF20" .
-italy:lazio rdfs:label "Lazio"@en .
-italy:molise rdfs:label "Molise"@en .
-italy:emilia-romagna rdfs:label "Emilia-Romagna"@en .
-
-#
-# Links
-#
-
-italy:sicilia
-    owl:sameAs <http://dbpedia.org/resource/Sicilia> ;
-    owl:sameAs <http://sws.geonames.org/2523119/> ;
-    owl:sameAs <http://sw.opencyc.org/concept/Mx4rvVifXpwpEbGdrcN5Y29ycA> ;
-    owl:sameAs <http://rdf.freebase.com/ns/m/06w92> ;
-    owl:sameAs <http://rdf.freebase.com/ns/en.sicily> ;
-    owl:sameAs <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000036d22> ;
-    owl:sameAs <http://www4.wiwiss.fu-berlin.de/eurostat/page/regions/Sicilia> ;
-    owl:sameAs <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/ITG1> ;
-    owl:sameAs <http://data.nytimes.com/66897629118838755101> ;
-    owl:sameAs <http://yago-knowledge.org/resource/Sicily> ;
-    foaf:page <http://en.wikipedia.org/wiki/Sicily> ;
-    foaf:isPrimaryTopicOf <http://kasabi.com/dataset/italy/sicilia.html> ; ## ???
-    rdfs:seeAlso <urn:/wikipedia/en_title:Sicily> ;
-    rdfs:seeAlso <urn:/wikipedia/it_title:Sicilia> ;
-    rdfs:seeAlso <http://www.w3.org/2006/03/wn/wn20/instances/wordsense-Sicily-noun-2.rdf> ;
+italy:contains
+    rdfs:isDefinedBy italy: ;
+    rdf:type rdf:Property ;
+    rdfs:label "contains"@en ;
+    rdfs:label "contiene"@it ;
+    rdfs:comment "a geographical area or an administrative area contains another one."@en ;
+    rdfs:comment "un'area geografica o amministrativa contiene un'altra area geografica o amministrativa."@it ;
+    # TODO: add rdfs:range and rdfs:domain... I need a super class for :Region, :Province and :Comune for that.
+    .
+    
+    
+italy:iso3166-2
+    rdfs:isDefinedBy italy: ;
+    rdf:type rdf:Property ;
+    rdfs:label "ISO 3166-2 code"@en ;
+    rdfs:label "Codice ISO 3166-2"@it ;
+    rdfs:comment "ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code. It was first published in 1998."@en ;
+    rdfs:comment "L' ISO 3166-2 è la seconda parte dello standard ISO 3166. È stato creato per codificare i nomi delle suddivisioni territoriali delle nazioni e delle aree dipendenti. Lo scopo dello standard è quello di stabilire una serie di abbreviazioni internazionali dei luoghi, da utilizzare per le etichette di spedizione, i contenitori, e più in generale, ovunque un codice alfanumerico possa essere usato per indicare una località in modo meno ambiguo e più pratico del nome completo."@it ;
+    # TODO: add rdfs:range and rdfs:domain... I need a super class for :Region, :Province and :Comune for that.
+    owl:sameAs <http://dbpedia.org/resource/ISO_3166-2> ;
+    foaf:page <http://en.wikipedia.org/wiki/ISO_3166-2> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/ISO_3166-2> ;
     .

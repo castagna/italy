@@ -49,8 +49,8 @@ public class EurostatItaly {
 		Model eurostat_italy = ModelFactory.createDefaultModel() ;
 		eurostat_italy.setNsPrefix("eurostat", "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#") ;
 		eurostat_italy.setNsPrefix("nuts", "http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/") ;
-		eurostat_italy.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#") ;
-		eurostat_italy.setNsPrefix("italy", "http://data.kasabi.com/dataset/italy/") ;
+		eurostat_italy.setNsPrefix("rdfs", RDFS.getURI()) ;
+		eurostat_italy.setNsPrefix("italy", Run.ITALY_NAMESPACE) ;
 		
 		while ( iter.hasNext() ) {
 			Statement stmt = iter.next() ;
@@ -59,7 +59,7 @@ public class EurostatItaly {
 				eurostat_italy.add(stmt) ;
 				
 				if ( stmt.getPredicate().equals(eurostat_label) ) {
-					Resource object = ResourceFactory.createResource("http://data.kasabi.com/dataset/italy/" + GeonamesItaly.normalise(stmt.getLiteral().getLexicalForm()) ) ;
+					Resource object = ResourceFactory.createResource(Run.ITALY_NAMESPACE + GeonamesItaly.normalise(stmt.getLiteral().getLexicalForm()) ) ;
 					eurostat_italy.add(subject, RDFS.seeAlso, object) ;
 				}
 			}
