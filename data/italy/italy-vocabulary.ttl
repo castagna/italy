@@ -5,6 +5,7 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix eurostat:      <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
 @prefix dc:            <http://purl.org/dc/elements/1.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
 @prefix italy-schema:  <http://data.kasabi.com/dataset/italy/schema/> .
 
 
@@ -21,6 +22,11 @@ italy-schema:
     dc:title "Italia"@en ;
     owl:versionInfo "1.2" ;
     foaf:maker italy-schema:PaoloCastagna ;
+    ov:defines italy-schema:Region ;
+    ov:defines italy-schema:Province ;
+    ov:defines italy-schema:Comune ;
+    ov:defines italy-schema:contains ;
+    ov:defines italy-schema:iso3166-2 ;
     .
 
 

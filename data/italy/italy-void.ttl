@@ -6,7 +6,7 @@
 @prefix dcterms:          <http://purl.org/dc/terms/> .
 @prefix cc:               <http://creativecommons.org/ns#> .
 @prefix eurostat:         <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
-@prefix italy:            <http://data.kasabi.com/dataset/italy/schema/> .
+@prefix italy:            <http://data.kasabi.com/dataset/italy/> .
 @prefix kasabi:           <http://data.kasabi.com/dataset/> .
 @prefix void:             <http://rdfs.org/ns/void#> .
 
@@ -145,24 +145,83 @@ italy:links2dbpedia
     void:triples 130 ;
     .
 
-italy:abruzzo void:inDataset kasabi:italy .
-<http://data.kasabi.com/dataset/italy/valle_d’aosta> void:inDataset kasabi:italy .
+italy:abruzzo.rdf void:inDataset kasabi:italy .
+italy:abruzzo.rdf foaf:primaryTopic italy:abruzzo .
+italy:abruzzo dcterms:identifier "abruzzo" . 
+
+<http://data.kasabi.com/dataset/italy/valle_d’aosta.rdf> void:inDataset kasabi:italy .
 # italy:valle_d’aosta void:inDataset kasabi:italy .
-italy:basilicata void:inDataset kasabi:italy .
-italy:calabria void:inDataset kasabi:italy .
-italy:campania void:inDataset kasabi:italy .
-italy:emilia-romagna void:inDataset kasabi:italy .
-italy:friuli-venezia_giulia void:inDataset kasabi:italy .
-italy:lazio void:inDataset kasabi:italy .
-italy:liguria void:inDataset kasabi:italy .
-italy:lombardia void:inDataset kasabi:italy .
-italy:marche void:inDataset kasabi:italy .
-italy:molise void:inDataset kasabi:italy .
-italy:piemonte void:inDataset kasabi:italy .
-italy:puglia void:inDataset kasabi:italy .
-italy:sardegna void:inDataset kasabi:italy .
-italy:sicilia void:inDataset kasabi:italy .
-italy:trentino-alto_adige void:inDataset kasabi:italy .
-italy:toscana void:inDataset kasabi:italy .
-italy:umbria void:inDataset kasabi:italy .
-italy:veneto void:inDataset kasabi:italy .
+<http://data.kasabi.com/dataset/italy/valle_d’aosta.rdf> foaf:primaryTopic <http://data.kasabi.com/dataset/italy/valle_d’aosta> .
+<http://data.kasabi.com/dataset/italy/valle_d’aosta> dcterms:identifier "valle_d’aosta" . 
+
+italy:basilicata.rdf void:inDataset kasabi:italy .
+italy:basilicata.rdf foaf:primaryTopic italy:basilicata .
+italy:basilicata dcterms:identifier "basilicata" . 
+
+italy:calabria.rdf void:inDataset kasabi:italy .
+italy:calabria.rdf foaf:primaryTopic italy:calabria .
+italy:calabria dcterms:identifier "calabria" . 
+
+italy:campania.rdf void:inDataset kasabi:italy .
+italy:campania.rdf foaf:primaryTopic italy:campania .
+italy:campania dcterms:identifier "campania" . 
+
+italy:emilia-romagna.rdf void:inDataset kasabi:italy .
+italy:emilia-romagna.rdf foaf:primaryTopic italy:emilia-romagna .
+italy:emilia-romagna dcterms:identifier "emilia-romagna" . 
+
+italy:friuli-venezia_giulia.rdf void:inDataset kasabi:italy .
+italy:friuli-venezia_giulia.rdf foaf:primaryTopic italy:friuli-venezia_giulia .
+italy:friuli-venezia_giulia dcterms:identifier "friuli-venezia_giulia" . 
+
+italy:lazio.rdf void:inDataset kasabi:italy .
+italy:lazio.rdf foaf:primaryTopic italy:lazio .
+italy:lazio dcterms:identifier "lazio" . 
+
+italy:liguria.rdf void:inDataset kasabi:italy .
+italy:liguria.rdf foaf:primaryTopic italy:liguria .
+italy:liguria dcterms:identifier "liguria" . 
+
+italy:lombardia.rdf void:inDataset kasabi:italy .
+italy:lombardia.rdf foaf:primaryTopic italy:lombardia .
+italy:lombardia dcterms:identifier "lombardia" . 
+
+italy:marche.rdf void:inDataset kasabi:italy .
+italy:marche.rdf foaf:primaryTopic italy:marche .
+italy:marche dcterms:identifier "marche" . 
+
+italy:molise.rdf void:inDataset kasabi:italy .
+italy:molise.rdf foaf:primaryTopic italy:molise .
+italy:molise dcterms:identifier "molise" . 
+
+italy:piemonte.rdf void:inDataset kasabi:italy .
+italy:piemonte.rdf foaf:primaryTopic italy:piemonte .
+italy:piemonte dcterms:identifier "piemonte" . 
+
+italy:puglia.rdf void:inDataset kasabi:italy .
+italy:puglia.rdf foaf:primaryTopic italy:puglia .
+italy:puglia dcterms:identifier "puglia" . 
+
+italy:sardegna.rdf void:inDataset kasabi:italy .
+italy:sardegna.rdf foaf:primaryTopic italy:sardegna .
+italy:sardegna dcterms:identifier "sardegna" . 
+
+italy:sicilia.rdf void:inDataset kasabi:italy .
+italy:sicilia.rdf foaf:primaryTopic italy:sicilia .
+italy:sicilia dcterms:identifier "sicilia" . 
+
+italy:trentino-alto_adige.rdf void:inDataset kasabi:italy .
+italy:trentino-alto_adige.rdf foaf:primaryTopic italy:trentino-alto_adige .
+italy:trentino-alto_adige dcterms:identifier "trentino-alto_adige" . 
+
+italy:toscana.rdf void:inDataset kasabi:italy .
+italy:toscana.rdf foaf:primaryTopic italy:toscana .
+italy:toscana dcterms:identifier "toscana" . 
+
+italy:umbria.rdf void:inDataset kasabi:italy .
+italy:umbria.rdf foaf:primaryTopic italy:umbria .
+italy:umbria dcterms:identifier "umbria" . 
+
+italy:veneto.rdf void:inDataset kasabi:italy .
+italy:veneto.rdf foaf:primaryTopic italy:veneto .
+italy:veneto dcterms:identifier "veneto" . 
