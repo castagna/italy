@@ -153,6 +153,7 @@ public class GeonamesItaly {
 		result = result.replaceAll("Regione ", "") ;
 		if ( result.equals("Forlì") ) result = "Forlì-Cesena";
 		if ( result.equals("Milan") ) result = "Milano";
+		result = result.replaceAll("Valle d’Aosta", "Valle d'Aosta");
 		result = result.replaceAll(" - ", "-") ;
 		return result.trim() ;
 	}
