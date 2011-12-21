@@ -154,6 +154,7 @@ public class GeonamesItaly {
 		if ( result.equals("Forlì") ) result = "Forlì-Cesena";
 		if ( result.equals("Milan") ) result = "Milano";
 		result = result.replaceAll("Valle d’Aosta", "Valle d'Aosta");
+		result = result.replaceAll("Friuli Venezia Giulia", "Friuli-Venezia Giulia");
 		result = result.replaceAll(" - ", "-") ;
 		return result.trim() ;
 	}
