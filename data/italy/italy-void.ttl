@@ -60,16 +60,15 @@ kasabi:italy
 
     # void:sparqlEndpoint <http://kasabi.com/datasets/italy/sparql> ;
 
-    void:dataDump <https://raw.github.com/castagna/italy/master/data/vocabularies/kasabi-italy-v1.2.ttl> ;
+    void:dataDump <https://raw.github.com/castagna/italy/master/data/vocabularies/kasabi-italy-v1.4.ttl> ;
 
     void:rootResource italy:abruzzo ;
-    # void:rootResource italy:valle_d’aosta ;
-    void:rootResource <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
+    void:rootResource italy:valle-daosta ;
     void:rootResource italy:basilicata ;
     void:rootResource italy:calabria ;
     void:rootResource italy:campania ;
     void:rootResource italy:emilia-romagna ;
-    void:rootResource italy:friuli-venezia_giulia ;
+    void:rootResource italy:friuli-venezia-giulia ;
     void:rootResource italy:lazio ;
     void:rootResource italy:liguria ;
     void:rootResource italy:lombardia ;
@@ -79,7 +78,7 @@ kasabi:italy
     void:rootResource italy:puglia ;
     void:rootResource italy:sardegna ;
     void:rootResource italy:sicilia ;
-    void:rootResource italy:trentino-alto_adige ;
+    void:rootResource italy:trentino-alto-adige ;
     void:rootResource italy:toscana ;
     void:rootResource italy:umbria ;
     void:rootResource italy:veneto ;
@@ -149,10 +148,9 @@ italy:abruzzo.rdf void:inDataset kasabi:italy .
 italy:abruzzo.rdf foaf:primaryTopic italy:abruzzo .
 italy:abruzzo dcterms:identifier "abruzzo" . 
 
-<http://data.kasabi.com/dataset/italy/valle_d’aosta.rdf> void:inDataset kasabi:italy .
-# italy:valle_d’aosta void:inDataset kasabi:italy .
-<http://data.kasabi.com/dataset/italy/valle_d’aosta.rdf> foaf:primaryTopic <http://data.kasabi.com/dataset/italy/valle_d’aosta> .
-<http://data.kasabi.com/dataset/italy/valle_d’aosta> dcterms:identifier "valle_d’aosta" . 
+italy:valle_daosta.rdf void:inDataset kasabi:italy .
+italy:valle_daosta.rdf foaf:primaryTopic italy:valle_daosta .
+italy:valle_daosta.rdf dcterms:identifier "valle-daosta" . 
 
 italy:basilicata.rdf void:inDataset kasabi:italy .
 italy:basilicata.rdf foaf:primaryTopic italy:basilicata .
@@ -170,9 +168,9 @@ italy:emilia-romagna.rdf void:inDataset kasabi:italy .
 italy:emilia-romagna.rdf foaf:primaryTopic italy:emilia-romagna .
 italy:emilia-romagna dcterms:identifier "emilia-romagna" . 
 
-italy:friuli-venezia_giulia.rdf void:inDataset kasabi:italy .
-italy:friuli-venezia_giulia.rdf foaf:primaryTopic italy:friuli-venezia_giulia .
-italy:friuli-venezia_giulia dcterms:identifier "friuli-venezia_giulia" . 
+italy:friuli-venezia-giulia.rdf void:inDataset kasabi:italy .
+italy:friuli-venezia-giulia.rdf foaf:primaryTopic italy:friuli-venezia-giulia .
+italy:friuli-venezia-giulia dcterms:identifier "friuli-venezia-giulia" . 
 
 italy:lazio.rdf void:inDataset kasabi:italy .
 italy:lazio.rdf foaf:primaryTopic italy:lazio .
@@ -210,9 +208,9 @@ italy:sicilia.rdf void:inDataset kasabi:italy .
 italy:sicilia.rdf foaf:primaryTopic italy:sicilia .
 italy:sicilia dcterms:identifier "sicilia" . 
 
-italy:trentino-alto_adige.rdf void:inDataset kasabi:italy .
-italy:trentino-alto_adige.rdf foaf:primaryTopic italy:trentino-alto_adige .
-italy:trentino-alto_adige dcterms:identifier "trentino-alto_adige" . 
+italy:trentino-alto-adige.rdf void:inDataset kasabi:italy .
+italy:trentino-alto-adige.rdf foaf:primaryTopic italy:trentino-alto-adige .
+italy:trentino-alto-adige dcterms:identifier "trentino-alto-adige" . 
 
 italy:toscana.rdf void:inDataset kasabi:italy .
 italy:toscana.rdf foaf:primaryTopic italy:toscana .

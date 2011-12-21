@@ -19,17 +19,22 @@
 package com.kasabi.labs.datasets;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openjena.atlas.iterator.Iter;
 
+import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ResIterator;
-import com.hp.hpl.jena.rdf.model.ResourceFactory;
+import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.rdf.model.StmtIterator;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDF;
+import com.hp.hpl.jena.vocabulary.RDFS;
 import com.kasabi.labs.datasets.italy.Run;
+import com.kasabi.labs.vocabularies.ITALY;
 
 public class TestItalyDataset {
 
@@ -42,14 +47,37 @@ public class TestItalyDataset {
 
 	@Test
 	public void countRegions() {
-		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_SCHEMA_NAMESPACE + "Region"));
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Region);
 		assertEquals ("There are 20 regions in Italy.", 20L, Iter.count(iter));
 	}
 
 	@Test
 	public void countProvinces() {
-		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource(Run.ITALY_SCHEMA_NAMESPACE + "Province"));
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Province);
 		assertEquals ("There are 110 provinces in Italy.", 110L, Iter.count(iter));
 	}
 
+	@Test
+	public void testRegionSlugs() {
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Region);
+		while ( iter.hasNext() ) {
+			Resource region = iter.nextResource();
+			
+			// check localname is derived from rdfs:label via slugging
+			StmtIterator iter2 = region.listProperties(RDFS.label);
+			while ( iter2.hasNext() ) {
+				Literal lit = iter2.nextStatement().getObject().asLiteral();
+				if ( lit.getLanguage().equals("it") ) {
+					assertEquals ( region.getLocalName(), Utils.toSlug(lit.getLexicalForm()) );
+				}
+			}
+			
+			StmtIterator iter3 = region.listProperties(ITALY.contains);
+			while ( iter3.hasNext() ) {
+				Resource province = iter3.nextStatement().getResource() ;
+				assertTrue ( model.contains(province, RDF.type, ITALY.Province));
+			}
+		}
+	}
+	
 }

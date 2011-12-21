@@ -71,6 +71,11 @@ under the License.
             <goals>
               <goal>bundle</goal>
             </goals>
+            <configuration>
+              <includes>
+                <include>**/*.txt</include>
+              </includes>
+            </configuration>
           </execution>
         </executions>
       </plugin>

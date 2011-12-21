@@ -33,6 +33,7 @@ import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDFS;
+import com.kasabi.labs.datasets.Utils;
 
 public class EurostatItaly {
 
@@ -59,7 +60,7 @@ public class EurostatItaly {
 				eurostat_italy.add(stmt) ;
 				
 				if ( stmt.getPredicate().equals(eurostat_label) ) {
-					Resource object = ResourceFactory.createResource(Run.ITALY_DATA_NAMESPACE + GeonamesItaly.normalise(stmt.getLiteral().getLexicalForm()) ) ;
+					Resource object = ResourceFactory.createResource(Run.ITALY_DATA_NAMESPACE + Utils.toSlug(GeonamesItaly.normalise(stmt.getLiteral().getLexicalForm())) ) ;
 					eurostat_italy.add(subject, RDFS.seeAlso, object) ;
 				}
 			}

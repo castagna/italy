@@ -474,7 +474,7 @@ nuts:ITE17
 nuts:ITD10
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD10 - Bolzano-Bozen" ;
-      rdfs:seeAlso italy:bolzano-bozen ;
+      rdfs:seeAlso italy:bolzano ;
       eurostat:hasParentRegion
               nuts:ITD1 ;
       eurostat:level 3 ;

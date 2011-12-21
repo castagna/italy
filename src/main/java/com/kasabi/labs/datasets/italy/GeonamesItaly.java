@@ -137,15 +137,21 @@ public class GeonamesItaly {
 		result = result.replace("Monza e della Brianza", "Monza");
 		result = result.replace("Reggio di Calabria", "Reggio Calabria");
 		result = result.replace("Bolzano/Bozen", "Bolzano");
-		result = result.toLowerCase() ;
-		result = result.replaceAll("provincia autonoma della ", "") ;
-		result = result.replaceAll("provincia autonoma ", "") ;
-		result = result.replaceAll("provincia di ", "") ;
-		result = result.replaceAll("provincia ", "") ;
-		result = result.replaceAll("province of ", "") ;
-		result = result.replaceAll("regione ", "") ;
+		result = result.replace("Bolzano-Bozen", "Bolzano");
+		result = result.replace("Bolzano-Bozen", "Bolzano");
+		result = result.replace("Siciliana", "Sicilia");
+		result = result.replace("Alte Adige", "Alto Adige");
+		result = result.replaceAll("Provincia Autonoma della ", "") ;
+		result = result.replaceAll("Provincia Autonoma ", "") ;
+		result = result.replaceAll("Provincia di ", "") ;
+		result = result.replaceAll("Provincia ", "") ;
+		result = result.replaceAll("Province of ", "") ;
+		result = result.replaceAll("Regione Autonoma della", "") ;
+		result = result.replaceAll("Regione Autonoma ", "") ;
+		result = result.replaceAll("Regione ", "") ;
+		if ( result.equals("Forlì") ) result = "Forlì-Cesena";
 		result = result.replaceAll(" - ", "-") ;
-		return Utils.toSlug(result) ;
+		return result.trim() ;
 	}
 	
 	public static void split_by_countries () throws IOException {
