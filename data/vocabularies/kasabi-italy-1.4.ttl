@@ -173,7 +173,7 @@ italy:emilia-romagna
       rdfs:label "Emilia-Romagna"@it , "Emilia-Romagna"@en ;
       italy:iso3166-2 "IT-45" ;
       italy-schema:contains
-              italy:rimini , italy:piacenza , italy:reggio-emilia , italy:parma , italy:bologna , italy:ravenna , italy:modena , italy:ferrara , italy:forlì ;
+              italy:forli-cesena , italy:rimini , italy:piacenza , italy:reggio-emilia , italy:parma , italy:bologna , italy:ravenna , italy:modena , italy:ferrara ;
       eurostat:regionCode "ITD5" ;
       dcterms:identifier "emilia-romagna" ;
       gn:countryCode "IT" ;
@@ -903,20 +903,7 @@ italy:taranto
       geo:long "17.25"^^xsd:float .
 
 italy:forlì
-      a       gn:Feature , italy-schema:Province ;
-      rdfs:label "Forlì"@it ;
-      italy:iso3166-2 "IT-FO" ;
-      italy-schema:isContained
-              italy:emilia-romagna ;
-      gn:countryCode "IT" ;
-      gn:featureClass gn:A ;
-      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
-      gn:parentCountry <http://sws.geonames.org/3175395/> ;
-      gn:parentFeature <http://sws.geonames.org/3177401/> ;
-      gn:population 392329 ;
-      owl:sameAs <http://sws.geonames.org/3176745/> ;
-      geo:lat "44.08333"^^xsd:float ;
-      geo:long "12.03333"^^xsd:float .
+      italy:iso3166-2 "IT-FO" .
 
 nuts:ITE18
       a       eurostat:NUTSRegion ;
@@ -1076,6 +1063,22 @@ italy:frosinone
       owl:sameAs <http://sws.geonames.org/3176513/> ;
       geo:lat "41.61667"^^xsd:float ;
       geo:long "13.45"^^xsd:float .
+
+italy:forli-cesena
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Forlì"@it ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD58" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 392329 ;
+      owl:sameAs <http://sws.geonames.org/3176745/> ;
+      geo:lat "44.08333"^^xsd:float ;
+      geo:long "12.03333"^^xsd:float .
 
 italy:enna
       a       gn:Feature , italy-schema:Province ;
