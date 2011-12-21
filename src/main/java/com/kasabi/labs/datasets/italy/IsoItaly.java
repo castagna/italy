@@ -40,6 +40,7 @@ public class IsoItaly {
 	// input data
 	public static final File[] data = {
 		new File(DATA_ISO_3166_2_PATH + "iso-3166-2.ttl"),
+		new File(DATA_ISO_3166_2_PATH + "iso-3166-2-patches.ttl"),
 	};
 	
 	public static final File[] merge = {

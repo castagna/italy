@@ -64,6 +64,7 @@ public class GeonamesItaly {
 		new File(filename_provinces),
 		new File(filename_municipalities),
 		new File(DATA_EUROSTAT_PATH + "eurostat-nuts2008-italy.ttl"),
+		new File(DATA_EUROSTAT_PATH, "eurostat-nuts2008-italy-patches.ttl"),
 	};
 	
 	// additional data to merge|add
@@ -72,6 +73,7 @@ public class GeonamesItaly {
 		new File(DATA_ITALY_PATH, "italy-vocabulary.ttl"),
 		new File(DATA_ITALY_PATH, "italy-instancedata-add.ttl"),
 		new File(DATA_EUROSTAT_PATH, "eurostat-nuts2008-italy.ttl"),
+		new File(DATA_EUROSTAT_PATH, "eurostat-nuts2008-italy-patches.ttl"),
 	};
 
 	// stuff to be removed from the generated dataset
@@ -133,14 +135,14 @@ public class GeonamesItaly {
 		String result = name ;
 		result = result.replaceAll("Valle d'Aosta/Vallée d'Aoste", "Valle d’Aosta") ;
 		result = result.replace("Reggio nell'Emilia", "Reggio-Emilia");
-		result = result.replace("Pesaro e Urbino", "Pesaro-Urbino");
-		result = result.replace("Monza e della Brianza", "Monza");
+		result = result.replace("Monza e della Brianza", "Monza e Brianza");
 		result = result.replace("Reggio di Calabria", "Reggio Calabria");
 		result = result.replace("Bolzano/Bozen", "Bolzano");
 		result = result.replace("Bolzano-Bozen", "Bolzano");
 		result = result.replace("Bolzano-Bozen", "Bolzano");
 		result = result.replace("Siciliana", "Sicilia");
 		result = result.replace("Alte Adige", "Alto Adige");
+		result = result.replace("Provincia Autonoma Trento", "Trentino-Alto Adige");
 		result = result.replaceAll("Provincia Autonoma della ", "") ;
 		result = result.replaceAll("Provincia Autonoma ", "") ;
 		result = result.replaceAll("Provincia di ", "") ;
@@ -150,6 +152,7 @@ public class GeonamesItaly {
 		result = result.replaceAll("Regione Autonoma ", "") ;
 		result = result.replaceAll("Regione ", "") ;
 		if ( result.equals("Forlì") ) result = "Forlì-Cesena";
+		if ( result.equals("Milan") ) result = "Milano";
 		result = result.replaceAll(" - ", "-") ;
 		return result.trim() ;
 	}

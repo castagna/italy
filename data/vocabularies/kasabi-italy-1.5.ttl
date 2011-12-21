@@ -57,22 +57,6 @@ italy:PaoloCastagna
       foaf:nick "casta" ;
       foaf:page <http://github.com/castagna/> .
 
-italy:pesaro-urbino
-      a       gn:Feature , italy-schema:Province ;
-      rdfs:label "Pesaro-Urbino"@it ;
-      italy-schema:isContained
-              italy:marche ;
-      eurostat:regionCode "ITE31" ;
-      gn:countryCode "IT" ;
-      gn:featureClass gn:A ;
-      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
-      gn:parentCountry <http://sws.geonames.org/3175395/> ;
-      gn:parentFeature <http://sws.geonames.org/3174004/> ;
-      gn:population 365788 ;
-      owl:sameAs <http://sws.geonames.org/3171172/> ;
-      geo:lat "43.66667"^^xsd:float ;
-      geo:long "12.63333"^^xsd:float .
-
 nuts:ITF34
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF34 - Avellino" ;
@@ -112,6 +96,8 @@ italy:olbia-tempio
       rdfs:label "Olbia-Tempio"@it ;
       italy-schema:isContained
               italy:sardegna ;
+      italy-schema:iso3166-2
+              "IT-OT" ;
       eurostat:regionCode "ITG29" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -649,6 +635,23 @@ nuts:ITF42
       eurostat:name "Bari" ;
       eurostat:regionCode "ITF42" .
 
+italy:monza-e-brianza
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Monza e Brianza"@it ;
+      italy-schema:isContained
+              italy:lombardia ;
+      italy-schema:iso3166-2
+              "IT-MB" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 840711 ;
+      owl:sameAs <http://sws.geonames.org/6955700/> ;
+      geo:lat "45.59674"^^xsd:float ;
+      geo:long "9.21616"^^xsd:float .
+
 nuts:ITE17
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE17 - Pisa" ;
@@ -842,6 +845,24 @@ nuts:ITG11
       eurostat:name "Trapani" ;
       eurostat:regionCode "ITG11" .
 
+italy:pesaro-e-urbino
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pesaro e Urbino"@it ;
+      italy-schema:isContained
+              italy:marche ;
+      italy-schema:iso3166-2
+              "IT-PU" ;
+      eurostat:regionCode "ITE31" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population 365788 ;
+      owl:sameAs <http://sws.geonames.org/3171172/> ;
+      geo:lat "43.66667"^^xsd:float ;
+      geo:long "12.63333"^^xsd:float .
+
 nuts:ITF62
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF62 - Crotone" ;
@@ -959,6 +980,8 @@ italy:fermo
       rdfs:label "Fermo"@it ;
       italy-schema:isContained
               italy:marche ;
+      italy-schema:iso3166-2
+              "IT-FM" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
       gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
@@ -1056,7 +1079,7 @@ italy:lombardia
       a       gn:Feature , italy-schema:Region ;
       rdfs:label "Lombardia"@it , "Lombardy"@en ;
       italy-schema:contains
-              italy:mantova , italy:lecco , italy:cremona , italy:monza , italy:pavia , italy:brescia , italy:bergamo , italy:sondrio , italy:varese , italy:lodi , italy:milan , italy:como ;
+              italy:mantova , italy:lecco , italy:cremona , italy:pavia , italy:brescia , italy:bergamo , italy:milano , italy:monza-e-brianza , italy:sondrio , italy:varese , italy:lodi , italy:como ;
       italy-schema:iso3166-2
               "IT-25" ;
       eurostat:regionCode "ITC4" ;
@@ -1169,6 +1192,8 @@ italy:massa-carrara
       rdfs:label "Massa-Carrara"@it ;
       italy-schema:isContained
               italy:toscana ;
+      italy-schema:iso3166-2
+              "IT-MS" ;
       eurostat:regionCode "ITE11" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -1259,6 +1284,8 @@ italy:medio-campidano
       rdfs:label "Medio Campidano"@it ;
       italy-schema:isContained
               italy:sardegna ;
+      italy-schema:iso3166-2
+              "IT-VS" ;
       eurostat:regionCode "ITG2B" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -1507,6 +1534,7 @@ italy:trentino-alto-adige
               italy:trento , italy:bolzano ;
       italy-schema:iso3166-2
               "IT-32" ;
+      eurostat:regionCode "ITD2" ;
       dcterms:identifier "trentino-alto-adige" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -2151,7 +2179,7 @@ italy:marche
       a       gn:Feature , italy-schema:Region ;
       rdfs:label "Marche"@it , "The Marches"@en ;
       italy-schema:contains
-              italy:ascoli-piceno , italy:fermo , italy:ancona , italy:macerata , italy:pesaro-urbino ;
+              italy:ascoli-piceno , italy:fermo , italy:ancona , italy:macerata , italy:pesaro-e-urbino ;
       italy-schema:iso3166-2
               "IT-57" ;
       eurostat:regionCode "ITE3" ;
@@ -2174,7 +2202,7 @@ italy:trento
               italy:trentino-alto-adige ;
       italy-schema:iso3166-2
               "IT-TN" ;
-      eurostat:regionCode "ITD2" , "ITD20" ;
+      eurostat:regionCode "ITD20" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
       gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
@@ -2188,21 +2216,6 @@ italy:trento
 <http://data.kasabi.com/dataset/italy/sicilia.rdf>
       void:inDataset kasabi:italy ;
       foaf:primaryTopic italy:sicilia .
-
-italy:monza
-      a       gn:Feature , italy-schema:Province ;
-      rdfs:label "Monza"@it ;
-      italy-schema:isContained
-              italy:lombardia ;
-      gn:countryCode "IT" ;
-      gn:featureClass gn:A ;
-      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
-      gn:parentCountry <http://sws.geonames.org/3175395/> ;
-      gn:parentFeature <http://sws.geonames.org/3174618/> ;
-      gn:population 840711 ;
-      owl:sameAs <http://sws.geonames.org/6955700/> ;
-      geo:lat "45.59674"^^xsd:float ;
-      geo:long "9.21616"^^xsd:float .
 
 nuts:ITE11
       a       eurostat:NUTSRegion ;
@@ -2243,8 +2256,22 @@ nuts:ITE21
       eurostat:regionCode "ITE21" .
 
 italy:milano
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Milano"@it ;
+      italy-schema:isContained
+              italy:lombardia ;
       italy-schema:iso3166-2
-              "IT-MI" .
+              "IT-MI" ;
+      eurostat:regionCode "ITC45" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 3123205 ;
+      owl:sameAs <http://sws.geonames.org/3173434/> ;
+      geo:lat "45.5"^^xsd:float ;
+      geo:long "9.5"^^xsd:float .
 
 nuts:ITZZZ
       a       eurostat:NUTSRegion ;
@@ -2409,7 +2436,7 @@ nuts:ITE1
 nuts:ITE31
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE31 - Pesaro e Urbino" ;
-      rdfs:seeAlso italy:pesaro-urbino ;
+      rdfs:seeAlso italy:pesaro-e-urbino ;
       eurostat:hasParentRegion
               nuts:ITE3 ;
       eurostat:level 3 ;
@@ -2751,6 +2778,8 @@ italy:barletta-andria-trani
       rdfs:label "Barletta-Andria-Trani"@it ;
       italy-schema:isContained
               italy:puglia ;
+      italy-schema:iso3166-2
+              "IT-BT" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
       gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
@@ -3030,21 +3059,6 @@ nuts:ITC46
       eurostat:level 3 ;
       eurostat:name "Bergamo" ;
       eurostat:regionCode "ITC46" .
-
-italy:milan
-      a       gn:Feature , italy-schema:Province ;
-      rdfs:label "Milan"@it ;
-      italy-schema:isContained
-              italy:lombardia ;
-      gn:countryCode "IT" ;
-      gn:featureClass gn:A ;
-      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
-      gn:parentCountry <http://sws.geonames.org/3175395/> ;
-      gn:parentFeature <http://sws.geonames.org/3174618/> ;
-      gn:population 3123205 ;
-      owl:sameAs <http://sws.geonames.org/3173434/> ;
-      geo:lat "45.5"^^xsd:float ;
-      geo:long "9.5"^^xsd:float .
 
 nuts:ITD32
       a       eurostat:NUTSRegion ;
@@ -3438,6 +3452,8 @@ italy:ogliastra
       rdfs:label "Ogliastra"@it ;
       italy-schema:isContained
               italy:sardegna ;
+      italy-schema:iso3166-2
+              "IT-OG" ;
       eurostat:regionCode "ITG2A" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -3454,6 +3470,8 @@ italy:carbonia-iglesias
       rdfs:label "Carbonia-Iglesias"@it ;
       italy-schema:isContained
               italy:sardegna ;
+      italy-schema:iso3166-2
+              "IT-CI" ;
       eurostat:regionCode "ITG2C" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;
@@ -3607,7 +3625,7 @@ italy:perugia
 nuts:ITD2
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD2 - Provincia Autonoma Trento" ;
-      rdfs:seeAlso italy:trento ;
+      rdfs:seeAlso italy:trentino-alto-adige ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion
@@ -3747,6 +3765,8 @@ italy:messina
       rdfs:label "Messina"@it ;
       italy-schema:isContained
               italy:sicilia ;
+      italy-schema:iso3166-2
+              "IT-ME" ;
       eurostat:regionCode "ITG13" ;
       gn:countryCode "IT" ;
       gn:featureClass gn:A ;

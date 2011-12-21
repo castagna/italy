@@ -214,7 +214,7 @@ nuts:ITE1
 nuts:ITE31
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE31 - Pesaro e Urbino" ;
-      rdfs:seeAlso italy:pesaro-urbino ;
+      rdfs:seeAlso italy:pesaro-e-urbino ;
       eurostat:hasParentRegion
               nuts:ITE3 ;
       eurostat:level 3 ;
@@ -1004,7 +1004,7 @@ nuts:ITG17
 nuts:ITD2
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD2 - Provincia Autonoma Trento" ;
-      rdfs:seeAlso italy:trento ;
+      rdfs:seeAlso italy:trentino-alto-adige ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion

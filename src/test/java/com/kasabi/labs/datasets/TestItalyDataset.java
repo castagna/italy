@@ -19,7 +19,11 @@
 package com.kasabi.labs.datasets;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+
+import java.util.HashSet;
+import java.util.Set;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -34,6 +38,7 @@ import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 import com.kasabi.labs.datasets.italy.Run;
+import com.kasabi.labs.vocabularies.EUROSTAT;
 import com.kasabi.labs.vocabularies.ITALY;
 
 public class TestItalyDataset {
@@ -62,7 +67,6 @@ public class TestItalyDataset {
 		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Region);
 		while ( iter.hasNext() ) {
 			Resource region = iter.nextResource();
-			
 			// check localname is derived from rdfs:label via slugging
 			StmtIterator iter2 = region.listProperties(RDFS.label);
 			while ( iter2.hasNext() ) {
@@ -71,11 +75,63 @@ public class TestItalyDataset {
 					assertEquals ( region.getLocalName(), Utils.toSlug(lit.getLexicalForm()) );
 				}
 			}
-			
-			StmtIterator iter3 = region.listProperties(ITALY.contains);
-			while ( iter3.hasNext() ) {
-				Resource province = iter3.nextStatement().getResource() ;
+		}
+	}
+
+	@Test
+	public void regionsContainExistingProvinces() {
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Region);
+		while ( iter.hasNext() ) {
+			Resource region = iter.nextResource();
+			StmtIterator iter2 = region.listProperties(ITALY.contains);
+			while ( iter2.hasNext() ) {
+				Resource province = iter2.nextStatement().getResource() ;
 				assertTrue ( model.contains(province, RDF.type, ITALY.Province));
+			}
+		}
+	}
+
+	@Test
+	public void regionsHaveISO3166_2Codes() {
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Region);
+		while ( iter.hasNext() ) {
+			Resource region = iter.nextResource();
+			assertNotNull(String.format("%s does not have the ISO3166-2 code", region), region.getProperty(ITALY.iso3166_2));
+		}
+	}
+	
+	@Test
+	public void provincesHaveISO3166_2Codes() {
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Province);
+		while ( iter.hasNext() ) {
+			Resource province = iter.nextResource();
+			assertNotNull(String.format("%s does not have the ISO3166-2 code", province), province.getProperty(ITALY.iso3166_2));
+		}
+	}
+	
+	@Test
+	public void regionsHaveNUTSCodes() {
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Region);
+		while ( iter.hasNext() ) {
+			Resource region = iter.nextResource();
+			assertNotNull(String.format("%s does not have the NUTS code", region), region.getProperty(EUROSTAT.regionCode));
+		}
+	}
+	
+	
+	private static Set<String> provincesWithoutNUTSCodes = new HashSet<String>();
+	
+	@Test
+	public void provincesHaveNUTSCodes() {
+		provincesWithoutNUTSCodes.add("monza-e-brianza");
+		provincesWithoutNUTSCodes.add("barletta-andria-trani");
+		provincesWithoutNUTSCodes.add("fermo");
+		
+		ResIterator iter = model.listSubjectsWithProperty(RDF.type, ITALY.Province);
+		while ( iter.hasNext() ) {
+			Resource province = iter.nextResource();
+			if ( !provincesWithoutNUTSCodes.contains(province.getLocalName()) ) {
+				assertNotNull(String.format("%s does not have the NUTS code", province), province.getProperty(EUROSTAT.regionCode));
 			}
 		}
 	}
