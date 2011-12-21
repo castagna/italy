@@ -1,0 +1,4 @@
+@prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nuts:    <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/> .
+@prefix italy:   <http://data.kasabi.com/dataset/italy/> .

@@ -1,0 +1,68 @@
+#
+# Patches, see: http://en.wikipedia.org/wiki/ISO_3166-2:IT
+#
+
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo:     <http://www.geonames.org/ontology#> .
+
+<http://ontologi.es/place/IT-MB>
+      a       geo:Feature ;
+      rdfs:label "Monza e Brianza" ;
+      skos:notation "IT-MB" ; 
+      .
+
+<http://ontologi.es/place/IT-OT>
+      a       geo:Feature ;
+      rdfs:label "Olbia-Tempio" ;
+      skos:notation "IT-OT" ;
+      .
+
+<http://ontologi.es/place/IT-BT>
+      a       geo:Feature ;
+      rdfs:label "Barletta-Andria-Trani" ;
+      skos:notation "IT-BT" ; 
+      .
+
+<http://ontologi.es/place/IT-PU>
+      a       geo:Feature ;
+      rdfs:label "Pesaro e Urbino" ;
+      skos:notation "IT-PU" ; 
+      .
+
+<http://ontologi.es/place/IT-FM>
+      a       geo:Feature ;
+      rdfs:label "Fermo" ;
+      skos:notation "IT-FM" ; 
+      .
+
+<http://ontologi.es/place/IT-VS>
+      a       geo:Feature ;
+      rdfs:label "Medio Campidano" ;
+      skos:notation "IT-VS" ; 
+      .
+
+<http://ontologi.es/place/IT-OG>
+      a       geo:Feature ;
+      rdfs:label "Ogliastra" ;
+      skos:notation "IT-OG" ; 
+      .
+
+<http://ontologi.es/place/IT-CI>
+      a       geo:Feature ;
+      rdfs:label "Carbonia-Iglesias" ;
+      skos:notation "IT-CI" ; 
+      .
+
+<http://ontologi.es/place/IT-MS>
+      a       geo:Feature ;
+      rdfs:label "Massa-Carrara" ;
+      skos:notation "IT-MS" ; 
+      .
+
+<http://ontologi.es/place/IT-ME>
+      a       geo:Feature ;
+      rdfs:label "Messina" ;
+      skos:notation "IT-ME" ; 
+      .
