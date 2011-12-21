@@ -132,14 +132,20 @@ public class GeonamesItaly {
 	public static String normalise(String name) {
 		String result = name ;
 		result = result.replaceAll("Valle d'Aosta/Vallée d'Aoste", "Valle d’Aosta") ;
+		result = result.replace("Reggio nell'Emilia", "Reggio-Emilia");
+		result = result.replace("Pesaro e Urbino", "Pesaro-Urbino");
+		result = result.replace("Monza e della Brianza", "Monza");
+		result = result.replace("Reggio di Calabria", "Reggio Calabria");
+		result = result.replace("Bolzano/Bozen", "Bolzano");
 		result = result.toLowerCase() ;
 		result = result.replaceAll("provincia autonoma della ", "") ;
+		result = result.replaceAll("provincia autonoma ", "") ;
 		result = result.replaceAll("provincia di ", "") ;
 		result = result.replaceAll("provincia ", "") ;
 		result = result.replaceAll("province of ", "") ;
 		result = result.replaceAll("regione ", "") ;
 		result = result.replaceAll(" - ", "-") ;
-		return result.replaceAll(" ", "_") ;
+		return Utils.toSlug(result) ;
 	}
 	
 	public static void split_by_countries () throws IOException {

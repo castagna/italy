@@ -125,9 +125,9 @@ CONSTRUCT {
   BIND ( strlang( java:replace( ?province, "Provincia di |Province of ", "" ), "it" ) AS ?province_label )
   BIND ( strlang( java:replace( java:replace( ?region, "Region autonoma della |Regione Autonoma |Regione ", "" ), "Siciliana", "Sicilia" ), "it" ) AS ?region_label )
   
-  BIND ( java:replace( java:replace( java:replace ( lcase( ?region ), "regione autonoma della |regione autonoma |regione ", "" ), " ", "_" ), "siciliana", "sicilia" ) AS ?region_path )
-  BIND ( java:replace( java:replace ( lcase( ?province ), "province of |provincia di ", "" ), " ", "_" ) AS ?province_path )
-  BIND ( java:replace( lcase( ?comune ), " ", "_" ) AS ?comune_path )
+  BIND ( java:replace( java:replace( java:replace ( lcase( ?region ), "regione autonoma della |regione autonoma |regione ", "" ), " - | ", "-" ), "siciliana", "sicilia" ) AS ?region_path )
+  BIND ( java:replace( java:replace ( lcase( ?province ), "province of |provincia di ", "" ), " - | ", "-" ) AS ?province_path )
+  BIND ( java:replace( lcase( ?comune ), " - | ", "-" ) AS ?comune_path )
   
   BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?region_path ) ) AS ?region_uri )
   BIND ( iri( concat( "http://data.kasabi.com/dataset/italy/", ?province_path ) ) AS ?province_uri )

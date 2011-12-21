@@ -142,7 +142,7 @@ nuts:ITG
 nuts:ITC20
       a       eurostat:NUTSRegion ;
       rdfs:label "ITC20 - Valle d'Aosta/Vallée d'Aoste" ;
-      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
+      rdfs:seeAlso italy:valle-daosta ;
       eurostat:hasParentRegion
               nuts:ITC2 ;
       eurostat:level 3 ;
@@ -152,7 +152,7 @@ nuts:ITC20
 nuts:ITF64
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF64 - Vibo Valentia" ;
-      rdfs:seeAlso italy:vibo_valentia ;
+      rdfs:seeAlso italy:vibo-valentia ;
       eurostat:hasParentRegion
               nuts:ITF6 ;
       eurostat:level 3 ;
@@ -214,7 +214,7 @@ nuts:ITE1
 nuts:ITE31
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE31 - Pesaro e Urbino" ;
-      rdfs:seeAlso italy:pesaro_e_urbino ;
+      rdfs:seeAlso italy:pesaro-urbino ;
       eurostat:hasParentRegion
               nuts:ITE3 ;
       eurostat:level 3 ;
@@ -224,7 +224,7 @@ nuts:ITE31
 nuts:ITD53
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD53 - Reggio nell'Emilia" ;
-      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/reggio_nell'emilia> ;
+      rdfs:seeAlso italy:reggio-emilia ;
       eurostat:hasParentRegion
               nuts:ITD5 ;
       eurostat:level 3 ;
@@ -264,7 +264,7 @@ nuts:ITF43
 nuts:ITC2
       a       eurostat:NUTSRegion ;
       rdfs:label "ITC2 - Valle d'Aosta/Vallée d'Aoste" ;
-      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
+      rdfs:seeAlso italy:valle-daosta ;
       eurostat:hasParentRegion
               nuts:ITC ;
       eurostat:hasSubRegion
@@ -402,7 +402,7 @@ nuts:ITE2
 nuts:ITC34
       a       eurostat:NUTSRegion ;
       rdfs:label "ITC34 - La Spezia" ;
-      rdfs:seeAlso italy:la_spezia ;
+      rdfs:seeAlso italy:la-spezia ;
       eurostat:hasParentRegion
               nuts:ITC3 ;
       eurostat:level 3 ;
@@ -524,7 +524,7 @@ nuts:ITD31
 nuts:ITG2B
       a       eurostat:NUTSRegion ;
       rdfs:label "ITG2B - Medio Campidano" ;
-      rdfs:seeAlso italy:medio_campidano ;
+      rdfs:seeAlso italy:medio-campidano ;
       eurostat:hasParentRegion
               nuts:ITG2 ;
       eurostat:level 3 ;
@@ -850,7 +850,7 @@ nuts:ITE45
 nuts:ITD1
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD1 - Provincia Autonoma Bolzano/Bozen" ;
-      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/autonoma_bolzano/bozen> ;
+      rdfs:seeAlso italy:bolzano ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion
@@ -912,7 +912,7 @@ nuts:ITC11
 nuts:ITD58
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD58 - Forlì-Cesena" ;
-      rdfs:seeAlso italy:forlì-cesena ;
+      rdfs:seeAlso italy:forli-cesena ;
       eurostat:hasParentRegion
               nuts:ITD5 ;
       eurostat:level 3 ;
@@ -932,7 +932,7 @@ nuts:ITG27
 nuts:ITE34
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE34 - Ascoli Piceno" ;
-      rdfs:seeAlso italy:ascoli_piceno ;
+      rdfs:seeAlso italy:ascoli-piceno ;
       eurostat:hasParentRegion
               nuts:ITE3 ;
       eurostat:level 3 ;
@@ -1004,7 +1004,7 @@ nuts:ITG17
 nuts:ITD2
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD2 - Provincia Autonoma Trento" ;
-      rdfs:seeAlso italy:autonoma_trento ;
+      rdfs:seeAlso italy:trento ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion
@@ -1208,7 +1208,7 @@ nuts:ITF12
 nuts:ITE
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE - CENTRO (I)" ;
-      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/centro_(i)> ;
+      rdfs:seeAlso italy:centro-i ;
       eurostat:hasParentRegion
               nuts:IT ;
       eurostat:hasSubRegion
@@ -1312,7 +1312,7 @@ nuts:ITD36
 nuts:ITD4
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD4 - Friuli-Venezia Giulia" ;
-      rdfs:seeAlso italy:friuli-venezia_giulia ;
+      rdfs:seeAlso italy:friuli-venezia-giulia ;
       eurostat:hasParentRegion
               nuts:ITD ;
       eurostat:hasSubRegion
@@ -1368,7 +1368,7 @@ nuts:ITG1
 nuts:ITF65
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF65 - Reggio di Calabria" ;
-      rdfs:seeAlso italy:reggio_di_calabria ;
+      rdfs:seeAlso italy:reggio-calabria ;
       eurostat:hasParentRegion
               nuts:ITF6 ;
       eurostat:level 3 ;
@@ -1400,7 +1400,7 @@ nuts:ITE13
 nuts:ITF11
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF11 - L'Aquila" ;
-      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/l'aquila> ;
+      rdfs:seeAlso italy:laquila ;
       eurostat:hasParentRegion
               nuts:ITF1 ;
       eurostat:level 3 ;
